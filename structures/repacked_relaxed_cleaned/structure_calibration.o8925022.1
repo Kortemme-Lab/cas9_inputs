@@ -1,0 +1,221 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+start_date:
+Mon Oct 13 15:04:58 PDT 2014
+ih11
+1
+4UN3
+
+core.init: Rosetta version 42837ac6a7cf6c6481447b67378d26cae8e6b62a 2014-07-30 07:03:16 -0700 from git@github.com:RosettaCommons/main.git
+core.init: command: /netapp/home/rpac/Rosetta_57138/main/source/bin/calibrate_pdb_via_sidechain_optimization.linuxgccrelease -database /netapp/home/rpac/Rosetta_57138/main/database/ -s /netapp/home/rpac/crispr_cas/data/relaxed_cleaned/4UN3.pdb.gz -extra_res_fa /netapp/home/rpac/Rosetta_57138/main/database/chemical/residue_type_sets/fa_standard/residue_types/water/HOH.params -in:file:fullatom -overwrite -nstruct 1 -out:pdb_gz -out:path /netapp/home/rpac/crispr_cas/data/repacked_relaxed_cleaned// -out:prefix 4UN3 -ignore_zero_occupancy false -constant_seed -ex1 -ex2 -extrachi_cutoff 0 -flip_HNQ -no_optH false -preserve_header
+core.init: Constant seed mode, seed=1111111 seed_offset=0 real_seed=1111111
+core.init.random: RandomGenerator:init: Normal mode, seed=1111111 RG_type=mt19937
+core.chemical.ResidueTypeSet: Finished initializing fa_standard residue type set.  Created 738 residue types
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  P   on residue CYT:LowerDNA 1388
+core.conformation.Conformation: [ WARNING ] Building missing atom ( P  ) at root of residue tree, using stubs:  O5'  C5'  C4'
+This probably means that a torsion angle is being taken from the ideal residue and
+should be further optimized...
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OP2 on residue CYT:LowerDNA 1388
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OP1 on residue CYT:LowerDNA 1388
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  P   on residue ADE:LowerDNA 1416
+core.conformation.Conformation: [ WARNING ] Building missing atom ( P  ) at root of residue tree, using stubs:  O5'  C5'  C4'
+This probably means that a torsion angle is being taken from the ideal residue and
+should be further optimized...
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OP2 on residue ADE:LowerDNA 1416
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OP1 on residue ADE:LowerDNA 1416
+core.io.pdb.file_data: Virtualizing missing phosphate that was built in at seqpos 1388
+core.io.pdb.file_data: Virtualizing missing phosphate that was built in at seqpos 1416
+core.pack.task: Packer task: initialize from command line() 
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2013
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBPoly1D.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBFadeIntervals.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBEval.csv
+basic.io.database: Database file opened: scoring/score_functions/rama/Rama_smooth_dyn.dat_ss_6.4
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_n
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_pp
+core.pack.dunbrack: Dunbrack 2010 library took 0.09 seconds to load from binary
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 3995 rotamers at 1426 positions.
+core.pack.pack_rotamers: IG: 4905652 bytes
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     3.177 chino=  3 position:   83 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.419 chino=  2 position:   84 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=   100.014 chino=  2 position:   91 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:   92 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.428 chino=  2 position:   93 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    12.017 chino=  3 position:  103 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.586 chino=  2 position:  107 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=   140.116 chino=  2 position:  133 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     5.243 chino=  2 position:  140 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.127 chino=  2 position:  145 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.543 chino=  3 position:  150 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.174 chino=  2 position:  151 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.805 chino=  3 position:  159 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.404 chino=  2 position:  165 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.178 chino=  2 position:  174 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.382 chino=  2 position:  182 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.473 chino=  3 position:  206 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     3.485 chino=  3 position:  210 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     3.786 chino=  2 position:  212 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     2.558 chino=  3 position:  214 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.463 chino=  2 position:  223 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     4.335 chino=  3 position:  233 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  256 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.304 chino=  2 position:  257 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.556 chino=  3 position:  270 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    20.000 chino=  2 position:  282 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.117 chino=  2 position:  295 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=   179.246 chino=  2 position:  323 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.137 chino=  2 position:  345 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.997 chino=  2 position:  348 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.500 chino=  3 position:  349 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.253 chino=  3 position:  364 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.854 chino=  2 position:  381 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     4.082 chino=  2 position:  391 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     5.521 chino=  2 position:  396 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.315 chino=  2 position:  398 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.639 chino=  3 position:  403 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.358 chino=  2 position:  411 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.277 chino=  3 position:  425 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.462 chino=  2 position:  433 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    10.336 chino=  3 position:  437 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    16.334 chino=  3 position:  440 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     2.464 chino=  2 position:  446 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     4.259 chino=  3 position:  451 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     2.834 chino=  2 position:  481 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     8.363 chino=  3 position:  507 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.307 chino=  2 position:  522 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.367 chino=  3 position:  527 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    12.423 chino=  3 position:  528 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    11.820 chino=  2 position:  537 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.692 chino=  2 position:  543 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.453 chino=  2 position:  551 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.465 chino=  2 position:  564 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.457 chino=  2 position:  567 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.021 chino=  2 position:  589 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.765 chino=  3 position:  592 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.558 chino=  3 position:  594 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.871 chino=  2 position:  596 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.784 chino=  3 position:  598 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=   176.969 chino=  3 position:  606 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.110 chino=  2 position:  608 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.458 chino=  2 position:  618 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.325 chino=  2 position:  632 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.634 chino=  2 position:  637 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     2.325 chino=  3 position:  645 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.920 chino=  2 position:  651 CYS CYS
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    18.711 chino=  2 position:  654 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.132 chino=  2 position:  658 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.907 chino=  2 position:  667 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.490 chino=  2 position:  670 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    12.407 chino=  3 position:  671 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.467 chino=  2 position:  701 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.566 chino=  2 position:  715 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     8.102 chino=  3 position:  716 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.181 chino=  3 position:  733 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.439 chino=  2 position:  734 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.217 chino=  2 position:  740 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.816 chino=  2 position:  752 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     3.355 chino=  2 position:  755 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.732 chino=  2 position:  778 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.013 chino=  2 position:  780 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.377 chino=  2 position:  799 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    99.839 chino=  2 position:  809 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.407 chino=  2 position:  836 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.439 chino=  2 position:  852 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.691 chino=  2 position:  863 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.421 chino=  3 position:  871 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.365 chino=  3 position:  873 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    13.881 chino=  3 position:  874 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    10.060 chino=  3 position:  882 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.244 chino=  2 position:  893 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.555 chino=  2 position:  904 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     2.199 chino=  2 position:  910 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.156 chino=  2 position:  919 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.617 chino=  3 position:  941 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    18.762 chino=  2 position:  952 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.912 chino=  2 position:  960 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.347 chino=  2 position:  968 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.823 chino=  2 position:  983 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.938 chino=  2 position:  987 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.473 chino=  2 position:  996 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.215 chino=  2 position: 1019 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.531 chino=  3 position: 1032 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    17.721 chino=  3 position: 1040 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     7.378 chino=  3 position: 1047 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.309 chino=  2 position: 1054 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     2.257 chino=  3 position: 1060 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.984 chino=  2 position: 1065 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.226 chino=  3 position: 1069 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.845 chino=  2 position: 1075 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.719 chino=  3 position: 1081 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.662 chino=  2 position: 1082 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.226 chino=  2 position: 1090 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     3.896 chino=  2 position: 1103 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.076 chino=  2 position: 1116 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.191 chino=  2 position: 1122 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.302 chino=  2 position: 1132 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.799 chino=  2 position: 1136 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     2.817 chino=  2 position: 1140 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.113 chino=  2 position: 1143 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     2.227 chino=  2 position: 1150 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     9.441 chino=  3 position: 1165 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     2.120 chino=  2 position: 1170 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.383 chino=  2 position: 1172 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     7.690 chino=  3 position: 1175 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.130 chino=  2 position: 1176 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    60.033 chino=  2 position: 1193 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     3.134 chino=  2 position: 1201 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.691 chino=  2 position: 1206 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.905 chino=  2 position: 1207 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     3.962 chino=  3 position: 1221 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     9.571 chino=  3 position: 1235 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.793 chino=  2 position: 1236 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.261 chino=  2 position: 1250 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.393 chino=  2 position: 1264 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     6.595 chino=  3 position: 1266 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.121 chino=  3 position: 1271 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.178 chino=  2 position: 1274 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     2.404 chino=  3 position: 1288 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.149 chino=  2 position: 1297 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     1.535 chino=  2 position: 1300 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    99.900 chino=  2 position: 1315 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     3.765 chino=  3 position: 1317 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.222 chino=  2 position: 1337 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.819 chino=  2 position: 1339 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=   177.865 chino=  3 position: 1349 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.214 chino=  2 position: 1353 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     5.498 chino=  3 position: 1359 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.301 chino=  2 position: 1360 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.616 chino=  2 position: 1361 SER SER
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     2.084 chino=  2 position: 1362 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.773 chino=  2 position: 1369 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     3.311 chino=  2 position: 1376 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=   179.954 chino=  3 position: 1379 TYR TYR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=    19.118 chino=  2 position: 1381 THR THR
+core.io.pdb.file_data: [ OPT-H WARNING ] proton chi angle change: chidev=     0.126 chino=  2 position: 1386 SER SER
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2013
+core.pack.task: Packer task: initialize from command line() 
+pilot_apps.calibrate_pdb_via_sidechain_optimization: 
+pilot_apps.calibrate_pdb_via_sidechain_optimization: repacking pose...
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 121285 rotamers at 1426 positions.
+core.pack.pack_rotamers: IG: 508216496 bytes
+pilot_apps.calibrate_pdb_via_sidechain_optimization: 
+pilot_apps.calibrate_pdb_via_sidechain_optimization: performing one round of rotamer trials...
+pilot_apps.calibrate_pdb_via_sidechain_optimization: 
+pilot_apps.calibrate_pdb_via_sidechain_optimization: minimizing pose...
+pilot_apps.calibrate_pdb_via_sidechain_optimization: 
+pilot_apps.calibrate_pdb_via_sidechain_optimization: total_energy_before_calibration: -760.029
+pilot_apps.calibrate_pdb_via_sidechain_optimization: total_energy_after_calibration: -1638.99
+zipping outfile...
+
+1
+end_date:
+Mon Oct 13 15:11:41 PDT 2014

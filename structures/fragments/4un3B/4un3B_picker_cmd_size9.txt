@@ -1,0 +1,16 @@
+-in:file:fasta          4un3B.fasta
+-in:path:database       /netapp/home/rpac/Rosetta_56471/main/database
+-in:file:vall           /netapp/home/klabqb3backrub/tools/fragment_generation/vall.jul19.2011
+-frags:n_candidates     1000
+-frags:n_frags          200
+-frags:frag_sizes       9
+-out:file:frag_prefix   4un3B
+-frags:scoring:config   4un3B_scores9.cfg
+#-out:level 2000
+-in:file:checkpoint     4un3B.checkpoint
+-frags:write_ca_coordinates
+-frags:describe_fragments 4un3B_frags.9.score
+-spine_x                  4un3B.fasta.phipsi
+
+
+-frags:ss_pred 4un3B.psipred_ss2 psipred

@@ -1,0 +1,2601 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 4UN3|B
+         (1306 letters)
+
+Database: nr 
+           49,886,901 sequences; 17,905,752,166 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|667485235|pdb|4UN3|B Chain B, Crystal Structure Of Cas9 Bound...  2587   0.0  
+gi|667485240|pdb|4UN4|B Chain B, Crystal Structure Of Cas9 Bound...  2585   0.0  
+gi|554595615|gb|AGZ01981.1| Cas9 endonuclease [synthetic construct]  2583   0.0  
+gi|584579698|pdb|4CMP|A Chain A, Crystal Structure Of S. Pyogene...  2583   0.0  
+gi|499224711|ref|WP_010922251.1| CRISPR-associated protein Csn1 ...  2582   0.0  
+gi|499604772|ref|WP_011285506.1| CRISPR-associated protein Csn1 ...  2582   0.0  
+gi|669193758|gb|AII16583.1| Cas9 endonuclease [Expression vector...  2581   0.0  
+gi|611705338|gb|EZM83080.1| CRISPR-associated protein cas9/csn1,...  2580   0.0  
+gi|527103923|ref|WP_020905136.1| hypothetical cytosolic protein ...  2575   0.0  
+gi|588293154|pdb|4OO8|A Chain A, Crystal Structure Of Streptococ...  2571   0.0  
+gi|499604011|ref|WP_011284745.1| CRISPR-associated protein Csn1 ...  2570   0.0  
+gi|489080018|ref|WP_002989955.1| CRISPR-associated protein Csn1 ...  2568   0.0  
+gi|611668122|gb|EZM45994.1| CRISPR-associated protein cas9/csn1,...  2566   0.0  
+gi|499846885|ref|WP_011527619.1| CRISPR-associated protein Csn1 ...  2565   0.0  
+gi|666903857|gb|AIG48810.1| CRISPR-associated protein Csn1 [Stre...  2565   0.0  
+gi|662755573|ref|WP_030125963.1| CRISPR-associated protein Csn1 ...  2560   0.0  
+gi|662757307|ref|WP_030126706.1| CRISPR-associated protein Csn1 ...  2560   0.0  
+gi|611570852|gb|EZL49205.1| CRISPR-associated protein cas9/csn1,...  2559   0.0  
+gi|504220439|ref|WP_014407541.1| CRISPR-associated protein Csn1 ...  2553   0.0  
+gi|499366838|ref|WP_011054416.1| CRISPR-associated protein Csn1 ...  2552   0.0  
+gi|671499501|ref|WP_031488318.1| CRISPR-associated protein Csn1 ...  2548   0.0  
+gi|501556167|ref|WP_012560673.1| CRISPR-associated protein Csn1 ...  2548   0.0  
+gi|674296984|gb|AIL11882.1| HNH endonuclease family protein [Str...  2533   0.0  
+gi|553746521|ref|WP_023080005.1| CRISPR-associated protein Cas9/...  2529   0.0  
+gi|560281933|ref|WP_023610282.1| CRISPR-associated protein Cas9/...  2527   0.0  
+gi|499847849|ref|WP_011528583.1| CRISPR-associated protein Csn1 ...  2284   0.0  
+gi|504829993|ref|WP_015017095.1| CRISPR-associated protein Csn1 ...  2267   0.0  
+gi|504870547|ref|WP_015057649.1| hypothetical protein [Streptoco...  2265   0.0  
+gi|504425231|ref|WP_014612333.1| CRISPR-associated protein Csn1 ...  2265   0.0  
+gi|502337426|ref|WP_012767106.1| CRISPR-associated protein Csn1 ...  2261   0.0  
+gi|489134034|ref|WP_003043819.1| CRISPR-associated protein Csn1 ...  2147   0.0  
+gi|489150149|ref|WP_003059869.1| CRISPR-associated protein Csn1 ...  2084   0.0  
+gi|497566499|ref|WP_009880683.1| COG3513: Uncharacterized protei...  1950   0.0  
+gi|655573892|gb|KED03640.1| CRISPR-Associated Protein Csn1 [Stre...  1904   0.0  
+gi|501507994|ref|WP_012515931.1| CRISPR-associated protein Csn1 ...  1879   0.0  
+gi|544910977|ref|WP_021320964.1| CRISPR-Associated Protein Csn1 ...  1877   0.0  
+gi|544887397|ref|WP_021299407.1| CRISPR-associated protein Cas9/...  1856   0.0  
+gi|489189894|ref|WP_003099269.1| CRISPR-associated protein Csn1 ...  1845   0.0  
+gi|489197813|ref|WP_003107102.1| CRISPR-associated protein [Stre...  1790   0.0  
+gi|495171705|ref|WP_007896501.1| CRISPR-associated protein Csn1 ...  1758   0.0  
+gi|511299122|ref|WP_016355900.1| CRISPR-associated protein Cas9/...  1735   0.0  
+gi|619740371|gb|AHY15608.1| CRISPR-associated protein Csn1 [Stre...  1734   0.0  
+gi|619742240|gb|AHY17476.1| CRISPR-associated protein Csn1 [Stre...  1730   0.0  
+gi|488208651|ref|WP_002279859.1| CRISPR-associated protein Csn1 ...  1696   0.0  
+gi|488193712|ref|WP_002264920.1| hypothetical protein [Streptoco...  1692   0.0  
+gi|495168446|ref|WP_007893243.1| CRISPR-associated protein Csn1 ...  1686   0.0  
+gi|504871421|ref|WP_015058523.1| CRISPR-associated protein Csn1 ...  1667   0.0  
+gi|505444861|ref|WP_015631963.1| Hypothetical protein [Streptoco...  1664   0.0  
+gi|446962836|ref|WP_001040092.1| CRISPR-associated protein Csn1 ...  1663   0.0  
+gi|504100992|ref|WP_014334983.1| CRISPR-associated protein Csn1 ...  1663   0.0  
+gi|446350757|ref|WP_000428612.1| CRISPR-associated protein Csn1 ...  1659   0.0  
+gi|488233279|ref|WP_002304487.1| hypothetical protein [Streptoco...  1657   0.0  
+gi|490352708|ref|WP_004232481.1| CRISPR-associated protein Csn1 ...  1653   0.0  
+gi|517174652|ref|WP_018363470.1| CRISPR-associated protein Csn1 ...  1652   0.0  
+gi|640754093|emb|CDO18860.1| CRISPR-associated protein [Streptoc...  1650   0.0  
+gi|446350758|ref|WP_000428613.1| CRISPR-associated protein Csn1 ...  1649   0.0  
+gi|518143885|ref|WP_019314093.1| CRISPR-associated protein Csn1 ...  1647   0.0  
+gi|488201558|ref|WP_002272766.1| hypothetical protein [Streptoco...  1647   0.0  
+gi|488218433|ref|WP_002289641.1| hypothetical protein [Streptoco...  1647   0.0  
+gi|497415278|ref|WP_009729476.1| CRISPR-associated protein cas9/...  1646   0.0  
+gi|640049968|ref|WP_024784894.1| CRISPR-associated protein Csn1 ...  1646   0.0  
+gi|488235995|ref|WP_002307203.1| hypothetical protein [Streptoco...  1645   0.0  
+gi|488200769|ref|WP_002271977.1| hypothetical protein [Streptoco...  1645   0.0  
+gi|488198240|ref|WP_002269448.1| hypothetical protein [Streptoco...  1645   0.0  
+gi|488224545|ref|WP_002295753.1| hypothetical protein [Streptoco...  1644   0.0  
+gi|488211698|ref|WP_002282906.1| hypothetical protein [Streptoco...  1644   0.0  
+gi|488202033|ref|WP_002273241.1| hypothetical protein [Streptoco...  1644   0.0  
+gi|518145162|ref|WP_019315370.1| CRISPR-associated protein Csn1 ...  1643   0.0  
+gi|489120168|ref|WP_003030002.1| CRISPR-associated protein Csn1 ...  1643   0.0  
+gi|488217782|ref|WP_002288990.1| hypothetical protein [Streptoco...  1643   0.0  
+gi|488234636|ref|WP_002305844.1| hypothetical protein [Streptoco...  1643   0.0  
+gi|488205240|ref|WP_002276448.1| hypothetical protein [Streptoco...  1642   0.0  
+gi|488197835|ref|WP_002269043.1| hypothetical protein [Streptoco...  1642   0.0  
+gi|488192341|ref|WP_002263549.1| CRISPR-associated protein Csn1 ...  1642   0.0  
+gi|488212638|ref|WP_002283846.1| hypothetical protein [Streptoco...  1642   0.0  
+gi|497440125|ref|WP_009754323.1| CRISPR-associated protein Csn1 ...  1642   0.0  
+gi|488207817|ref|WP_002279025.1| hypothetical protein [Streptoco...  1642   0.0  
+gi|488210488|ref|WP_002281696.1| hypothetical protein [Streptoco...  1642   0.0  
+gi|497540342|ref|WP_009854540.1| CRISPR-associated protein Csn1 ...  1641   0.0  
+gi|488209022|ref|WP_002280230.1| hypothetical protein [Streptoco...  1641   0.0  
+gi|518633569|ref|WP_019803776.1| CRISPR-associated protein Csn1 ...  1640   0.0  
+gi|488192679|ref|WP_002263887.1| hypothetical protein [Streptoco...  1640   0.0  
+gi|518142684|ref|WP_019312892.1| CRISPR-associated protein Csn1 ...  1640   0.0  
+gi|488204222|ref|WP_002275430.1| hypothetical protein [Streptoco...  1640   0.0  
+gi|640030144|ref|WP_024782110.1| CRISPR-associated protein Csn1 ...  1640   0.0  
+gi|504490807|ref|WP_014677909.1| CRISPR-associated protein Csn1 ...  1640   0.0  
+gi|488225215|ref|WP_002296423.1| hypothetical protein [Streptoco...  1639   0.0  
+gi|640040381|ref|WP_024783594.1| CRISPR-associated protein Csn1 ...  1639   0.0  
+gi|488281200|ref|WP_002352408.1| CRISPR-associated protein csn1 ...  1639   0.0  
+gi|518143451|ref|WP_019313659.1| CRISPR-associated protein Csn1 ...  1639   0.0  
+gi|502727190|ref|WP_012962174.1| CRISPR-associated protein Csn1 ...  1638   0.0  
+gi|640047960|ref|WP_024784666.1| CRISPR-associated protein Csn1 ...  1638   0.0  
+gi|488206156|ref|WP_002277364.1| hypothetical protein [Streptoco...  1638   0.0  
+gi|445988958|ref|WP_000066813.1| CRISPR-associated protein Csn1 ...  1636   0.0  
+gi|502762704|ref|WP_012997688.1| CRISPR-associated protein Csn1 ...  1636   0.0  
+gi|488216047|ref|WP_002287255.1| hypothetical protein [Streptoco...  1636   0.0  
+gi|488219219|ref|WP_002290427.1| hypothetical protein [Streptoco...  1634   0.0  
+gi|493312191|ref|WP_006269658.1| CRISPR-associated protein Csn1 ...  1634   0.0  
+gi|518635027|ref|WP_019805234.1| CRISPR-associated protein Csn1 ...  1633   0.0  
+gi|488239182|ref|WP_002310390.1| CRISPR-associated protein csn1 ...  1632   0.0  
+gi|516245564|ref|WP_017649527.1| CRISPR-associated protein Csn1 ...  1630   0.0  
+gi|446962825|ref|WP_001040081.1| CRISPR-Associated Protein Csn1 ...  1628   0.0  
+gi|446962832|ref|WP_001040088.1| CRISPR-Associated Protein Csn1 ...  1628   0.0  
+gi|446962831|ref|WP_001040087.1| CRISPR-associated protein Csn1 ...  1627   0.0  
+gi|446962849|ref|WP_001040105.1| CRISPR-Associated Protein Csn1 ...  1627   0.0  
+gi|446962829|ref|WP_001040085.1| CRISPR-Associated Protein Csn1 ...  1627   0.0  
+gi|446962840|ref|WP_001040096.1| CRISPR-Associated Protein Csn1 ...  1627   0.0  
+gi|446962827|ref|WP_001040083.1| CRISPR-Associated Protein Csn1 ...  1627   0.0  
+gi|446962824|ref|WP_001040080.1| CRISPR-Associated Protein Csn1 ...  1627   0.0  
+gi|446962835|ref|WP_001040091.1| CRISPR-Associated Protein Csn1 ...  1627   0.0  
+gi|446962833|ref|WP_001040089.1| CRISPR-Associated Protein Csn1 ...  1626   0.0  
+gi|488214824|ref|WP_002286032.1| hypothetical protein [Streptoco...  1625   0.0  
+gi|446962855|ref|WP_001040111.1| CRISPR-associated protein Csn1 ...  1625   0.0  
+gi|446962834|ref|WP_001040090.1| CRISPR-Associated Protein Csn1 ...  1625   0.0  
+gi|516381951|ref|WP_017771984.1| CRISPR-associated protein Csn1 ...  1625   0.0  
+gi|516381578|ref|WP_017771611.1| CRISPR-associated protein Csn1 ...  1625   0.0  
+gi|446962852|ref|WP_001040108.1| CRISPR-Associated Protein Csn1 ...  1624   0.0  
+gi|446962851|ref|WP_001040107.1| CRISPR-associated protein Csn1 ...  1624   0.0  
+gi|446962848|ref|WP_001040104.1| CRISPR-associated protein Csn1 ...  1624   0.0  
+gi|516244413|ref|WP_017648376.1| CRISPR-associated protein Csn1 ...  1623   0.0  
+gi|446962842|ref|WP_001040098.1| CRISPR-Associated Protein Csn1 ...  1623   0.0  
+gi|446962839|ref|WP_001040095.1| CRISPR-Associated Protein Csn1 ...  1623   0.0  
+gi|516243188|ref|WP_017647151.1| CRISPR-associated protein Csn1 ...  1623   0.0  
+gi|446962854|ref|WP_001040110.1| CRISPR-associated protein Csn1 ...  1622   0.0  
+gi|446962850|ref|WP_001040106.1| CRISPR-Associated Protein Csn1 ...  1622   0.0  
+gi|446962844|ref|WP_001040100.1| CRISPR-Associated Protein Csn1 ...  1622   0.0  
+gi|446962838|ref|WP_001040094.1| CRISPR-Associated Protein Csn1 ...  1621   0.0  
+gi|446962820|ref|WP_001040076.1| CRISPR-Associated Protein Csn1 ...  1621   0.0  
+gi|446962843|ref|WP_001040099.1| CRISPR-Associated Protein Csn1 ...  1620   0.0  
+gi|446962853|ref|WP_001040109.1| CRISPR-Associated Protein Csn1 ...  1620   0.0  
+gi|516239687|ref|WP_017643650.1| CRISPR-associated protein Csn1 ...  1620   0.0  
+gi|446962841|ref|WP_001040097.1| CRISPR-associated protein Csn1 ...  1619   0.0  
+gi|512746582|ref|WP_016502833.1| CRISPR-associated protein, SAG0...  1619   0.0  
+gi|446962822|ref|WP_001040078.1| CRISPR-Associated Protein Csn1 ...  1619   0.0  
+gi|488986694|ref|WP_002897477.1| CRISPR-associated protein Csn1 ...  1618   0.0  
+gi|489155870|ref|WP_003065552.1| CRISPR-associated protein Csn1 ...  1617   0.0  
+gi|548564942|ref|WP_022526294.1| hypothetical protein [Streptoco...  1614   0.0  
+gi|446962837|ref|WP_001040093.1| CRISPR-associated protein Csn1 ...  1599   0.0  
+gi|642984273|ref|WP_025197336.1| CRISPR-associated protein Csn1 ...  1597   0.0  
+gi|446962846|ref|WP_001040102.1| CRISPR-associated protein Csn1 ...  1597   0.0  
+gi|446962821|ref|WP_001040077.1| CRISPR-Associated Protein Csn1 ...  1597   0.0  
+gi|446962845|ref|WP_001040101.1| CRISPR-Associated Protein Csn1 ...  1596   0.0  
+gi|642984208|ref|WP_025197271.1| CRISPR-associated protein Csn1 ...  1594   0.0  
+gi|516242425|ref|WP_017646388.1| CRISPR-associated protein Csn1 ...  1594   0.0  
+gi|516244622|ref|WP_017648585.1| CRISPR-associated protein Csn1 ...  1593   0.0  
+gi|446962847|ref|WP_001040103.1| CRISPR-associated protein Csn1 ...  1593   0.0  
+gi|516241372|ref|WP_017645335.1| CRISPR-associated protein Csn1 ...  1593   0.0  
+gi|557388897|gb|ESR09095.1| CRISPR-associated protein Csn1 [Stre...  1592   0.0  
+gi|489179199|ref|WP_003088697.1| CRISPR-associated protein Csn1 ...  1567   0.0  
+gi|640043974|ref|WP_024784288.1| CRISPR-associated protein Csn1 ...  1540   0.0  
+gi|488211039|ref|WP_002282247.1| CRISPR-associated protein [Stre...  1540   0.0  
+gi|488205842|ref|WP_002277050.1| CRISPR-associated protein [Stre...  1540   0.0  
+gi|640059858|ref|WP_024786433.1| CRISPR-associated protein Csn1 ...  1538   0.0  
+gi|488995743|ref|WP_002906454.1| CRISPR-associated protein Csn1 ...  1533   0.0  
+gi|504548968|ref|WP_014736070.1| CRISPR-associated protein Csn1 ...  1530   0.0  
+gi|512722665|ref|WP_016480710.1| CRISPR-associated protein, Csn1...  1525   0.0  
+gi|489131715|ref|WP_003041502.1| CRISPR-associated protein Csn1 ...  1517   0.0  
+gi|637016939|ref|WP_024411687.1| CRISPR-associated protein Csn1 ...  1515   0.0  
+gi|636869992|ref|WP_024381493.1| CRISPR-associated protein Csn1 ...  1513   0.0  
+gi|636895891|ref|WP_024390729.1| CRISPR-associated protein Csn1 ...  1513   0.0  
+gi|636917031|ref|WP_024395100.1| CRISPR-associated protein Csn1 ...  1509   0.0  
+gi|636985794|ref|WP_024406901.1| CRISPR-associated protein Csn1 ...  1509   0.0  
+gi|489121687|ref|WP_003031511.1| CRISPR-associated protein Csn1 ...  1509   0.0  
+gi|517368577|ref|WP_018543557.1| CRISPR-associated protein Csn1 ...  1508   0.0  
+gi|636879462|ref|WP_024385410.1| CRISPR-associated protein Csn1 ...  1501   0.0  
+gi|489170123|ref|WP_003079701.1| CRISPR-associated protein Csn1 ...  1494   0.0  
+gi|662340124|gb|KEQ38765.1| HNH endonuclease family protein [Str...  1492   0.0  
+gi|488237415|ref|WP_002308623.1| hypothetical protein [Streptoco...  1490   0.0  
+gi|640044636|ref|WP_024784329.1| CRISPR-associated protein Csn1 ...  1489   0.0  
+gi|488214114|ref|WP_002285322.1| hypothetical protein [Streptoco...  1489   0.0  
+gi|488227426|ref|WP_002298634.1| hypothetical protein [Streptoco...  1488   0.0  
+gi|446986595|ref|WP_001063851.1| CRISPR-associated protein Csn1 ...  1487   0.0  
+gi|654503258|ref|WP_027972728.1| CRISPR-associated protein Csn1 ...  1485   0.0  
+gi|489004472|ref|WP_002915084.1| CRISPR-associated protein Csn1 ...  1481   0.0  
+gi|585226747|gb|EWM58113.1| CRISPR-associated protein Csn1 [Stre...  1476   0.0  
+gi|500000752|ref|WP_011681470.1| CRISPR-associated protein Csn1 ...  1474   0.0  
+gi|488980665|ref|WP_002891502.1| CRISPR-associated protein Csn1 ...  1472   0.0  
+gi|504540549|ref|WP_014727651.1| CRISPR-associated protein Csn1 ...  1470   0.0  
+gi|564947200|gb|ETE40675.1| CRISPR-associated protein Csn1 [Stre...  1470   0.0  
+gi|564946694|gb|ETE40173.1| CRISPR-associated protein Csn1 [Stre...  1470   0.0  
+gi|391738060|sp|G3ECR1.2|CAS9_STRTR RecName: Full=CRISPR-associa...  1469   0.0  
+gi|639578843|ref|WP_024703962.1| CRISPR-associated protein Csn1 ...  1468   0.0  
+gi|504421493|ref|WP_014608595.1| CRISPR-associated protein Csn1 ...  1467   0.0  
+gi|527332907|ref|WP_020917064.1| hypothetical protein [Streptoco...  1450   0.0  
+gi|666377823|gb|KEY47635.1| CRISPR-associated protein Csn1 [Stre...  1441   0.0  
+gi|446983479|ref|WP_001060735.1| CRISPR-associated protein Csn1 ...  1436   0.0  
+gi|488194218|ref|WP_002265426.1| hypothetical protein [Streptoco...  1432   0.0  
+gi|662350313|gb|KEQ48882.1| HNH endonuclease family protein [Str...  1426   0.0  
+gi|675808091|gb|KFN86436.1| hypothetical protein B279_05335 [Str...  1419   0.0  
+gi|585224389|gb|EWM55849.1| CRISPR-associated protein Csn1 [Stre...  1369   0.0  
+gi|489836121|ref|WP_003739838.1| CRISPR-associated protein Csn1 ...  1355   0.0  
+gi|498464655|ref|WP_010770040.1| CRISPR-associated protein cas9/...  1350   0.0  
+gi|494394830|ref|WP_007209003.1| CRISPR-associated protein Csn1 ...  1350   0.0  
+gi|488241486|ref|WP_002312694.1| CRISPR-associated protein Csn1 ...  1347   0.0  
+gi|685931623|ref|WP_031665337.1| CRISPR-associated protein Csn1 ...  1346   0.0  
+gi|488263953|ref|WP_002335161.1| CRISPR-associated protein Csn1 ...  1345   0.0  
+gi|488242807|ref|WP_002314015.1| CRISPR-associated protein Csn1 ...  1345   0.0  
+gi|504414070|ref|WP_014601172.1| CRISPR-associated protein Csn1 ...  1344   0.0  
+gi|488249508|ref|WP_002320716.1| CRISPR-associated protein Csn1 ...  1344   0.0  
+gi|489819841|ref|WP_003723650.1| CRISPR-associated protein Csn1 ...  1344   0.0  
+gi|488274231|ref|WP_002345439.1| CRISPR-associated protein cas9/...  1341   0.0  
+gi|488239436|ref|WP_002310644.1| CRISPR-associated protein Csn1 ...  1341   0.0  
+gi|499300419|ref|WP_010991369.1| CRISPR-associated protein Csn1 ...  1340   0.0  
+gi|489869399|ref|WP_003772961.1| CRISPR-associated protein Csn1 ...  1340   0.0  
+gi|488259521|ref|WP_002330729.1| CRISPR-associated protein cas9/...  1339   0.0  
+gi|489823922|ref|WP_003727705.1| CRISPR-associated protein Csn1 ...  1332   0.0  
+gi|489827017|ref|WP_003730785.1| CRISPR-associated protein Csn1 ...  1332   0.0  
+gi|518146273|ref|WP_019316481.1| CRISPR-associated protein Csn1,...  1332   0.0  
+gi|548554254|ref|WP_022524804.1| hypothetical protein [Streptoco...  1325   0.0  
+gi|685937095|ref|WP_031669209.1| CRISPR-associated protein Csn1 ...  1320   0.0  
+gi|590403756|gb|EXL23613.1| hypothetical protein X842_1436 [List...  1320   0.0  
+gi|590396211|gb|EXL16255.1| hypothetical protein X843_0786 [List...  1318   0.0  
+gi|489829274|ref|WP_003733029.1| CRISPR-associated protein Csn1 ...  1317   0.0  
+gi|517183674|ref|WP_018372492.1| hypothetical protein [Streptoco...  1308   0.0  
+gi|559007111|ref|WP_023548323.1| CRISPR-associated protein Csn1 ...  1299   0.0  
+gi|488302103|ref|WP_002373311.1| CRISPR-associated protein [Ente...  1296   0.0  
+gi|619188175|gb|KAJ63808.1| CRISPR-associated protein, SAG0894 f...  1296   0.0  
+gi|573639167|gb|ETU32645.1| CRISPR-associated protein cas9/csn1,...  1296   0.0  
+gi|573665916|gb|ETU59028.1| CRISPR-associated protein cas9/csn1,...  1293   0.0  
+gi|498524709|ref|WP_010824395.1| CRISPR-associated protein cas9/...  1293   0.0  
+gi|488337939|ref|WP_002407324.1| CRISPR-associated protein [Ente...  1292   0.0  
+gi|514893742|ref|WP_016622645.1| CRISPR-associated protein, Csn1...  1292   0.0  
+gi|498470806|ref|WP_010775580.1| CRISPR-associated protein cas9/...  1292   0.0  
+gi|488308330|ref|WP_002378009.1| CRISPR-associated protein [Ente...  1291   0.0  
+gi|498518329|ref|WP_010818269.1| CRISPR-associated protein cas9/...  1291   0.0  
+gi|488344332|ref|WP_002413717.1| CRISPR-associated protein [Ente...  1290   0.0  
+gi|498471477|ref|WP_010776234.1| CRISPR-associated protein cas9/...  1289   0.0  
+gi|488293628|ref|WP_002364836.1| CRISPR-associated protein [Ente...  1288   0.0  
+gi|498482266|ref|WP_010785195.1| CRISPR-associated protein cas9/...  1288   0.0  
+gi|488325266|ref|WP_002394651.1| CRISPR-associated protein [Ente...  1285   0.0  
+gi|498482035|ref|WP_010784994.1| CRISPR-associated protein cas9/...  1285   0.0  
+gi|488291933|ref|WP_002363141.1| CRISPR-associated protein [Ente...  1285   0.0  
+gi|518145737|ref|WP_019315945.1| CRISPR-associated protein Csn1,...  1266   0.0  
+gi|490774321|ref|WP_004636532.1| CRISPR-associated protein Csn1 ...  1264   0.0  
+gi|498444636|ref|WP_010750235.1| CRISPR-associated protein cas9/...  1239   0.0  
+gi|514905847|ref|WP_016631044.1| MULTISPECIES: CRISPR-associated...  1235   0.0  
+gi|527782705|gb|EPV73545.1| CRISPR-associated protein Csn1, part...  1233   0.0  
+gi|654500704|ref|WP_027970237.1| CRISPR-associated protein Csn1 ...  1233   0.0  
+gi|498411195|ref|WP_010720994.1| CRISPR-associated protein cas9/...  1203   0.0  
+gi|649263333|gb|KDR91786.1| CRISPR-associated protein Csn1 [Ente...  1202   0.0  
+gi|498431249|ref|WP_010737004.1| CRISPR-associated protein Csn1 ...  1202   0.0  
+gi|558689600|ref|WP_023519017.1| hypothetical protein [Enterococ...  1196   0.0  
+gi|446962830|ref|WP_001040086.1| hypothetical protein, partial [...  1196   0.0  
+gi|527753610|gb|EPV45184.1| CRISPR-associated protein Csn1, part...  1195   0.0  
+gi|489143906|ref|WP_003053670.1| CRISPR-associated protein, Csn1...  1169   0.0  
+gi|640662680|ref|WP_025088082.1| hypothetical protein [Lactobaci...  1157   0.0  
+gi|487046617|gb|EOJ74066.1| CRISPR-associated protein cas9/csn1,...  1152   0.0  
+gi|631856267|gb|KDA45870.1| CRISPR-associated protein Cas9/Csn1,...  1151   0.0  
+gi|657708676|ref|WP_029507330.1| hypothetical protein [Lactobaci...  1145   0.0  
+gi|658777900|ref|WP_029776921.1| CRISPR-associated protein Csn1,...  1135   0.0  
+gi|544722392|ref|WP_021152394.1| CRISPR-associated protein, Csn1...  1128   0.0  
+gi|313616973|gb|EFR89594.1| crispr-associated protein, Csn1 fami...  1120   0.0  
+gi|685990466|ref|WP_031695879.1| CRISPR-associated protein Csn1,...  1115   0.0  
+gi|658539465|ref|WP_029732989.1| CRISPR-associated protein Csn1,...  1097   0.0  
+gi|518635888|ref|WP_019806095.1| CRISPR-associated protein Csn1,...  1063   0.0  
+gi|486587670|gb|EOF29249.1| CRISPR-associated protein cas9/csn1,...  1053   0.0  
+gi|508149327|gb|EOT26129.1| CRISPR-associated protein cas9/csn1,...   994   0.0  
+gi|474482590|gb|EMS75795.1| hypothetical protein H318_06676 [Ent...   989   0.0  
+gi|658770591|ref|WP_029776275.1| CRISPR-associated protein Csn1,...   974   0.0  
+gi|313626274|gb|EFR95520.1| crispr-associated protein Csn1 [List...   953   0.0  
+gi|527649951|gb|EPU42254.1| CRISPR-associated protein Csn1 [Stre...   950   0.0  
+gi|658495300|ref|WP_029691988.1| CRISPR-associated protein Csn1,...   949   0.0  
+gi|306513404|gb|EFM82024.1| CRISPR-associated protein, Csn1 fami...   939   0.0  
+gi|517188813|ref|WP_018377631.1| hypothetical protein [Streptoco...   939   0.0  
+gi|488342751|ref|WP_002412136.1| CRISPR-associated protein, Csn1...   908   0.0  
+gi|654507345|ref|WP_027976660.1| CRISPR-associated protein Csn1 ...   894   0.0  
+gi|446962828|ref|WP_001040084.1| hypothetical protein, partial [...   891   0.0  
+gi|446974208|ref|WP_001051464.1| CRISPR-associated protein Csn1 ...   889   0.0  
+gi|494784522|ref|WP_007519930.1| CRISPR-associated protein csn1 ...   887   0.0  
+gi|430613247|gb|ELB50264.1| CRISPR-associated protein cas9/csn1,...   887   0.0  
+gi|489023116|ref|WP_002933589.1| CRISPR-associated protein Csn1 ...   883   0.0  
+gi|489845973|ref|WP_003749665.1| crispr-associated protein Csn1,...   878   0.0  
+gi|656295101|ref|WP_029236766.1| hypothetical protein [Streptoco...   817   0.0  
+gi|656305459|ref|WP_029238069.1| hypothetical protein [Streptoco...   807   0.0  
+gi|486484621|gb|EOE28398.1| CRISPR-associated protein cas9/csn1,...   796   0.0  
+gi|313606602|gb|EFR83390.1| crispr-associated protein Csn1 [List...   781   0.0  
+gi|544716258|ref|WP_021146268.1| CRISPR-associated protein, Csn1...   775   0.0  
+gi|585224499|gb|EWM55951.1| CRISPR-associated protein Csn1 [Stre...   749   0.0  
+gi|488984596|ref|WP_002895385.1| CRISPR-associated protein Csn1 ...   707   0.0  
+gi|489148686|ref|WP_003058416.1| conserved domain protein, parti...   703   0.0  
+gi|656295481|ref|WP_029237146.1| hypothetical protein, partial [...   703   0.0  
+gi|585225952|gb|EWM57345.1| CRISPR-associated protein Csn1, part...   658   0.0  
+gi|658495248|ref|WP_029691937.1| CRISPR-associated protein Csn1,...   657   0.0  
+gi|527651110|gb|EPU43390.1| hypothetical protein SAG0170_06065 [...   657   0.0  
+gi|514518222|gb|EPH83612.1| CRISPR-associated protein, Csn1 fami...   643   0.0  
+gi|514518221|gb|EPH83611.1| CRISPR-associated protein, Csn1 fami...   631   e-177
+gi|489090551|ref|WP_003000447.1| CRISPR-associated protein, Csn1...   602   e-168
+gi|548219066|ref|WP_022438259.1| cRISPR-associated protein Csn1 ...   598   e-167
+gi|640657397|ref|WP_025083227.1| CRISPR-associated protein Csn1 ...   580   e-162
+gi|656052490|ref|WP_029090905.1| hypothetical protein [Brochothr...   572   e-159
+gi|497695086|ref|WP_010009270.1| CRISPR-associated protein Csn1 ...   570   e-159
+gi|490391895|ref|WP_004270945.1| CRISPR-associated protein Csn1 ...   568   e-158
+gi|493553119|ref|WP_006506696.1| hypothetical protein, partial [...   567   e-158
+gi|570252623|gb|ETO40382.1| CRISPR-associated protein, SAG0894 f...   566   e-158
+gi|548204848|ref|WP_022424889.1| cRISPR-associated protein Csn1 ...   565   e-157
+gi|496457963|ref|WP_009166808.1| CRISPR-associated protein [Lact...   563   e-157
+gi|671623457|ref|WP_031589969.1| hypothetical protein [Kandleria...   561   e-156
+gi|656034227|ref|WP_029073316.1| hypothetical protein [Kandleria...   561   e-156
+gi|652784761|ref|WP_027090768.1| hypothetical protein [[Clostrid...   557   e-155
+gi|498311358|ref|WP_010625514.1| hypothetical protein [Lactobaci...   552   e-153
+gi|557699916|ref|WP_023440039.1| CRISPR-associated protein [Pedi...   552   e-153
+gi|503848134|ref|WP_014082128.1| CRISPR-associated protein [Lact...   547   e-152
+gi|669630524|dbj|GAK48697.1| putative CRISPR-associated protein ...   546   e-152
+gi|490270412|ref|WP_004166700.1| CRISPR-associated protein [Pedi...   546   e-152
+gi|491804962|ref|WP_005609677.1| hypothetical protein [Ruminococ...   545   e-151
+gi|488920030|ref|WP_002831105.1| CRISPR-associated protein [Pedi...   545   e-151
+gi|497704765|ref|WP_010018949.1| possible CRISPR associated prot...   545   e-151
+gi|493471049|ref|WP_006426118.1| hypothetical protein [Dorea lon...   544   e-151
+gi|547772437|ref|WP_022183850.1| cRISPR-associated protein Csn1 ...   540   e-150
+gi|505351806|ref|WP_015538908.1| CRISPR-associated protein, Csn1...   537   e-149
+gi|551048120|ref|WP_022791454.1| hypothetical protein [Weissella...   536   e-149
+gi|488918895|ref|WP_002829970.1| CRISPR-associated protein [Pedi...   534   e-148
+gi|546864438|ref|WP_021899183.1| cRISPR-associated protein Csn1 ...   532   e-148
+gi|518081566|ref|WP_019251774.1| hypothetical protein [Lactobaci...   531   e-147
+gi|504753359|ref|WP_014940461.1| CRISPR-associated protein [Lact...   531   e-147
+gi|642984548|ref|WP_025197611.1| hypothetical protein, partial [...   530   e-147
+gi|505325499|ref|WP_015512601.1| CRISPR-associated endonuclease,...   529   e-147
+gi|640316279|ref|WP_024862574.1| CRISPR-associated protein [Pedi...   528   e-146
+gi|487051144|gb|EOJ78476.1| CRISPR-associated protein cas9/csn1,...   526   e-146
+gi|545596715|ref|WP_021725096.1| CRISPR-associated protein Cas9/...   525   e-145
+gi|503493991|ref|WP_013728652.1| CRISPR-associated protein [Lact...   525   e-145
+gi|334881121|emb|CCB81940.1| putative uncharacterized protein [L...   522   e-144
+gi|547281693|ref|WP_022015080.1| cRISPR-associated endonuclease ...   522   e-144
+gi|547842268|ref|WP_022249818.1| cRISPR-associated protein Csn1 ...   519   e-144
+gi|547944271|ref|WP_022345413.1| putative uncharacterized protei...   519   e-143
+gi|548310877|ref|WP_022501374.1| cRISPR-associated protein Csn1 ...   518   e-143
+gi|510890393|ref|WP_016223708.1| CRISPR-associated protein cas9/...   514   e-142
+gi|547291127|ref|WP_022024042.1| cRISPR-associated endonuclease ...   514   e-142
+gi|503746753|ref|WP_013980829.1| CRISPR-associated protein Csn1 ...   513   e-142
+gi|519666170|ref|WP_020282061.1| CRISPR-associated protein, Csn1...   512   e-141
+gi|504028100|ref|WP_014262094.1| CRISPR-associated protein, Csn1...   512   e-141
+gi|499794784|ref|WP_011475518.1| hypothetical protein [Lactobaci...   510   e-141
+gi|511763079|ref|WP_016396272.1| csn1 family CRISPR-associated p...   509   e-140
+gi|505192536|ref|WP_015379638.1| Hypothetical protein [Lactobaci...   508   e-140
+gi|489733276|ref|WP_003637375.1| CRISPR-associated protein, Cas9...   508   e-140
+gi|656123150|emb|CDR83364.1| CRISPR-associated protein [Lactobac...   508   e-140
+gi|654308074|ref|WP_027821588.1| CRISPR-associated protein Cas9 ...   508   e-140
+gi|656121167|emb|CDR81704.1| CRISPR-associated protein [Lactobac...   508   e-140
+gi|654312393|ref|WP_027825498.1| CRISPR-associated protein Csn1 ...   507   e-140
+gi|544929180|ref|WP_021338270.1| hypothetical protein [Lactobaci...   506   e-140
+gi|548165482|ref|WP_022387671.1| cRISPR-associated protein Csn1 ...   506   e-140
+gi|510808993|ref|WP_016183746.1| CRISPR-associated protein cas9/...   506   e-139
+gi|495746669|ref|WP_008471248.1| CRISPR-associated protein Csn1 ...   505   e-139
+gi|490700095|ref|WP_004563574.1| CRISPR-associated protein [Lact...   504   e-139
+gi|503017123|ref|WP_013252099.1| CRISPR-associated protein Csn1 ...   504   e-139
+gi|489805239|ref|WP_003709113.1| hypothetical protein [Lactobaci...   502   e-138
+gi|489777922|ref|WP_003681813.1| CRISPR-associated protein [Lact...   501   e-138
+gi|588475549|dbj|GAF40170.1| CRISPR-associated protein, Csn1 fam...   501   e-138
+gi|339637353|emb|CCC16263.1| putative uncharacterized protein [L...   501   e-138
+gi|489744644|ref|WP_003648675.1| CRISPR-associated protein Csn1 ...   499   e-137
+gi|501247123|ref|WP_012290141.1| CRISPR-associated protein Cas9 ...   498   e-137
+gi|515830578|ref|WP_017261331.1| hypothetical protein [Lactobaci...   496   e-137
+gi|639186894|ref|WP_024526164.1| hypothetical protein [Lactobaci...   495   e-136
+gi|523687965|ref|WP_020807054.1| CRISPR-associated protein [Lact...   494   e-136
+gi|503474914|ref|WP_013709575.1| CRISPR-associated protein Csn1 ...   494   e-136
+gi|504380459|ref|WP_014567561.1| CRISPR-associated protein Csn1 ...   494   e-136
+gi|543391592|gb|ERJ49495.1| CRISPR-associated protein [Lactobaci...   492   e-135
+gi|544716259|ref|WP_021146269.1| CRISPR-associated protein, Csn1...   492   e-135
+gi|497243648|ref|WP_009557865.1| Csn1 family CRISPR-associated p...   491   e-135
+gi|488930729|ref|WP_002841804.1| CRISPR-associated protein Cas9 ...   491   e-135
+gi|491997296|ref|WP_005713195.1| CRISPR-associated protein [Lact...   490   e-135
+gi|497702843|ref|WP_010017027.1| CRISPR-associated protein [Leuc...   490   e-135
+gi|488749584|ref|WP_002672887.1| CRISPR-associated protein cas9/...   489   e-135
+gi|488926751|ref|WP_002837826.1| CRISPR-associated protein Cas9 ...   489   e-135
+gi|497703282|ref|WP_010017466.1| possible CRISPR associated prot...   488   e-134
+gi|491944955|ref|WP_005684674.1| CRISPR-associated protein [Lact...   488   e-134
+gi|547192943|ref|WP_021934543.1| cRISPR-associated protein Csn1 ...   487   e-134
+gi|548248291|ref|WP_022466124.1| putative uncharacterized protei...   486   e-133
+gi|488764149|ref|WP_002687349.1| CRISPR-associated protein cas9/...   486   e-133
+gi|545661002|ref|WP_021767602.1| CRISPR-associated protein, Csn1...   484   e-133
+gi|547893376|ref|WP_022298151.1| cRISPR-associated endonuclease ...   484   e-133
+gi|490601536|ref|WP_004466556.1| CRISPR-associated protein [Lact...   483   e-133
+gi|640312571|ref|WP_024861694.1| hypothetical protein [Ruminococ...   482   e-132
+gi|488753394|ref|WP_002676671.1| CRISPR-associated protein cas9/...   482   e-132
+gi|504382875|ref|WP_014569977.1| CRISPR-associated protein [Lact...   481   e-132
+gi|489794282|ref|WP_003698173.1| CRISPR-associated protein [Lact...   481   e-132
+gi|491523080|ref|WP_005380707.1| CRISPR-associated protein Csn1 ...   481   e-132
+gi|494251533|ref|WP_007147952.1| CRISPR-associated protein cas9/...   481   e-132
+gi|488758052|ref|WP_002681289.1| CRISPR-associated protein cas9/...   481   e-132
+gi|547742440|ref|WP_022155891.1| cRISPR-associated protein Csn1 ...   479   e-132
+gi|490832399|ref|WP_004694484.1| CRISPR-associated protein Csn1 ...   479   e-131
+gi|566236916|gb|ETI98589.1| CRISPR-associated protein, Csn1 fami...   478   e-131
+gi|446228752|ref|WP_000306607.1| hypothetical protein, partial [...   478   e-131
+gi|654839085|ref|WP_028291740.1| hypothetical protein [Oenococcu...   478   e-131
+gi|495020429|ref|WP_007746220.1| CRISPR-associated protein [Oeno...   478   e-131
+gi|493634568|ref|WP_006586411.1| CRISPR-associated protein Csn1 ...   478   e-131
+gi|488761741|ref|WP_002684945.1| CRISPR-associated protein cas9/...   478   e-131
+gi|547466161|ref|WP_022085160.1| cRISPR-associated protein Cas9/...   477   e-131
+gi|668900893|gb|KFC34615.1| CRISPR-associated protein [Lactobaci...   476   e-131
+gi|489781178|ref|WP_003685069.1| CRISPR-associated protein [Lact...   476   e-131
+gi|496117495|ref|WP_008842002.1| csn1 family CRISPR-associated p...   476   e-131
+gi|685199419|gb|AIN93522.1| CRISPR-associated protein cas9/csn1,...   475   e-130
+gi|492568239|ref|WP_005888649.1| CRISPR-associated protein Csn1 ...   475   e-130
+gi|511701643|ref|WP_016379440.1| hypothetical protein [Lactobaci...   474   e-130
+gi|498384301|ref|WP_010698457.1| CRISPR-associated protein cas9/...   474   e-130
+gi|489684324|ref|WP_003588546.1| MULTISPECIES: CRISPR-associated...   474   e-130
+gi|489687309|ref|WP_003591519.1| CRISPR-associated SAG0894 famil...   474   e-130
+gi|489755490|ref|WP_003659473.1| CRISPR-associated protein [Lact...   474   e-130
+gi|545613323|ref|WP_021737686.1| CRISPR-associated protein, Csn1...   473   e-130
+gi|494634637|ref|WP_007392581.1| CRISPR-associated protein, Csn1...   473   e-130
+gi|655070597|ref|WP_028518833.1| hypothetical protein [Ruminococ...   473   e-130
+gi|523533359|ref|WP_020751689.1| CRISPR-associated protein [Lact...   473   e-130
+gi|518735248|ref|WP_019894961.1| hypothetical protein [Lactobaci...   473   e-130
+gi|511666252|ref|WP_016372827.1| hypothetical protein [Lactobaci...   473   e-130
+gi|488779915|ref|WP_002692322.1| CRISPR-associated protein cas9/...   472   e-129
+gi|652955557|ref|WP_027208814.1| hypothetical protein [Butyrivib...   471   e-129
+gi|495877409|ref|WP_008601988.1| CRISPR-associated protein Csn1 ...   471   e-129
+gi|503128334|ref|WP_013362995.1| CRISPR-associated protein [Bifi...   471   e-129
+gi|489691590|ref|WP_003595774.1| CRISPR-associated SAG0894 famil...   471   e-129
+gi|491541465|ref|WP_005399084.1| CRISPR-associated protein Cas9 ...   471   e-129
+gi|518724026|ref|WP_019884334.1| hypothetical protein [Lactobaci...   469   e-128
+gi|653097340|ref|WP_027347504.1| CRISPR-associated protein Cas9 ...   469   e-128
+gi|496074778|ref|WP_008799285.1| CRISPR-associated protein Csn1 ...   468   e-128
+gi|548251343|ref|WP_022469107.1| cRISPR-associated protein Csn1 ...   468   e-128
+gi|496095765|ref|WP_008820272.1| CRISPR-associated protein Csn1 ...   468   e-128
+gi|294487409|gb|EFG34771.1| CRISPR-associated protein cas9/csn1,...   468   e-128
+gi|672975709|gb|KFI71094.1| CRISPR associated protein [Bifidobac...   468   e-128
+gi|493545970|ref|WP_006499799.1| CRISPR-associated protein [Lact...   468   e-128
+gi|547450686|ref|WP_022070288.1| cRISPR-associated protein [Fuso...   466   e-128
+gi|545610508|ref|WP_021735134.1| CRISPR-associated protein Cas9/...   464   e-127
+gi|566224806|gb|ETI89521.1| CRISPR-associated protein, Csn1 fami...   464   e-127
+gi|504765121|ref|WP_014952223.1| hypothetical protein [Lactobaci...   464   e-127
+gi|489700544|ref|WP_003604681.1| CRISPR-associated SAG0894 famil...   464   e-127
+gi|501468426|ref|WP_012491871.1| MULTISPECIES: CRISPR-associated...   463   e-127
+gi|489666935|ref|WP_003571218.1| CRISPR-associated SAG0894 famil...   463   e-127
+gi|573491633|gb|ETS92439.1| CRISPR-associated protein Cas9/Csn1,...   462   e-126
+gi|547887290|ref|WP_022292431.1| crispr-associated protein [Euba...   462   e-126
+gi|493633878|ref|WP_006585732.1| CRISPR-associated protein Csn1 ...   461   e-126
+gi|547232243|ref|WP_021968776.1| cRISPR-associated protein Csn1 ...   460   e-126
+gi|598625461|gb|EYD69881.1| CRISPR-associated Cas5e [Fusobacteri...   459   e-126
+gi|490975103|ref|WP_004836889.1| CRISPR-associated protein [Anae...   457   e-125
+gi|652856852|ref|WP_027129613.1| CRISPR-associated protein Csn1 ...   457   e-125
+gi|496371126|ref|WP_009080116.1| CRISPR-associated protein Csn1 ...   455   e-124
+gi|547885935|ref|WP_022291102.1| cRISPR-associated protein Csn1 ...   455   e-124
+gi|76584741|gb|EAO61488.1| CRISPR-associated protein, SAG0894 fa...   455   e-124
+gi|547470211|ref|WP_022089002.1| cRISPR-associated protein Cas9/...   454   e-124
+gi|547852512|ref|WP_022259511.1| putative uncharacterized protei...   454   e-124
+gi|496176552|ref|WP_008901059.1| CRISPR-associated protein [Pept...   454   e-124
+gi|430613248|gb|ELB50265.1| CRISPR-associated protein cas9/csn1,...   451   e-123
+gi|577775332|gb|EUJ36155.1| hypothetical protein BTHER_07556 [Br...   448   e-122
+gi|657896913|ref|WP_029600029.1| CRISPR-associated protein Csn1,...   447   e-122
+gi|491510307|ref|WP_005367941.1| CRISPR-associated protein Csn1 ...   446   e-122
+gi|493782301|ref|WP_006730680.1| CRISPR-associated protein [Lact...   442   e-120
+gi|493573663|ref|WP_006526860.1| CRISPR-associated protein, Csn1...   442   e-120
+gi|547237267|ref|WP_021973442.1| cRISPR-associated endonuclease ...   440   e-120
+gi|493882050|ref|WP_006828302.1| CRISPR-associated protein, Csn1...   439   e-120
+gi|489237113|ref|WP_003145379.1| CRISPR-associated protein Csn1 ...   437   e-119
+gi|651392254|ref|WP_026504058.1| hypothetical protein [Butyrivib...   436   e-118
+gi|504426157|ref|WP_014613259.1| CRISPR-associated protein, Csn1...   435   e-118
+gi|446224656|ref|WP_000302511.1| hypothetical protein, partial [...   435   e-118
+gi|446974209|ref|WP_001051465.1| hypothetical protein [Streptoco...   435   e-118
+gi|489654804|ref|WP_003559172.1| CRISPR-associated protein [Lact...   434   e-118
+gi|547036177|ref|WP_021911334.1| crispr-associated protein [Euba...   430   e-117
+gi|548083477|ref|WP_022379794.1| cRISPR-associated protein Csn1 ...   425   e-115
+gi|546349952|ref|WP_021841192.1| cRISPR-associated protein Csn1 ...   424   e-115
+gi|517997710|ref|WP_019167918.1| hypothetical protein [Staphyloc...   420   e-114
+gi|651250927|ref|WP_026385754.1| CRISPR-associated protein [Acid...   419   e-113
+gi|512626460|ref|WP_016459569.1| CRISPR-associated protein cas9/...   418   e-113
+gi|496307041|ref|WP_009016219.1| MULTISPECIES: CRISPR-associated...   417   e-113
+gi|545644659|ref|WP_021752441.1| CRISPR-associated protein, Csn1...   414   e-112
+gi|653225596|ref|WP_027438114.1| hypothetical protein [Lachnospi...   412   e-111
+gi|511078633|ref|WP_016319992.1| CRISPR-associated protein cas9/...   412   e-111
+gi|489918356|ref|WP_003821720.1| CRISPR-associated protein [Bifi...   408   e-110
+gi|504380954|ref|WP_014568056.1| hypothetical protein [Lactobaci...   407   e-110
+gi|551041059|ref|WP_022784704.1| CRISPR-associated protein Csn1 ...   406   e-109
+gi|652816549|ref|WP_027106998.1| hypothetical protein [Lactobaci...   404   e-109
+gi|486484622|gb|EOE28399.1| CRISPR-associated protein cas9/csn1,...   403   e-109
+gi|446962826|ref|WP_001040082.1| hypothetical protein, partial [...   399   e-107
+gi|653185632|ref|WP_027422043.1| hypothetical protein [Lachnobac...   396   e-106
+gi|511422395|gb|EPC57499.1| hypothetical protein Lpp123_03279, p...   394   e-106
+gi|547196564|ref|WP_021937887.1| cRISPR-associated protein Cas9/...   390   e-105
+gi|489145276|ref|WP_003055030.1| hypothetical protein, partial [...   390   e-105
+gi|657701005|ref|WP_029499861.1| hypothetical protein [Kurthia h...   390   e-105
+gi|547269308|ref|WP_022003455.1| csn1 family CRISPR-associated p...   390   e-105
+gi|552759124|ref|WP_023015764.1| hypothetical protein [Staphyloc...   387   e-104
+gi|577760318|gb|EUJ21562.1| hypothetical protein MAQA_02522 [Lis...   387   e-104
+gi|640594771|ref|WP_025023490.1| hypothetical protein [Lactobaci...   386   e-104
+gi|547928804|ref|WP_022330811.1| cRISPR-associated protein cas9/...   385   e-103
+gi|490769968|ref|WP_004632196.1| CRISPR-associated protein Csn1 ...   385   e-103
+gi|496514228|ref|WP_009222511.1| CRISPR-associated protein, Csn1...   385   e-103
+gi|548328202|ref|WP_022514049.1| cRISPR-associated endonuclease ...   379   e-101
+gi|487051145|gb|EOJ78477.1| CRISPR-associated protein cas9/csn1,...   378   e-101
+gi|548250038|ref|WP_022467838.1| cRISPR-associated protein Csn1 ...   374   e-100
+gi|492667141|ref|WP_005916110.1| CRISPR-associated protein Cas9/...   372   2e-99
+gi|489237643|ref|WP_003145904.1| CRISPR-associated protein Csn1 ...   365   1e-97
+gi|488342750|ref|WP_002412135.1| hypothetical protein [Enterococ...   362   2e-96
+gi|496723348|ref|WP_009353052.1| CRISPR-associated protein Cas9/...   358   3e-95
+gi|491053076|ref|WP_004914726.1| CRISPR-associated protein, SAG0...   357   5e-95
+gi|632075397|gb|KDA48951.1| CRISPR-associated protein, SAG0894 f...   355   2e-94
+gi|577780425|gb|EUJ41136.1| CRISPR-associated protein [Brochothr...   355   3e-94
+gi|511438849|gb|EPC71426.1| hypothetical protein Lpp126_15364 [L...   348   2e-92
+gi|547478205|ref|WP_022096308.1| cRISPR-associated endonuclease ...   348   4e-92
+gi|547320132|ref|WP_022051453.1| cRISPR-associated protein Csn1 ...   343   8e-91
+gi|488411225|ref|WP_002480610.1| CRISPR-associated protein cas9/...   342   1e-90
+gi|306513405|gb|EFM82025.1| hypothetical protein HMPREF9498_0237...   330   5e-87
+gi|334267863|gb|EGL86315.1| CRISPR-associated protein Cas9/Csn1,...   330   7e-87
+gi|518933987|ref|WP_020089862.1| hypothetical protein [Lactobaci...   328   2e-86
+gi|487051143|gb|EOJ78475.1| CRISPR-associated protein cas9/csn1,...   323   1e-84
+gi|665900883|ref|WP_031267752.1| hypothetical protein, partial [...   323   1e-84
+gi|532627335|gb|EQM53304.1| hypothetical protein N692_15555, par...   323   1e-84
+
+>gi|667485235|pdb|4UN3|B Chain B, Crystal Structure Of Cas9 Bound To
+            Pam-containing Dna Target
+          Length = 1372
+
+ Score = 2587 bits (6705), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 1306/1361 (95%), Positives = 1306/1361 (95%), Gaps = 55/1361 (4%)
+
+Query: 1    KYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATR 60
+            KYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATR
+Sbjct: 8    KYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATR 67
+
+Query: 61   LKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIV 120
+            LKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIV
+Sbjct: 68   LKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIV 127
+
+Query: 121  DEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDK 180
+            DEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDK
+Sbjct: 128  DEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDK 187
+
+Query: 181  LFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIA 240
+            LFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIA
+Sbjct: 188  LFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIA 247
+
+Query: 241  LSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLS 300
+            LSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLS
+Sbjct: 248  LSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLS 307
+
+Query: 301  DILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYI 360
+            DILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYI
+Sbjct: 308  DILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYI 367
+
+Query: 361  DGGASQEEFYKFIKPILEKMD-TEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAIL 419
+            DGGASQEEFYKFIKPILEKMD TEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAIL
+Sbjct: 368  DGGASQEEFYKFIKPILEKMDGTEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAIL 427
+
+Query: 420  RRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVD 479
+            RRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVD
+Sbjct: 428  RRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVD 487
+
+Query: 480  KGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGE 539
+            KGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGE
+Sbjct: 488  KGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGE 547
+
+Query: 540  QKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKD 599
+            QKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKD
+Sbjct: 548  QKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKD 607
+
+Query: 600  KDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLS 659
+            KDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLS
+Sbjct: 608  KDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLS 667
+
+Query: 660  RKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQK--------SLHEH 711
+            RKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQK        SLHEH
+Sbjct: 668  RKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQKAQVSGQGDSLHEH 727
+
+Query: 712  IANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMAR----------NSRERMKR 761
+            IANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMAR          NSRERMKR
+Sbjct: 728  IANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMARENQTTQKGQKNSRERMKR 787
+
+Query: 762  IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDAIVP 821
+            IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDAIVP
+Sbjct: 788  IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDAIVP 847
+
+Query: 822  QSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKA 881
+            QSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKA
+Sbjct: 848  QSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKA 907
+
+Query: 882  ERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLV 941
+            ERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLV
+Sbjct: 908  ERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLV 967
+
+Query: 942  SDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGD----------- 990
+            SDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGD           
+Sbjct: 968  SDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGDYKVYDVRKMIA 1027
+
+Query: 991  ------GKATAKYFFYSNIMNFFKTEI--------KRPLIETNGETGEIVWDKGRDFATV 1036
+                  GKATAKYFFYSNIMNFFKTEI        KRPLIETNGETGEIVWDKGRDFATV
+Sbjct: 1028 KSEQEIGKATAKYFFYSNIMNFFKTEITLANGEIRKRPLIETNGETGEIVWDKGRDFATV 1087
+
+Query: 1037 RKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSV 1096
+            RKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSV
+Sbjct: 1088 RKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSV 1147
+
+Query: 1097 LVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSL 1156
+            LVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSL
+Sbjct: 1148 LVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSL 1207
+
+Query: 1157 FELENGRKRMLASAGELQKGNELALPSKYVNFLYLASH-----------EQKQLFVEQHK 1205
+            FELENGRKRMLASAGELQKGNELALPSKYVNFLYLASH           EQKQLFVEQHK
+Sbjct: 1208 FELENGRKRMLASAGELQKGNELALPSKYVNFLYLASHYEKLKGSPEDNEQKQLFVEQHK 1267
+
+Query: 1206 HYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAA 1265
+            HYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAA
+Sbjct: 1268 HYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAA 1327
+
+Query: 1266 FKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQ 1306
+            FKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQ
+Sbjct: 1328 FKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQ 1368
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+gi|554595615|gb|AGZ01981.1| Cas9 endonuclease [synthetic construct]  1635   0.0  
+gi|584579698|pdb|4CMP|A Chain A, Crystal Structure Of S. Pyogene...  1633   0.0  
+gi|669193758|gb|AII16583.1| Cas9 endonuclease [Expression vector...  1632   0.0  
+gi|499604772|ref|WP_011285506.1| CRISPR-associated protein Csn1 ...  1631   0.0  
+gi|499604011|ref|WP_011284745.1| CRISPR-associated protein Csn1 ...  1630   0.0  
+gi|499224711|ref|WP_010922251.1| CRISPR-associated protein Csn1 ...  1630   0.0  
+gi|667485235|pdb|4UN3|B Chain B, Crystal Structure Of Cas9 Bound...  1630   0.0  
+gi|611705338|gb|EZM83080.1| CRISPR-associated protein cas9/csn1,...  1630   0.0  
+gi|527103923|ref|WP_020905136.1| hypothetical cytosolic protein ...  1629   0.0  
+gi|667485240|pdb|4UN4|B Chain B, Crystal Structure Of Cas9 Bound...  1627   0.0  
+gi|666903857|gb|AIG48810.1| CRISPR-associated protein Csn1 [Stre...  1627   0.0  
+gi|489080018|ref|WP_002989955.1| CRISPR-associated protein Csn1 ...  1626   0.0  
+gi|662757307|ref|WP_030126706.1| CRISPR-associated protein Csn1 ...  1625   0.0  
+gi|611570852|gb|EZL49205.1| CRISPR-associated protein cas9/csn1,...  1624   0.0  
+gi|611668122|gb|EZM45994.1| CRISPR-associated protein cas9/csn1,...  1624   0.0  
+gi|501556167|ref|WP_012560673.1| CRISPR-associated protein Csn1 ...  1623   0.0  
+gi|499366838|ref|WP_011054416.1| CRISPR-associated protein Csn1 ...  1623   0.0  
+gi|662755573|ref|WP_030125963.1| CRISPR-associated protein Csn1 ...  1623   0.0  
+gi|499846885|ref|WP_011527619.1| CRISPR-associated protein Csn1 ...  1622   0.0  
+gi|588293154|pdb|4OO8|A Chain A, Crystal Structure Of Streptococ...  1622   0.0  
+gi|504220439|ref|WP_014407541.1| CRISPR-associated protein Csn1 ...  1622   0.0  
+gi|671499501|ref|WP_031488318.1| CRISPR-associated protein Csn1 ...  1620   0.0  
+gi|553746521|ref|WP_023080005.1| CRISPR-associated protein Cas9/...  1610   0.0  
+gi|674296984|gb|AIL11882.1| HNH endonuclease family protein [Str...  1610   0.0  
+gi|560281933|ref|WP_023610282.1| CRISPR-associated protein Cas9/...  1606   0.0  
+gi|499847849|ref|WP_011528583.1| CRISPR-associated protein Csn1 ...  1543   0.0  
+gi|504870547|ref|WP_015057649.1| hypothetical protein [Streptoco...  1542   0.0  
+gi|504829993|ref|WP_015017095.1| CRISPR-associated protein Csn1 ...  1542   0.0  
+gi|504425231|ref|WP_014612333.1| CRISPR-associated protein Csn1 ...  1538   0.0  
+gi|502337426|ref|WP_012767106.1| CRISPR-associated protein Csn1 ...  1536   0.0  
+gi|489134034|ref|WP_003043819.1| CRISPR-associated protein Csn1 ...  1505   0.0  
+gi|655573892|gb|KED03640.1| CRISPR-Associated Protein Csn1 [Stre...  1499   0.0  
+gi|501507994|ref|WP_012515931.1| CRISPR-associated protein Csn1 ...  1470   0.0  
+gi|544910977|ref|WP_021320964.1| CRISPR-Associated Protein Csn1 ...  1469   0.0  
+gi|489189894|ref|WP_003099269.1| CRISPR-associated protein Csn1 ...  1441   0.0  
+gi|640030144|ref|WP_024782110.1| CRISPR-associated protein Csn1 ...  1428   0.0  
+gi|488201558|ref|WP_002272766.1| hypothetical protein [Streptoco...  1427   0.0  
+gi|497440125|ref|WP_009754323.1| CRISPR-associated protein Csn1 ...  1426   0.0  
+gi|488208651|ref|WP_002279859.1| CRISPR-associated protein Csn1 ...  1425   0.0  
+gi|518142684|ref|WP_019312892.1| CRISPR-associated protein Csn1 ...  1424   0.0  
+gi|488206156|ref|WP_002277364.1| hypothetical protein [Streptoco...  1424   0.0  
+gi|488209022|ref|WP_002280230.1| hypothetical protein [Streptoco...  1424   0.0  
+gi|488200769|ref|WP_002271977.1| hypothetical protein [Streptoco...  1424   0.0  
+gi|488218433|ref|WP_002289641.1| hypothetical protein [Streptoco...  1424   0.0  
+gi|488204222|ref|WP_002275430.1| hypothetical protein [Streptoco...  1424   0.0  
+gi|488210488|ref|WP_002281696.1| hypothetical protein [Streptoco...  1424   0.0  
+gi|488198240|ref|WP_002269448.1| hypothetical protein [Streptoco...  1423   0.0  
+gi|446350758|ref|WP_000428613.1| CRISPR-associated protein Csn1 ...  1423   0.0  
+gi|640047960|ref|WP_024784666.1| CRISPR-associated protein Csn1 ...  1423   0.0  
+gi|502762704|ref|WP_012997688.1| CRISPR-associated protein Csn1 ...  1422   0.0  
+gi|488205240|ref|WP_002276448.1| hypothetical protein [Streptoco...  1422   0.0  
+gi|640049968|ref|WP_024784894.1| CRISPR-associated protein Csn1 ...  1422   0.0  
+gi|488202033|ref|WP_002273241.1| hypothetical protein [Streptoco...  1421   0.0  
+gi|497415278|ref|WP_009729476.1| CRISPR-associated protein cas9/...  1421   0.0  
+gi|488211698|ref|WP_002282906.1| hypothetical protein [Streptoco...  1420   0.0  
+gi|488192341|ref|WP_002263549.1| CRISPR-associated protein Csn1 ...  1420   0.0  
+gi|446350757|ref|WP_000428612.1| CRISPR-associated protein Csn1 ...  1420   0.0  
+gi|518143451|ref|WP_019313659.1| CRISPR-associated protein Csn1 ...  1420   0.0  
+gi|488234636|ref|WP_002305844.1| hypothetical protein [Streptoco...  1420   0.0  
+gi|518633569|ref|WP_019803776.1| CRISPR-associated protein Csn1 ...  1419   0.0  
+gi|488207817|ref|WP_002279025.1| hypothetical protein [Streptoco...  1419   0.0  
+gi|518145162|ref|WP_019315370.1| CRISPR-associated protein Csn1 ...  1419   0.0  
+gi|488192679|ref|WP_002263887.1| hypothetical protein [Streptoco...  1418   0.0  
+gi|640040381|ref|WP_024783594.1| CRISPR-associated protein Csn1 ...  1417   0.0  
+gi|488216047|ref|WP_002287255.1| hypothetical protein [Streptoco...  1417   0.0  
+gi|488281200|ref|WP_002352408.1| CRISPR-associated protein csn1 ...  1417   0.0  
+gi|488212638|ref|WP_002283846.1| hypothetical protein [Streptoco...  1417   0.0  
+gi|502727190|ref|WP_012962174.1| CRISPR-associated protein Csn1 ...  1416   0.0  
+gi|488224545|ref|WP_002295753.1| hypothetical protein [Streptoco...  1416   0.0  
+gi|488193712|ref|WP_002264920.1| hypothetical protein [Streptoco...  1416   0.0  
+gi|488217782|ref|WP_002288990.1| hypothetical protein [Streptoco...  1416   0.0  
+gi|518143885|ref|WP_019314093.1| CRISPR-associated protein Csn1 ...  1416   0.0  
+gi|504490807|ref|WP_014677909.1| CRISPR-associated protein Csn1 ...  1415   0.0  
+gi|488235995|ref|WP_002307203.1| hypothetical protein [Streptoco...  1415   0.0  
+gi|488225215|ref|WP_002296423.1| hypothetical protein [Streptoco...  1415   0.0  
+gi|488986694|ref|WP_002897477.1| CRISPR-associated protein Csn1 ...  1415   0.0  
+gi|488197835|ref|WP_002269043.1| hypothetical protein [Streptoco...  1415   0.0  
+gi|517174652|ref|WP_018363470.1| CRISPR-associated protein Csn1 ...  1413   0.0  
+gi|488219219|ref|WP_002290427.1| hypothetical protein [Streptoco...  1412   0.0  
+gi|488214824|ref|WP_002286032.1| hypothetical protein [Streptoco...  1412   0.0  
+gi|518635027|ref|WP_019805234.1| CRISPR-associated protein Csn1 ...  1410   0.0  
+gi|504871421|ref|WP_015058523.1| CRISPR-associated protein Csn1 ...  1409   0.0  
+gi|488239182|ref|WP_002310390.1| CRISPR-associated protein csn1 ...  1408   0.0  
+gi|505444861|ref|WP_015631963.1| Hypothetical protein [Streptoco...  1407   0.0  
+gi|504100992|ref|WP_014334983.1| CRISPR-associated protein Csn1 ...  1407   0.0  
+gi|445988958|ref|WP_000066813.1| CRISPR-associated protein Csn1 ...  1407   0.0  
+gi|446962836|ref|WP_001040092.1| CRISPR-associated protein Csn1 ...  1406   0.0  
+gi|640754093|emb|CDO18860.1| CRISPR-associated protein [Streptoc...  1403   0.0  
+gi|516381578|ref|WP_017771611.1| CRISPR-associated protein Csn1 ...  1399   0.0  
+gi|446962851|ref|WP_001040107.1| CRISPR-associated protein Csn1 ...  1398   0.0  
+gi|490352708|ref|WP_004232481.1| CRISPR-associated protein Csn1 ...  1397   0.0  
+gi|446962852|ref|WP_001040108.1| CRISPR-Associated Protein Csn1 ...  1397   0.0  
+gi|446962854|ref|WP_001040110.1| CRISPR-associated protein Csn1 ...  1396   0.0  
+gi|446962850|ref|WP_001040106.1| CRISPR-Associated Protein Csn1 ...  1396   0.0  
+gi|497540342|ref|WP_009854540.1| CRISPR-associated protein Csn1 ...  1396   0.0  
+gi|493312191|ref|WP_006269658.1| CRISPR-associated protein Csn1 ...  1396   0.0  
+gi|488233279|ref|WP_002304487.1| hypothetical protein [Streptoco...  1395   0.0  
+gi|489120168|ref|WP_003030002.1| CRISPR-associated protein Csn1 ...  1394   0.0  
+gi|516244413|ref|WP_017648376.1| CRISPR-associated protein Csn1 ...  1393   0.0  
+gi|516243188|ref|WP_017647151.1| CRISPR-associated protein Csn1 ...  1392   0.0  
+gi|446962840|ref|WP_001040096.1| CRISPR-Associated Protein Csn1 ...  1391   0.0  
+gi|446962853|ref|WP_001040109.1| CRISPR-Associated Protein Csn1 ...  1391   0.0  
+gi|446962842|ref|WP_001040098.1| CRISPR-Associated Protein Csn1 ...  1389   0.0  
+gi|446962839|ref|WP_001040095.1| CRISPR-Associated Protein Csn1 ...  1388   0.0  
+gi|446962838|ref|WP_001040094.1| CRISPR-Associated Protein Csn1 ...  1387   0.0  
+gi|512746582|ref|WP_016502833.1| CRISPR-associated protein, SAG0...  1387   0.0  
+gi|489155870|ref|WP_003065552.1| CRISPR-associated protein Csn1 ...  1387   0.0  
+gi|516245564|ref|WP_017649527.1| CRISPR-associated protein Csn1 ...  1387   0.0  
+gi|446962844|ref|WP_001040100.1| CRISPR-Associated Protein Csn1 ...  1387   0.0  
+gi|446962841|ref|WP_001040097.1| CRISPR-associated protein Csn1 ...  1387   0.0  
+gi|446962822|ref|WP_001040078.1| CRISPR-Associated Protein Csn1 ...  1386   0.0  
+gi|446962843|ref|WP_001040099.1| CRISPR-Associated Protein Csn1 ...  1385   0.0  
+gi|446962832|ref|WP_001040088.1| CRISPR-Associated Protein Csn1 ...  1384   0.0  
+gi|446962820|ref|WP_001040076.1| CRISPR-Associated Protein Csn1 ...  1383   0.0  
+gi|446962829|ref|WP_001040085.1| CRISPR-Associated Protein Csn1 ...  1383   0.0  
+gi|446962833|ref|WP_001040089.1| CRISPR-Associated Protein Csn1 ...  1383   0.0  
+gi|446962831|ref|WP_001040087.1| CRISPR-associated protein Csn1 ...  1383   0.0  
+gi|446962849|ref|WP_001040105.1| CRISPR-Associated Protein Csn1 ...  1383   0.0  
+gi|446962827|ref|WP_001040083.1| CRISPR-Associated Protein Csn1 ...  1383   0.0  
+gi|446962825|ref|WP_001040081.1| CRISPR-Associated Protein Csn1 ...  1383   0.0  
+gi|446962824|ref|WP_001040080.1| CRISPR-Associated Protein Csn1 ...  1382   0.0  
+gi|516381951|ref|WP_017771984.1| CRISPR-associated protein Csn1 ...  1382   0.0  
+gi|516239687|ref|WP_017643650.1| CRISPR-associated protein Csn1 ...  1381   0.0  
+gi|446962834|ref|WP_001040090.1| CRISPR-Associated Protein Csn1 ...  1381   0.0  
+gi|446962835|ref|WP_001040091.1| CRISPR-Associated Protein Csn1 ...  1381   0.0  
+gi|446962848|ref|WP_001040104.1| CRISPR-associated protein Csn1 ...  1380   0.0  
+gi|446962855|ref|WP_001040111.1| CRISPR-associated protein Csn1 ...  1380   0.0  
+gi|548564942|ref|WP_022526294.1| hypothetical protein [Streptoco...  1376   0.0  
+gi|495171705|ref|WP_007896501.1| CRISPR-associated protein Csn1 ...  1375   0.0  
+gi|642984273|ref|WP_025197336.1| CRISPR-associated protein Csn1 ...  1373   0.0  
+gi|446962846|ref|WP_001040102.1| CRISPR-associated protein Csn1 ...  1373   0.0  
+gi|446962821|ref|WP_001040077.1| CRISPR-Associated Protein Csn1 ...  1373   0.0  
+gi|446962845|ref|WP_001040101.1| CRISPR-Associated Protein Csn1 ...  1372   0.0  
+gi|489197813|ref|WP_003107102.1| CRISPR-associated protein [Stre...  1371   0.0  
+gi|642984208|ref|WP_025197271.1| CRISPR-associated protein Csn1 ...  1371   0.0  
+gi|446962837|ref|WP_001040093.1| CRISPR-associated protein Csn1 ...  1371   0.0  
+gi|516242425|ref|WP_017646388.1| CRISPR-associated protein Csn1 ...  1371   0.0  
+gi|489179199|ref|WP_003088697.1| CRISPR-associated protein Csn1 ...  1369   0.0  
+gi|516241372|ref|WP_017645335.1| CRISPR-associated protein Csn1 ...  1369   0.0  
+gi|516244622|ref|WP_017648585.1| CRISPR-associated protein Csn1 ...  1368   0.0  
+gi|446962847|ref|WP_001040103.1| CRISPR-associated protein Csn1 ...  1368   0.0  
+gi|488995743|ref|WP_002906454.1| CRISPR-associated protein Csn1 ...  1361   0.0  
+gi|662340124|gb|KEQ38765.1| HNH endonuclease family protein [Str...  1360   0.0  
+gi|489004472|ref|WP_002915084.1| CRISPR-associated protein Csn1 ...  1354   0.0  
+gi|654503258|ref|WP_027972728.1| CRISPR-associated protein Csn1 ...  1353   0.0  
+gi|488214114|ref|WP_002285322.1| hypothetical protein [Streptoco...  1352   0.0  
+gi|446986595|ref|WP_001063851.1| CRISPR-associated protein Csn1 ...  1352   0.0  
+gi|640059858|ref|WP_024786433.1| CRISPR-associated protein Csn1 ...  1351   0.0  
+gi|504548968|ref|WP_014736070.1| CRISPR-associated protein Csn1 ...  1350   0.0  
+gi|488211039|ref|WP_002282247.1| CRISPR-associated protein [Stre...  1350   0.0  
+gi|640043974|ref|WP_024784288.1| CRISPR-associated protein Csn1 ...  1349   0.0  
+gi|489150149|ref|WP_003059869.1| CRISPR-associated protein Csn1 ...  1348   0.0  
+gi|488205842|ref|WP_002277050.1| CRISPR-associated protein [Stre...  1346   0.0  
+gi|488237415|ref|WP_002308623.1| hypothetical protein [Streptoco...  1343   0.0  
+gi|640044636|ref|WP_024784329.1| CRISPR-associated protein Csn1 ...  1342   0.0  
+gi|488227426|ref|WP_002298634.1| hypothetical protein [Streptoco...  1341   0.0  
+gi|637016939|ref|WP_024411687.1| CRISPR-associated protein Csn1 ...  1338   0.0  
+gi|636985794|ref|WP_024406901.1| CRISPR-associated protein Csn1 ...  1335   0.0  
+gi|489131715|ref|WP_003041502.1| CRISPR-associated protein Csn1 ...  1333   0.0  
+gi|488980665|ref|WP_002891502.1| CRISPR-associated protein Csn1 ...  1330   0.0  
+gi|636879462|ref|WP_024385410.1| CRISPR-associated protein Csn1 ...  1328   0.0  
+gi|585226747|gb|EWM58113.1| CRISPR-associated protein Csn1 [Stre...  1328   0.0  
+gi|511299122|ref|WP_016355900.1| CRISPR-associated protein Cas9/...  1327   0.0  
+gi|500000752|ref|WP_011681470.1| CRISPR-associated protein Csn1 ...  1327   0.0  
+gi|636917031|ref|WP_024395100.1| CRISPR-associated protein Csn1 ...  1327   0.0  
+gi|636869992|ref|WP_024381493.1| CRISPR-associated protein Csn1 ...  1326   0.0  
+gi|636895891|ref|WP_024390729.1| CRISPR-associated protein Csn1 ...  1326   0.0  
+gi|504540549|ref|WP_014727651.1| CRISPR-associated protein Csn1 ...  1323   0.0  
+gi|564946694|gb|ETE40173.1| CRISPR-associated protein Csn1 [Stre...  1323   0.0  
+gi|619740371|gb|AHY15608.1| CRISPR-associated protein Csn1 [Stre...  1323   0.0  
+gi|639578843|ref|WP_024703962.1| CRISPR-associated protein Csn1 ...  1323   0.0  
+gi|391738060|sp|G3ECR1.2|CAS9_STRTR RecName: Full=CRISPR-associa...  1321   0.0  
+gi|517368577|ref|WP_018543557.1| CRISPR-associated protein Csn1 ...  1321   0.0  
+gi|504421493|ref|WP_014608595.1| CRISPR-associated protein Csn1 ...  1321   0.0  
+gi|564947200|gb|ETE40675.1| CRISPR-associated protein Csn1 [Stre...  1320   0.0  
+gi|489170123|ref|WP_003079701.1| CRISPR-associated protein Csn1 ...  1320   0.0  
+gi|619742240|gb|AHY17476.1| CRISPR-associated protein Csn1 [Stre...  1320   0.0  
+gi|489121687|ref|WP_003031511.1| CRISPR-associated protein Csn1 ...  1320   0.0  
+gi|489836121|ref|WP_003739838.1| CRISPR-associated protein Csn1 ...  1318   0.0  
+gi|495168446|ref|WP_007893243.1| CRISPR-associated protein Csn1 ...  1313   0.0  
+gi|504414070|ref|WP_014601172.1| CRISPR-associated protein Csn1 ...  1313   0.0  
+gi|499300419|ref|WP_010991369.1| CRISPR-associated protein Csn1 ...  1313   0.0  
+gi|685931623|ref|WP_031665337.1| CRISPR-associated protein Csn1 ...  1309   0.0  
+gi|489869399|ref|WP_003772961.1| CRISPR-associated protein Csn1 ...  1308   0.0  
+gi|498464655|ref|WP_010770040.1| CRISPR-associated protein cas9/...  1306   0.0  
+gi|489819841|ref|WP_003723650.1| CRISPR-associated protein Csn1 ...  1305   0.0  
+gi|489823922|ref|WP_003727705.1| CRISPR-associated protein Csn1 ...  1304   0.0  
+gi|489827017|ref|WP_003730785.1| CRISPR-associated protein Csn1 ...  1304   0.0  
+gi|498518329|ref|WP_010818269.1| CRISPR-associated protein cas9/...  1293   0.0  
+gi|498524709|ref|WP_010824395.1| CRISPR-associated protein cas9/...  1291   0.0  
+gi|488293628|ref|WP_002364836.1| CRISPR-associated protein [Ente...  1291   0.0  
+gi|488344332|ref|WP_002413717.1| CRISPR-associated protein [Ente...  1291   0.0  
+gi|619188175|gb|KAJ63808.1| CRISPR-associated protein, SAG0894 f...  1291   0.0  
+gi|573639167|gb|ETU32645.1| CRISPR-associated protein cas9/csn1,...  1291   0.0  
+gi|498482266|ref|WP_010785195.1| CRISPR-associated protein cas9/...  1291   0.0  
+gi|488302103|ref|WP_002373311.1| CRISPR-associated protein [Ente...  1291   0.0  
+gi|498471477|ref|WP_010776234.1| CRISPR-associated protein cas9/...  1290   0.0  
+gi|488337939|ref|WP_002407324.1| CRISPR-associated protein [Ente...  1290   0.0  
+gi|559007111|ref|WP_023548323.1| CRISPR-associated protein Csn1 ...  1290   0.0  
+gi|488308330|ref|WP_002378009.1| CRISPR-associated protein [Ente...  1290   0.0  
+gi|488325266|ref|WP_002394651.1| CRISPR-associated protein [Ente...  1289   0.0  
+gi|488291933|ref|WP_002363141.1| CRISPR-associated protein [Ente...  1289   0.0  
+gi|573665916|gb|ETU59028.1| CRISPR-associated protein cas9/csn1,...  1289   0.0  
+gi|514893742|ref|WP_016622645.1| CRISPR-associated protein, Csn1...  1289   0.0  
+gi|512722665|ref|WP_016480710.1| CRISPR-associated protein, Csn1...  1287   0.0  
+gi|498482035|ref|WP_010784994.1| CRISPR-associated protein cas9/...  1286   0.0  
+gi|498470806|ref|WP_010775580.1| CRISPR-associated protein cas9/...  1285   0.0  
+gi|488241486|ref|WP_002312694.1| CRISPR-associated protein Csn1 ...  1284   0.0  
+gi|488263953|ref|WP_002335161.1| CRISPR-associated protein Csn1 ...  1281   0.0  
+gi|488274231|ref|WP_002345439.1| CRISPR-associated protein cas9/...  1280   0.0  
+gi|488249508|ref|WP_002320716.1| CRISPR-associated protein Csn1 ...  1280   0.0  
+gi|446983479|ref|WP_001060735.1| CRISPR-associated protein Csn1 ...  1280   0.0  
+gi|685937095|ref|WP_031669209.1| CRISPR-associated protein Csn1 ...  1280   0.0  
+gi|489829274|ref|WP_003733029.1| CRISPR-associated protein Csn1 ...  1279   0.0  
+gi|590403756|gb|EXL23613.1| hypothetical protein X842_1436 [List...  1279   0.0  
+gi|675808091|gb|KFN86436.1| hypothetical protein B279_05335 [Str...  1279   0.0  
+gi|488242807|ref|WP_002314015.1| CRISPR-associated protein Csn1 ...  1278   0.0  
+gi|590396211|gb|EXL16255.1| hypothetical protein X843_0786 [List...  1278   0.0  
+gi|488239436|ref|WP_002310644.1| CRISPR-associated protein Csn1 ...  1276   0.0  
+gi|662350313|gb|KEQ48882.1| HNH endonuclease family protein [Str...  1276   0.0  
+gi|488259521|ref|WP_002330729.1| CRISPR-associated protein cas9/...  1274   0.0  
+gi|490774321|ref|WP_004636532.1| CRISPR-associated protein Csn1 ...  1265   0.0  
+gi|666377823|gb|KEY47635.1| CRISPR-associated protein Csn1 [Stre...  1256   0.0  
+gi|517183674|ref|WP_018372492.1| hypothetical protein [Streptoco...  1254   0.0  
+gi|488194218|ref|WP_002265426.1| hypothetical protein [Streptoco...  1250   0.0  
+gi|494394830|ref|WP_007209003.1| CRISPR-associated protein Csn1 ...  1248   0.0  
+gi|649263333|gb|KDR91786.1| CRISPR-associated protein Csn1 [Ente...  1247   0.0  
+gi|527332907|ref|WP_020917064.1| hypothetical protein [Streptoco...  1247   0.0  
+gi|498431249|ref|WP_010737004.1| CRISPR-associated protein Csn1 ...  1247   0.0  
+gi|498411195|ref|WP_010720994.1| CRISPR-associated protein cas9/...  1247   0.0  
+gi|557388897|gb|ESR09095.1| CRISPR-associated protein Csn1 [Stre...  1234   0.0  
+gi|514905847|ref|WP_016631044.1| MULTISPECIES: CRISPR-associated...  1231   0.0  
+gi|497566499|ref|WP_009880683.1| COG3513: Uncharacterized protei...  1229   0.0  
+gi|498444636|ref|WP_010750235.1| CRISPR-associated protein cas9/...  1227   0.0  
+gi|558689600|ref|WP_023519017.1| hypothetical protein [Enterococ...  1224   0.0  
+gi|585224389|gb|EWM55849.1| CRISPR-associated protein Csn1 [Stre...  1222   0.0  
+gi|654500704|ref|WP_027970237.1| CRISPR-associated protein Csn1 ...  1198   0.0  
+gi|631856267|gb|KDA45870.1| CRISPR-associated protein Cas9/Csn1,...  1184   0.0  
+gi|657708676|ref|WP_029507330.1| hypothetical protein [Lactobaci...  1179   0.0  
+gi|544887397|ref|WP_021299407.1| CRISPR-associated protein Cas9/...  1175   0.0  
+gi|640662680|ref|WP_025088082.1| hypothetical protein [Lactobaci...  1165   0.0  
+gi|548554254|ref|WP_022524804.1| hypothetical protein [Streptoco...  1151   0.0  
+gi|518146273|ref|WP_019316481.1| CRISPR-associated protein Csn1,...  1137   0.0  
+gi|487046617|gb|EOJ74066.1| CRISPR-associated protein cas9/csn1,...  1124   0.0  
+gi|313616973|gb|EFR89594.1| crispr-associated protein, Csn1 fami...  1085   0.0  
+gi|685990466|ref|WP_031695879.1| CRISPR-associated protein Csn1,...  1083   0.0  
+gi|518145737|ref|WP_019315945.1| CRISPR-associated protein Csn1,...  1054   0.0  
+gi|446962830|ref|WP_001040086.1| hypothetical protein, partial [...  1041   0.0  
+gi|486587670|gb|EOF29249.1| CRISPR-associated protein cas9/csn1,...  1038   0.0  
+gi|517188813|ref|WP_018377631.1| hypothetical protein [Streptoco...  1023   0.0  
+gi|527782705|gb|EPV73545.1| CRISPR-associated protein Csn1, part...  1011   0.0  
+gi|654507345|ref|WP_027976660.1| CRISPR-associated protein Csn1 ...  1010   0.0  
+gi|446974208|ref|WP_001051464.1| CRISPR-associated protein Csn1 ...  1004   0.0  
+gi|489023116|ref|WP_002933589.1| CRISPR-associated protein Csn1 ...   992   0.0  
+gi|494784522|ref|WP_007519930.1| CRISPR-associated protein csn1 ...   986   0.0  
+gi|640657397|ref|WP_025083227.1| CRISPR-associated protein Csn1 ...   980   0.0  
+gi|527753610|gb|EPV45184.1| CRISPR-associated protein Csn1, part...   977   0.0  
+gi|490270412|ref|WP_004166700.1| CRISPR-associated protein [Pedi...   968   0.0  
+gi|488920030|ref|WP_002831105.1| CRISPR-associated protein [Pedi...   966   0.0  
+gi|544722392|ref|WP_021152394.1| CRISPR-associated protein, Csn1...   964   0.0  
+gi|510890393|ref|WP_016223708.1| CRISPR-associated protein cas9/...   962   0.0  
+gi|490391895|ref|WP_004270945.1| CRISPR-associated protein Csn1 ...   960   0.0  
+gi|497695086|ref|WP_010009270.1| CRISPR-associated protein Csn1 ...   959   0.0  
+gi|508149327|gb|EOT26129.1| CRISPR-associated protein cas9/csn1,...   958   0.0  
+gi|474482590|gb|EMS75795.1| hypothetical protein H318_06676 [Ent...   956   0.0  
+gi|640316279|ref|WP_024862574.1| CRISPR-associated protein [Pedi...   954   0.0  
+gi|547944271|ref|WP_022345413.1| putative uncharacterized protei...   950   0.0  
+gi|504753359|ref|WP_014940461.1| CRISPR-associated protein [Lact...   949   0.0  
+gi|503474914|ref|WP_013709575.1| CRISPR-associated protein Csn1 ...   948   0.0  
+gi|505351806|ref|WP_015538908.1| CRISPR-associated protein, Csn1...   945   0.0  
+gi|547772437|ref|WP_022183850.1| cRISPR-associated protein Csn1 ...   944   0.0  
+gi|503746753|ref|WP_013980829.1| CRISPR-associated protein Csn1 ...   944   0.0  
+gi|503493991|ref|WP_013728652.1| CRISPR-associated protein [Lact...   942   0.0  
+gi|654308074|ref|WP_027821588.1| CRISPR-associated protein Cas9 ...   938   0.0  
+gi|505192536|ref|WP_015379638.1| Hypothetical protein [Lactobaci...   937   0.0  
+gi|505325499|ref|WP_015512601.1| CRISPR-associated endonuclease,...   935   0.0  
+gi|334881121|emb|CCB81940.1| putative uncharacterized protein [L...   931   0.0  
+gi|491804962|ref|WP_005609677.1| hypothetical protein [Ruminococ...   930   0.0  
+gi|545596715|ref|WP_021725096.1| CRISPR-associated protein Cas9/...   930   0.0  
+gi|518635888|ref|WP_019806095.1| CRISPR-associated protein Csn1,...   928   0.0  
+gi|570252623|gb|ETO40382.1| CRISPR-associated protein, SAG0894 f...   927   0.0  
+gi|491997296|ref|WP_005713195.1| CRISPR-associated protein [Lact...   927   0.0  
+gi|496457963|ref|WP_009166808.1| CRISPR-associated protein [Lact...   926   0.0  
+gi|491944955|ref|WP_005684674.1| CRISPR-associated protein [Lact...   924   0.0  
+gi|313626274|gb|EFR95520.1| crispr-associated protein Csn1 [List...   923   0.0  
+gi|497243648|ref|WP_009557865.1| Csn1 family CRISPR-associated p...   923   0.0  
+gi|557699916|ref|WP_023440039.1| CRISPR-associated protein [Pedi...   922   0.0  
+gi|306513404|gb|EFM82024.1| CRISPR-associated protein, Csn1 fami...   921   0.0  
+gi|518081566|ref|WP_019251774.1| hypothetical protein [Lactobaci...   920   0.0  
+gi|490601536|ref|WP_004466556.1| CRISPR-associated protein [Lact...   917   0.0  
+gi|489733276|ref|WP_003637375.1| CRISPR-associated protein, Cas9...   916   0.0  
+gi|544929180|ref|WP_021338270.1| hypothetical protein [Lactobaci...   916   0.0  
+gi|488918895|ref|WP_002829970.1| CRISPR-associated protein [Pedi...   915   0.0  
+gi|489777922|ref|WP_003681813.1| CRISPR-associated protein [Lact...   912   0.0  
+gi|658777900|ref|WP_029776921.1| CRISPR-associated protein Csn1,...   912   0.0  
+gi|489684324|ref|WP_003588546.1| MULTISPECIES: CRISPR-associated...   912   0.0  
+gi|511701643|ref|WP_016379440.1| hypothetical protein [Lactobaci...   912   0.0  
+gi|547291127|ref|WP_022024042.1| cRISPR-associated endonuclease ...   911   0.0  
+gi|489687309|ref|WP_003591519.1| CRISPR-associated SAG0894 famil...   910   0.0  
+gi|519666170|ref|WP_020282061.1| CRISPR-associated protein, Csn1...   909   0.0  
+gi|489755490|ref|WP_003659473.1| CRISPR-associated protein [Lact...   908   0.0  
+gi|523533359|ref|WP_020751689.1| CRISPR-associated protein [Lact...   908   0.0  
+gi|518724026|ref|WP_019884334.1| hypothetical protein [Lactobaci...   908   0.0  
+gi|548165482|ref|WP_022387671.1| cRISPR-associated protein Csn1 ...   908   0.0  
+gi|518735248|ref|WP_019894961.1| hypothetical protein [Lactobaci...   907   0.0  
+gi|511666252|ref|WP_016372827.1| hypothetical protein [Lactobaci...   906   0.0  
+gi|656295101|ref|WP_029236766.1| hypothetical protein [Streptoco...   906   0.0  
+gi|547466161|ref|WP_022085160.1| cRISPR-associated protein Cas9/...   905   0.0  
+gi|489691590|ref|WP_003595774.1| CRISPR-associated SAG0894 famil...   905   0.0  
+gi|656123150|emb|CDR83364.1| CRISPR-associated protein [Lactobac...   904   0.0  
+gi|504765121|ref|WP_014952223.1| hypothetical protein [Lactobaci...   904   0.0  
+gi|503017123|ref|WP_013252099.1| CRISPR-associated protein Csn1 ...   904   0.0  
+gi|489700544|ref|WP_003604681.1| CRISPR-associated SAG0894 famil...   903   0.0  
+gi|656121167|emb|CDR81704.1| CRISPR-associated protein [Lactobac...   903   0.0  
+gi|501468426|ref|WP_012491871.1| MULTISPECIES: CRISPR-associated...   903   0.0  
+gi|493471049|ref|WP_006426118.1| hypothetical protein [Dorea lon...   901   0.0  
+gi|656305459|ref|WP_029238069.1| hypothetical protein [Streptoco...   900   0.0  
+gi|652955557|ref|WP_027208814.1| hypothetical protein [Butyrivib...   899   0.0  
+gi|504382875|ref|WP_014569977.1| CRISPR-associated protein [Lact...   899   0.0  
+gi|546864438|ref|WP_021899183.1| cRISPR-associated protein Csn1 ...   898   0.0  
+gi|669630524|dbj|GAK48697.1| putative CRISPR-associated protein ...   898   0.0  
+gi|668900893|gb|KFC34615.1| CRISPR-associated protein [Lactobaci...   893   0.0  
+gi|545613323|ref|WP_021737686.1| CRISPR-associated protein, Csn1...   893   0.0  
+gi|639186894|ref|WP_024526164.1| hypothetical protein [Lactobaci...   892   0.0  
+gi|547842268|ref|WP_022249818.1| cRISPR-associated protein Csn1 ...   890   0.0  
+gi|511763079|ref|WP_016396272.1| csn1 family CRISPR-associated p...   888   0.0  
+gi|547281693|ref|WP_022015080.1| cRISPR-associated endonuclease ...   885   0.0  
+gi|503848134|ref|WP_014082128.1| CRISPR-associated protein [Lact...   885   0.0  
+gi|488342751|ref|WP_002412136.1| CRISPR-associated protein, Csn1...   883   0.0  
+gi|515830578|ref|WP_017261331.1| hypothetical protein [Lactobaci...   879   0.0  
+gi|658539465|ref|WP_029732989.1| CRISPR-associated protein Csn1,...   878   0.0  
+gi|493545970|ref|WP_006499799.1| CRISPR-associated protein [Lact...   877   0.0  
+gi|654312393|ref|WP_027825498.1| CRISPR-associated protein Csn1 ...   875   0.0  
+gi|504380459|ref|WP_014567561.1| CRISPR-associated protein Csn1 ...   875   0.0  
+gi|547742440|ref|WP_022155891.1| cRISPR-associated protein Csn1 ...   873   0.0  
+gi|339637353|emb|CCC16263.1| putative uncharacterized protein [L...   868   0.0  
+gi|523687965|ref|WP_020807054.1| CRISPR-associated protein [Lact...   868   0.0  
+gi|651392254|ref|WP_026504058.1| hypothetical protein [Butyrivib...   867   0.0  
+gi|489744644|ref|WP_003648675.1| CRISPR-associated protein Csn1 ...   866   0.0  
+gi|489781178|ref|WP_003685069.1| CRISPR-associated protein [Lact...   866   0.0  
+gi|493553119|ref|WP_006506696.1| hypothetical protein, partial [...   865   0.0  
+gi|548204848|ref|WP_022424889.1| cRISPR-associated protein Csn1 ...   863   0.0  
+gi|495746669|ref|WP_008471248.1| CRISPR-associated protein Csn1 ...   861   0.0  
+gi|547036177|ref|WP_021911334.1| crispr-associated protein [Euba...   860   0.0  
+gi|547893376|ref|WP_022298151.1| cRISPR-associated endonuclease ...   859   0.0  
+gi|548219066|ref|WP_022438259.1| cRISPR-associated protein Csn1 ...   856   0.0  
+gi|493634568|ref|WP_006586411.1| CRISPR-associated protein Csn1 ...   855   0.0  
+gi|672975709|gb|KFI71094.1| CRISPR associated protein [Bifidobac...   855   0.0  
+gi|566236916|gb|ETI98589.1| CRISPR-associated protein, Csn1 fami...   852   0.0  
+gi|490832399|ref|WP_004694484.1| CRISPR-associated protein Csn1 ...   847   0.0  
+gi|551048120|ref|WP_022791454.1| hypothetical protein [Weissella...   847   0.0  
+gi|656052490|ref|WP_029090905.1| hypothetical protein [Brochothr...   843   0.0  
+gi|488749584|ref|WP_002672887.1| CRISPR-associated protein cas9/...   843   0.0  
+gi|494634637|ref|WP_007392581.1| CRISPR-associated protein, Csn1...   843   0.0  
+gi|656034227|ref|WP_029073316.1| hypothetical protein [Kandleria...   842   0.0  
+gi|488764149|ref|WP_002687349.1| CRISPR-associated protein cas9/...   841   0.0  
+gi|490700095|ref|WP_004563574.1| CRISPR-associated protein [Lact...   841   0.0  
+gi|488758052|ref|WP_002681289.1| CRISPR-associated protein cas9/...   841   0.0  
+gi|489805239|ref|WP_003709113.1| hypothetical protein [Lactobaci...   841   0.0  
+gi|497704765|ref|WP_010018949.1| possible CRISPR associated prot...   840   0.0  
+gi|488753394|ref|WP_002676671.1| CRISPR-associated protein cas9/...   840   0.0  
+gi|503128334|ref|WP_013362995.1| CRISPR-associated protein [Bifi...   840   0.0  
+gi|573491633|gb|ETS92439.1| CRISPR-associated protein Cas9/Csn1,...   839   0.0  
+gi|491523080|ref|WP_005380707.1| CRISPR-associated protein Csn1 ...   838   0.0  
+gi|489845973|ref|WP_003749665.1| crispr-associated protein Csn1,...   838   0.0  
+gi|488761741|ref|WP_002684945.1| CRISPR-associated protein cas9/...   838   0.0  
+gi|547237267|ref|WP_021973442.1| cRISPR-associated endonuclease ...   835   0.0  
+gi|488779915|ref|WP_002692322.1| CRISPR-associated protein cas9/...   833   0.0  
+gi|588475549|dbj|GAF40170.1| CRISPR-associated protein, Csn1 fam...   833   0.0  
+gi|498384301|ref|WP_010698457.1| CRISPR-associated protein cas9/...   833   0.0  
+gi|566224806|gb|ETI89521.1| CRISPR-associated protein, Csn1 fami...   833   0.0  
+gi|495877409|ref|WP_008601988.1| CRISPR-associated protein Csn1 ...   832   0.0  
+gi|685199419|gb|AIN93522.1| CRISPR-associated protein cas9/csn1,...   831   0.0  
+gi|504028100|ref|WP_014262094.1| CRISPR-associated protein, Csn1...   828   0.0  
+gi|510808993|ref|WP_016183746.1| CRISPR-associated protein cas9/...   828   0.0  
+gi|489666935|ref|WP_003571218.1| CRISPR-associated SAG0894 famil...   827   0.0  
+gi|671623457|ref|WP_031589969.1| hypothetical protein [Kandleria...   825   0.0  
+gi|551041059|ref|WP_022784704.1| CRISPR-associated protein Csn1 ...   825   0.0  
+gi|493633878|ref|WP_006585732.1| CRISPR-associated protein Csn1 ...   823   0.0  
+gi|652784761|ref|WP_027090768.1| hypothetical protein [[Clostrid...   822   0.0  
+gi|430613247|gb|ELB50264.1| CRISPR-associated protein cas9/csn1,...   819   0.0  
+gi|547470211|ref|WP_022089002.1| cRISPR-associated protein Cas9/...   818   0.0  
+gi|543391592|gb|ERJ49495.1| CRISPR-associated protein [Lactobaci...   818   0.0  
+gi|598625461|gb|EYD69881.1| CRISPR-associated Cas5e [Fusobacteri...   818   0.0  
+gi|496307041|ref|WP_009016219.1| MULTISPECIES: CRISPR-associated...   817   0.0  
+gi|512626460|ref|WP_016459569.1| CRISPR-associated protein cas9/...   817   0.0  
+gi|651250927|ref|WP_026385754.1| CRISPR-associated protein [Acid...   817   0.0  
+gi|494251533|ref|WP_007147952.1| CRISPR-associated protein cas9/...   815   0.0  
+gi|547852512|ref|WP_022259511.1| putative uncharacterized protei...   815   0.0  
+gi|497703282|ref|WP_010017466.1| possible CRISPR associated prot...   813   0.0  
+gi|497702843|ref|WP_010017027.1| CRISPR-associated protein [Leuc...   813   0.0  
+gi|489654804|ref|WP_003559172.1| CRISPR-associated protein [Lact...   808   0.0  
+gi|489794282|ref|WP_003698173.1| CRISPR-associated protein [Lact...   808   0.0  
+gi|640312571|ref|WP_024861694.1| hypothetical protein [Ruminococ...   804   0.0  
+gi|496371126|ref|WP_009080116.1| CRISPR-associated protein Csn1 ...   802   0.0  
+gi|498311358|ref|WP_010625514.1| hypothetical protein [Lactobaci...   799   0.0  
+gi|547269308|ref|WP_022003455.1| csn1 family CRISPR-associated p...   798   0.0  
+gi|546349952|ref|WP_021841192.1| cRISPR-associated protein Csn1 ...   796   0.0  
+gi|488984596|ref|WP_002895385.1| CRISPR-associated protein Csn1 ...   796   0.0  
+gi|511078633|ref|WP_016319992.1| CRISPR-associated protein cas9/...   796   0.0  
+gi|654839085|ref|WP_028291740.1| hypothetical protein [Oenococcu...   795   0.0  
+gi|495020429|ref|WP_007746220.1| CRISPR-associated protein [Oeno...   795   0.0  
+gi|548248291|ref|WP_022466124.1| putative uncharacterized protei...   788   0.0  
+gi|446962828|ref|WP_001040084.1| hypothetical protein, partial [...   788   0.0  
+gi|491510307|ref|WP_005367941.1| CRISPR-associated protein Csn1 ...   788   0.0  
+gi|496117495|ref|WP_008842002.1| csn1 family CRISPR-associated p...   787   0.0  
+gi|493782301|ref|WP_006730680.1| CRISPR-associated protein [Lact...   784   0.0  
+gi|658770591|ref|WP_029776275.1| CRISPR-associated protein Csn1,...   783   0.0  
+gi|490975103|ref|WP_004836889.1| CRISPR-associated protein [Anae...   783   0.0  
+gi|655070597|ref|WP_028518833.1| hypothetical protein [Ruminococ...   782   0.0  
+gi|488930729|ref|WP_002841804.1| CRISPR-associated protein Cas9 ...   776   0.0  
+gi|511422395|gb|EPC57499.1| hypothetical protein Lpp123_03279, p...   773   0.0  
+gi|547192943|ref|WP_021934543.1| cRISPR-associated protein Csn1 ...   772   0.0  
+gi|658495300|ref|WP_029691988.1| CRISPR-associated protein Csn1,...   771   0.0  
+gi|527649951|gb|EPU42254.1| CRISPR-associated protein Csn1 [Stre...   770   0.0  
+gi|499794784|ref|WP_011475518.1| hypothetical protein [Lactobaci...   770   0.0  
+gi|501247123|ref|WP_012290141.1| CRISPR-associated protein Cas9 ...   769   0.0  
+gi|548310877|ref|WP_022501374.1| cRISPR-associated protein Csn1 ...   768   0.0  
+gi|496176552|ref|WP_008901059.1| CRISPR-associated protein [Pept...   768   0.0  
+gi|486484621|gb|EOE28398.1| CRISPR-associated protein cas9/csn1,...   767   0.0  
+gi|488926751|ref|WP_002837826.1| CRISPR-associated protein Cas9 ...   767   0.0  
+gi|545610508|ref|WP_021735134.1| CRISPR-associated protein Cas9/...   766   0.0  
+gi|653185632|ref|WP_027422043.1| hypothetical protein [Lachnobac...   763   0.0  
+gi|491541465|ref|WP_005399084.1| CRISPR-associated protein Cas9 ...   761   0.0  
+gi|547887290|ref|WP_022292431.1| crispr-associated protein [Euba...   761   0.0  
+gi|489237113|ref|WP_003145379.1| CRISPR-associated protein Csn1 ...   760   0.0  
+gi|545661002|ref|WP_021767602.1| CRISPR-associated protein, Csn1...   757   0.0  
+gi|493573663|ref|WP_006526860.1| CRISPR-associated protein, Csn1...   757   0.0  
+gi|656295481|ref|WP_029237146.1| hypothetical protein, partial [...   749   0.0  
+gi|545644659|ref|WP_021752441.1| CRISPR-associated protein, Csn1...   742   0.0  
+gi|652856852|ref|WP_027129613.1| CRISPR-associated protein Csn1 ...   742   0.0  
+gi|653225596|ref|WP_027438114.1| hypothetical protein [Lachnospi...   741   0.0  
+gi|489918356|ref|WP_003821720.1| CRISPR-associated protein [Bifi...   740   0.0  
+gi|548251343|ref|WP_022469107.1| cRISPR-associated protein Csn1 ...   739   0.0  
+gi|548083477|ref|WP_022379794.1| cRISPR-associated protein Csn1 ...   737   0.0  
+gi|547232243|ref|WP_021968776.1| cRISPR-associated protein Csn1 ...   736   0.0  
+gi|653097340|ref|WP_027347504.1| CRISPR-associated protein Cas9 ...   731   0.0  
+gi|652816549|ref|WP_027106998.1| hypothetical protein [Lactobaci...   731   0.0  
+gi|496095765|ref|WP_008820272.1| CRISPR-associated protein Csn1 ...   729   0.0  
+gi|313606602|gb|EFR83390.1| crispr-associated protein Csn1 [List...   728   0.0  
+gi|493882050|ref|WP_006828302.1| CRISPR-associated protein, Csn1...   722   0.0  
+gi|496074778|ref|WP_008799285.1| CRISPR-associated protein Csn1 ...   722   0.0  
+gi|294487409|gb|EFG34771.1| CRISPR-associated protein cas9/csn1,...   721   0.0  
+gi|547450686|ref|WP_022070288.1| cRISPR-associated protein [Fuso...   721   0.0  
+gi|492568239|ref|WP_005888649.1| CRISPR-associated protein Csn1 ...   719   0.0  
+gi|547196564|ref|WP_021937887.1| cRISPR-associated protein Cas9/...   718   0.0  
+gi|489143906|ref|WP_003053670.1| CRISPR-associated protein, Csn1...   716   0.0  
+gi|490769968|ref|WP_004632196.1| CRISPR-associated protein Csn1 ...   702   0.0  
+gi|496514228|ref|WP_009222511.1| CRISPR-associated protein, Csn1...   686   0.0  
+gi|548328202|ref|WP_022514049.1| cRISPR-associated endonuclease ...   685   0.0  
+gi|657701005|ref|WP_029499861.1| hypothetical protein [Kurthia h...   682   0.0  
+gi|517997710|ref|WP_019167918.1| hypothetical protein [Staphyloc...   680   0.0  
+gi|657896913|ref|WP_029600029.1| CRISPR-associated protein Csn1,...   671   0.0  
+gi|504426157|ref|WP_014613259.1| CRISPR-associated protein, Csn1...   665   0.0  
+gi|552759124|ref|WP_023015764.1| hypothetical protein [Staphyloc...   664   0.0  
+gi|585224499|gb|EWM55951.1| CRISPR-associated protein Csn1 [Stre...   660   0.0  
+gi|489090551|ref|WP_003000447.1| CRISPR-associated protein, Csn1...   658   0.0  
+gi|547885935|ref|WP_022291102.1| cRISPR-associated protein Csn1 ...   657   0.0  
+gi|514518221|gb|EPH83611.1| CRISPR-associated protein, Csn1 fami...   648   0.0  
+gi|489237643|ref|WP_003145904.1| CRISPR-associated protein Csn1 ...   647   0.0  
+gi|492667141|ref|WP_005916110.1| CRISPR-associated protein Cas9/...   641   e-180
+gi|547928804|ref|WP_022330811.1| cRISPR-associated protein cas9/...   632   e-178
+gi|514518222|gb|EPH83612.1| CRISPR-associated protein, Csn1 fami...   630   e-177
+gi|547478205|ref|WP_022096308.1| cRISPR-associated endonuclease ...   621   e-174
+gi|527651110|gb|EPU43390.1| hypothetical protein SAG0170_06065 [...   618   e-173
+gi|496723348|ref|WP_009353052.1| CRISPR-associated protein Cas9/...   617   e-173
+gi|585225952|gb|EWM57345.1| CRISPR-associated protein Csn1, part...   616   e-173
+gi|511438849|gb|EPC71426.1| hypothetical protein Lpp126_15364 [L...   615   e-173
+gi|547320132|ref|WP_022051453.1| cRISPR-associated protein Csn1 ...   611   e-171
+gi|654622390|ref|WP_028086831.1| hypothetical protein [Dorea lon...   610   e-171
+gi|658495248|ref|WP_029691937.1| CRISPR-associated protein Csn1,...   610   e-171
+gi|504380954|ref|WP_014568056.1| hypothetical protein [Lactobaci...   605   e-170
+gi|544716258|ref|WP_021146268.1| CRISPR-associated protein, Csn1...   601   e-168
+gi|640594771|ref|WP_025023490.1| hypothetical protein [Lactobaci...   570   e-159
+gi|548250038|ref|WP_022467838.1| cRISPR-associated protein Csn1 ...   569   e-159
+gi|577775332|gb|EUJ36155.1| hypothetical protein BTHER_07556 [Br...   568   e-158
+gi|548193495|ref|WP_022414167.1| cRISPR-associated protein cas9/...   560   e-156
+gi|577780425|gb|EUJ41136.1| CRISPR-associated protein [Brochothr...   556   e-155
+gi|489148686|ref|WP_003058416.1| conserved domain protein, parti...   549   e-152
+gi|488411225|ref|WP_002480610.1| CRISPR-associated protein cas9/...   540   e-150
+gi|518933987|ref|WP_020089862.1| hypothetical protein [Lactobaci...   536   e-149
+gi|491053076|ref|WP_004914726.1| CRISPR-associated protein, SAG0...   521   e-144
+gi|632075397|gb|KDA48951.1| CRISPR-associated protein, SAG0894 f...   521   e-144
+gi|492039879|ref|WP_005728738.1| CRISPR-associated protein Cas9 ...   517   e-143
+gi|492041881|ref|WP_005729619.1| CRISPR-associated protein Cas9 ...   516   e-143
+gi|493648179|ref|WP_006599765.1| csn1 family CRISPR-associated p...   509   e-140
+gi|665900883|ref|WP_031267752.1| hypothetical protein, partial [...   508   e-140
+gi|532627335|gb|EQM53304.1| hypothetical protein N692_15555, par...   508   e-140
+gi|489680604|ref|WP_003584826.1| CRISPR-associated SAG0894 famil...   500   e-138
+gi|642984548|ref|WP_025197611.1| hypothetical protein, partial [...   499   e-137
+gi|446974209|ref|WP_001051465.1| hypothetical protein [Streptoco...   492   e-136
+gi|498374674|ref|WP_010688830.1| CRISPR-associated protein cas9/...   492   e-136
+gi|487051144|gb|EOJ78476.1| CRISPR-associated protein cas9/csn1,...   479   e-132
+gi|544716259|ref|WP_021146269.1| CRISPR-associated protein, Csn1...   469   e-129
+gi|493648180|ref|WP_006599766.1| csn1 family CRISPR-associated p...   469   e-129
+gi|430613248|gb|ELB50265.1| CRISPR-associated protein cas9/csn1,...   455   e-124
+gi|488784934|ref|WP_002697341.1| CRISPR-associated protein, Csn1...   442   e-120
+gi|489797997|ref|WP_003701888.1| putative CRISPR-associated prot...   438   e-119
+gi|486484622|gb|EOE28399.1| CRISPR-associated protein cas9/csn1,...   429   e-116
+gi|504377717|ref|WP_014564819.1| hypothetical protein [Lactobaci...   427   e-116
+
+Sequences not found previously or not previously below threshold:
+
+>gi|554595615|gb|AGZ01981.1| Cas9 endonuclease [synthetic construct]
+          Length = 1417
+
+ Score = 1635 bits (4233), Expect = 0.0,   Method: Composition-based stats.
+ Identities = 1304/1361 (95%), Positives = 1304/1361 (95%), Gaps = 55/1361 (4%)
+
+Query: 1    KYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATR 60
+            KYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATR
+Sbjct: 37   KYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATR 96
+
+Query: 61   LKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIV 120
+            LKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIV
+Sbjct: 97   LKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIV 156
+
+Query: 121  DEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDK 180
+            DEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDK
+Sbjct: 157  DEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDK 216
+
+Query: 181  LFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIA 240
+            LFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIA
+Sbjct: 217  LFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIA 276
+
+Query: 241  LSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLS 300
+            LSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLS
+Sbjct: 277  LSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLS 336
+
+Query: 301  DILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYI 360
+            DILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYI
+Sbjct: 337  DILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYI 396
+
+Query: 361  DGGASQEEFYKFIKPILEKMD-TEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAIL 419
+            DGGASQEEFYKFIKPILEKMD TEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAIL
+Sbjct: 397  DGGASQEEFYKFIKPILEKMDGTEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAIL 456
+
+Query: 420  RRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVD 479
+            RRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVD
+Sbjct: 457  RRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVD 516
+
+Query: 480  KGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGE 539
+            KGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGE
+Sbjct: 517  KGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGE 576
+
+Query: 540  QKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKD 599
+            QKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKD
+Sbjct: 577  QKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKD 636
+
+Query: 600  KDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLS 659
+            KDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLS
+Sbjct: 637  KDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLS 696
+
+Query: 660  RKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQ--------KSLHEH 711
+            RKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQ         SLHEH
+Sbjct: 697  RKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQKAQVSGQGDSLHEH 756
+
+Query: 712  IANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMAR----------NSRERMKR 761
+            IANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMAR          NSRERMKR
+Sbjct: 757  IANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMARENQTTQKGQKNSRERMKR 816
+
+Query: 762  IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDAIVP 821
+            IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVD IVP
+Sbjct: 817  IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDHIVP 876
+
+Query: 822  QSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKA 881
+            QSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKA
+Sbjct: 877  QSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKA 936
+
+Query: 882  ERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLV 941
+            ERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLV
+Sbjct: 937  ERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLV 996
+
+Query: 942  SDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGD----------- 990
+            SDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGD           
+Sbjct: 997  SDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGDYKVYDVRKMIA 1056
+
+Query: 991  ------GKATAKYFFYSNIMNFFKTEI--------KRPLIETNGETGEIVWDKGRDFATV 1036
+                  GKATAKYFFYSNIMNFFKTEI        KRPLIETNGETGEIVWDKGRDFATV
+Sbjct: 1057 KSEQEIGKATAKYFFYSNIMNFFKTEITLANGEIRKRPLIETNGETGEIVWDKGRDFATV 1116
+
+Query: 1037 RKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSV 1096
+            RKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSV
+Sbjct: 1117 RKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSV 1176
+
+Query: 1097 LVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSL 1156
+            LVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSL
+Sbjct: 1177 LVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSL 1236
+
+Query: 1157 FELENGRKRMLASAGELQKGNELALPSKYVNFLYLASH-----------EQKQLFVEQHK 1205
+            FELENGRKRMLASAGELQKGNELALPSKYVNFLYLASH           EQKQLFVEQHK
+Sbjct: 1237 FELENGRKRMLASAGELQKGNELALPSKYVNFLYLASHYEKLKGSPEDNEQKQLFVEQHK 1296
+
+Query: 1206 HYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAA 1265
+            HYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAA
+Sbjct: 1297 HYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAA 1356
+
+Query: 1266 FKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQ 1306
+            FKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQ
+Sbjct: 1357 FKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQ 1397
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+gi|554595615|gb|AGZ01981.1| Cas9 endonuclease [synthetic construct]  1336   0.0  
+gi|584579698|pdb|4CMP|A Chain A, Crystal Structure Of S. Pyogene...  1335   0.0  
+gi|669193758|gb|AII16583.1| Cas9 endonuclease [Expression vector...  1334   0.0  
+gi|499604772|ref|WP_011285506.1| CRISPR-associated protein Csn1 ...  1333   0.0  
+gi|611705338|gb|EZM83080.1| CRISPR-associated protein cas9/csn1,...  1333   0.0  
+gi|499604011|ref|WP_011284745.1| CRISPR-associated protein Csn1 ...  1333   0.0  
+gi|499224711|ref|WP_010922251.1| CRISPR-associated protein Csn1 ...  1332   0.0  
+gi|667485235|pdb|4UN3|B Chain B, Crystal Structure Of Cas9 Bound...  1332   0.0  
+gi|527103923|ref|WP_020905136.1| hypothetical cytosolic protein ...  1331   0.0  
+gi|501556167|ref|WP_012560673.1| CRISPR-associated protein Csn1 ...  1329   0.0  
+gi|666903857|gb|AIG48810.1| CRISPR-associated protein Csn1 [Stre...  1329   0.0  
+gi|611570852|gb|EZL49205.1| CRISPR-associated protein cas9/csn1,...  1329   0.0  
+gi|662755573|ref|WP_030125963.1| CRISPR-associated protein Csn1 ...  1329   0.0  
+gi|667485240|pdb|4UN4|B Chain B, Crystal Structure Of Cas9 Bound...  1328   0.0  
+gi|489080018|ref|WP_002989955.1| CRISPR-associated protein Csn1 ...  1328   0.0  
+gi|662757307|ref|WP_030126706.1| CRISPR-associated protein Csn1 ...  1328   0.0  
+gi|499366838|ref|WP_011054416.1| CRISPR-associated protein Csn1 ...  1327   0.0  
+gi|611668122|gb|EZM45994.1| CRISPR-associated protein cas9/csn1,...  1326   0.0  
+gi|671499501|ref|WP_031488318.1| CRISPR-associated protein Csn1 ...  1326   0.0  
+gi|499846885|ref|WP_011527619.1| CRISPR-associated protein Csn1 ...  1324   0.0  
+gi|504220439|ref|WP_014407541.1| CRISPR-associated protein Csn1 ...  1324   0.0  
+gi|588293154|pdb|4OO8|A Chain A, Crystal Structure Of Streptococ...  1324   0.0  
+gi|553746521|ref|WP_023080005.1| CRISPR-associated protein Cas9/...  1318   0.0  
+gi|674296984|gb|AIL11882.1| HNH endonuclease family protein [Str...  1317   0.0  
+gi|560281933|ref|WP_023610282.1| CRISPR-associated protein Cas9/...  1314   0.0  
+gi|655573892|gb|KED03640.1| CRISPR-Associated Protein Csn1 [Stre...  1294   0.0  
+gi|504870547|ref|WP_015057649.1| hypothetical protein [Streptoco...  1291   0.0  
+gi|499847849|ref|WP_011528583.1| CRISPR-associated protein Csn1 ...  1291   0.0  
+gi|504829993|ref|WP_015017095.1| CRISPR-associated protein Csn1 ...  1289   0.0  
+gi|504425231|ref|WP_014612333.1| CRISPR-associated protein Csn1 ...  1286   0.0  
+gi|502337426|ref|WP_012767106.1| CRISPR-associated protein Csn1 ...  1286   0.0  
+gi|489134034|ref|WP_003043819.1| CRISPR-associated protein Csn1 ...  1272   0.0  
+gi|501507994|ref|WP_012515931.1| CRISPR-associated protein Csn1 ...  1268   0.0  
+gi|544910977|ref|WP_021320964.1| CRISPR-Associated Protein Csn1 ...  1266   0.0  
+gi|640030144|ref|WP_024782110.1| CRISPR-associated protein Csn1 ...  1254   0.0  
+gi|488201558|ref|WP_002272766.1| hypothetical protein [Streptoco...  1250   0.0  
+gi|488218433|ref|WP_002289641.1| hypothetical protein [Streptoco...  1248   0.0  
+gi|518142684|ref|WP_019312892.1| CRISPR-associated protein Csn1 ...  1248   0.0  
+gi|488204222|ref|WP_002275430.1| hypothetical protein [Streptoco...  1248   0.0  
+gi|488209022|ref|WP_002280230.1| hypothetical protein [Streptoco...  1247   0.0  
+gi|488198240|ref|WP_002269448.1| hypothetical protein [Streptoco...  1247   0.0  
+gi|488206156|ref|WP_002277364.1| hypothetical protein [Streptoco...  1247   0.0  
+gi|640047960|ref|WP_024784666.1| CRISPR-associated protein Csn1 ...  1247   0.0  
+gi|488210488|ref|WP_002281696.1| hypothetical protein [Streptoco...  1247   0.0  
+gi|488200769|ref|WP_002271977.1| hypothetical protein [Streptoco...  1247   0.0  
+gi|640049968|ref|WP_024784894.1| CRISPR-associated protein Csn1 ...  1246   0.0  
+gi|502762704|ref|WP_012997688.1| CRISPR-associated protein Csn1 ...  1246   0.0  
+gi|488205240|ref|WP_002276448.1| hypothetical protein [Streptoco...  1246   0.0  
+gi|488202033|ref|WP_002273241.1| hypothetical protein [Streptoco...  1245   0.0  
+gi|518143451|ref|WP_019313659.1| CRISPR-associated protein Csn1 ...  1244   0.0  
+gi|488192341|ref|WP_002263549.1| CRISPR-associated protein Csn1 ...  1244   0.0  
+gi|488211698|ref|WP_002282906.1| hypothetical protein [Streptoco...  1244   0.0  
+gi|518145162|ref|WP_019315370.1| CRISPR-associated protein Csn1 ...  1244   0.0  
+gi|488234636|ref|WP_002305844.1| hypothetical protein [Streptoco...  1244   0.0  
+gi|446350758|ref|WP_000428613.1| CRISPR-associated protein Csn1 ...  1244   0.0  
+gi|497440125|ref|WP_009754323.1| CRISPR-associated protein Csn1 ...  1244   0.0  
+gi|518633569|ref|WP_019803776.1| CRISPR-associated protein Csn1 ...  1243   0.0  
+gi|488207817|ref|WP_002279025.1| hypothetical protein [Streptoco...  1243   0.0  
+gi|488192679|ref|WP_002263887.1| hypothetical protein [Streptoco...  1243   0.0  
+gi|640040381|ref|WP_024783594.1| CRISPR-associated protein Csn1 ...  1242   0.0  
+gi|488281200|ref|WP_002352408.1| CRISPR-associated protein csn1 ...  1242   0.0  
+gi|518143885|ref|WP_019314093.1| CRISPR-associated protein Csn1 ...  1241   0.0  
+gi|488224545|ref|WP_002295753.1| hypothetical protein [Streptoco...  1241   0.0  
+gi|488212638|ref|WP_002283846.1| hypothetical protein [Streptoco...  1240   0.0  
+gi|488208651|ref|WP_002279859.1| CRISPR-associated protein Csn1 ...  1240   0.0  
+gi|488235995|ref|WP_002307203.1| hypothetical protein [Streptoco...  1240   0.0  
+gi|488217782|ref|WP_002288990.1| hypothetical protein [Streptoco...  1240   0.0  
+gi|446350757|ref|WP_000428612.1| CRISPR-associated protein Csn1 ...  1239   0.0  
+gi|488216047|ref|WP_002287255.1| hypothetical protein [Streptoco...  1239   0.0  
+gi|488197835|ref|WP_002269043.1| hypothetical protein [Streptoco...  1239   0.0  
+gi|504490807|ref|WP_014677909.1| CRISPR-associated protein Csn1 ...  1239   0.0  
+gi|488225215|ref|WP_002296423.1| hypothetical protein [Streptoco...  1238   0.0  
+gi|497415278|ref|WP_009729476.1| CRISPR-associated protein cas9/...  1237   0.0  
+gi|488219219|ref|WP_002290427.1| hypothetical protein [Streptoco...  1237   0.0  
+gi|488214824|ref|WP_002286032.1| hypothetical protein [Streptoco...  1236   0.0  
+gi|502727190|ref|WP_012962174.1| CRISPR-associated protein Csn1 ...  1235   0.0  
+gi|518635027|ref|WP_019805234.1| CRISPR-associated protein Csn1 ...  1234   0.0  
+gi|488986694|ref|WP_002897477.1| CRISPR-associated protein Csn1 ...  1234   0.0  
+gi|488239182|ref|WP_002310390.1| CRISPR-associated protein csn1 ...  1233   0.0  
+gi|517174652|ref|WP_018363470.1| CRISPR-associated protein Csn1 ...  1230   0.0  
+gi|488193712|ref|WP_002264920.1| hypothetical protein [Streptoco...  1230   0.0  
+gi|489189894|ref|WP_003099269.1| CRISPR-associated protein Csn1 ...  1230   0.0  
+gi|504100992|ref|WP_014334983.1| CRISPR-associated protein Csn1 ...  1228   0.0  
+gi|445988958|ref|WP_000066813.1| CRISPR-associated protein Csn1 ...  1227   0.0  
+gi|504871421|ref|WP_015058523.1| CRISPR-associated protein Csn1 ...  1225   0.0  
+gi|505444861|ref|WP_015631963.1| Hypothetical protein [Streptoco...  1223   0.0  
+gi|640754093|emb|CDO18860.1| CRISPR-associated protein [Streptoc...  1222   0.0  
+gi|446962836|ref|WP_001040092.1| CRISPR-associated protein Csn1 ...  1222   0.0  
+gi|446962851|ref|WP_001040107.1| CRISPR-associated protein Csn1 ...  1220   0.0  
+gi|516381578|ref|WP_017771611.1| CRISPR-associated protein Csn1 ...  1219   0.0  
+gi|446962852|ref|WP_001040108.1| CRISPR-Associated Protein Csn1 ...  1219   0.0  
+gi|446962854|ref|WP_001040110.1| CRISPR-associated protein Csn1 ...  1217   0.0  
+gi|446962850|ref|WP_001040106.1| CRISPR-Associated Protein Csn1 ...  1217   0.0  
+gi|490352708|ref|WP_004232481.1| CRISPR-associated protein Csn1 ...  1217   0.0  
+gi|516244413|ref|WP_017648376.1| CRISPR-associated protein Csn1 ...  1215   0.0  
+gi|497540342|ref|WP_009854540.1| CRISPR-associated protein Csn1 ...  1215   0.0  
+gi|446962840|ref|WP_001040096.1| CRISPR-Associated Protein Csn1 ...  1215   0.0  
+gi|516243188|ref|WP_017647151.1| CRISPR-associated protein Csn1 ...  1215   0.0  
+gi|446962842|ref|WP_001040098.1| CRISPR-Associated Protein Csn1 ...  1212   0.0  
+gi|446962853|ref|WP_001040109.1| CRISPR-Associated Protein Csn1 ...  1212   0.0  
+gi|512746582|ref|WP_016502833.1| CRISPR-associated protein, SAG0...  1212   0.0  
+gi|446962838|ref|WP_001040094.1| CRISPR-Associated Protein Csn1 ...  1212   0.0  
+gi|446962839|ref|WP_001040095.1| CRISPR-Associated Protein Csn1 ...  1211   0.0  
+gi|446962844|ref|WP_001040100.1| CRISPR-Associated Protein Csn1 ...  1211   0.0  
+gi|488233279|ref|WP_002304487.1| hypothetical protein [Streptoco...  1211   0.0  
+gi|446962841|ref|WP_001040097.1| CRISPR-associated protein Csn1 ...  1210   0.0  
+gi|446962843|ref|WP_001040099.1| CRISPR-Associated Protein Csn1 ...  1209   0.0  
+gi|446962822|ref|WP_001040078.1| CRISPR-Associated Protein Csn1 ...  1207   0.0  
+gi|446962820|ref|WP_001040076.1| CRISPR-Associated Protein Csn1 ...  1206   0.0  
+gi|516245564|ref|WP_017649527.1| CRISPR-associated protein Csn1 ...  1206   0.0  
+gi|516239687|ref|WP_017643650.1| CRISPR-associated protein Csn1 ...  1205   0.0  
+gi|493312191|ref|WP_006269658.1| CRISPR-associated protein Csn1 ...  1205   0.0  
+gi|489155870|ref|WP_003065552.1| CRISPR-associated protein Csn1 ...  1204   0.0  
+gi|489120168|ref|WP_003030002.1| CRISPR-associated protein Csn1 ...  1204   0.0  
+gi|446962832|ref|WP_001040088.1| CRISPR-Associated Protein Csn1 ...  1203   0.0  
+gi|446962827|ref|WP_001040083.1| CRISPR-Associated Protein Csn1 ...  1202   0.0  
+gi|446962831|ref|WP_001040087.1| CRISPR-associated protein Csn1 ...  1202   0.0  
+gi|446962849|ref|WP_001040105.1| CRISPR-Associated Protein Csn1 ...  1202   0.0  
+gi|446962829|ref|WP_001040085.1| CRISPR-Associated Protein Csn1 ...  1202   0.0  
+gi|489179199|ref|WP_003088697.1| CRISPR-associated protein Csn1 ...  1202   0.0  
+gi|446962824|ref|WP_001040080.1| CRISPR-Associated Protein Csn1 ...  1202   0.0  
+gi|446962833|ref|WP_001040089.1| CRISPR-Associated Protein Csn1 ...  1202   0.0  
+gi|446962825|ref|WP_001040081.1| CRISPR-Associated Protein Csn1 ...  1202   0.0  
+gi|516381951|ref|WP_017771984.1| CRISPR-associated protein Csn1 ...  1202   0.0  
+gi|446962834|ref|WP_001040090.1| CRISPR-Associated Protein Csn1 ...  1200   0.0  
+gi|642984273|ref|WP_025197336.1| CRISPR-associated protein Csn1 ...  1200   0.0  
+gi|446962835|ref|WP_001040091.1| CRISPR-Associated Protein Csn1 ...  1200   0.0  
+gi|446962846|ref|WP_001040102.1| CRISPR-associated protein Csn1 ...  1200   0.0  
+gi|446962821|ref|WP_001040077.1| CRISPR-Associated Protein Csn1 ...  1200   0.0  
+gi|446962848|ref|WP_001040104.1| CRISPR-associated protein Csn1 ...  1199   0.0  
+gi|446962855|ref|WP_001040111.1| CRISPR-associated protein Csn1 ...  1199   0.0  
+gi|642984208|ref|WP_025197271.1| CRISPR-associated protein Csn1 ...  1199   0.0  
+gi|446962837|ref|WP_001040093.1| CRISPR-associated protein Csn1 ...  1199   0.0  
+gi|516242425|ref|WP_017646388.1| CRISPR-associated protein Csn1 ...  1199   0.0  
+gi|446962845|ref|WP_001040101.1| CRISPR-Associated Protein Csn1 ...  1198   0.0  
+gi|446962847|ref|WP_001040103.1| CRISPR-associated protein Csn1 ...  1197   0.0  
+gi|662340124|gb|KEQ38765.1| HNH endonuclease family protein [Str...  1197   0.0  
+gi|516241372|ref|WP_017645335.1| CRISPR-associated protein Csn1 ...  1196   0.0  
+gi|488214114|ref|WP_002285322.1| hypothetical protein [Streptoco...  1195   0.0  
+gi|516244622|ref|WP_017648585.1| CRISPR-associated protein Csn1 ...  1194   0.0  
+gi|654503258|ref|WP_027972728.1| CRISPR-associated protein Csn1 ...  1192   0.0  
+gi|488995743|ref|WP_002906454.1| CRISPR-associated protein Csn1 ...  1191   0.0  
+gi|548564942|ref|WP_022526294.1| hypothetical protein [Streptoco...  1189   0.0  
+gi|488237415|ref|WP_002308623.1| hypothetical protein [Streptoco...  1188   0.0  
+gi|640044636|ref|WP_024784329.1| CRISPR-associated protein Csn1 ...  1186   0.0  
+gi|489004472|ref|WP_002915084.1| CRISPR-associated protein Csn1 ...  1185   0.0  
+gi|488227426|ref|WP_002298634.1| hypothetical protein [Streptoco...  1185   0.0  
+gi|504548968|ref|WP_014736070.1| CRISPR-associated protein Csn1 ...  1185   0.0  
+gi|640059858|ref|WP_024786433.1| CRISPR-associated protein Csn1 ...  1184   0.0  
+gi|446986595|ref|WP_001063851.1| CRISPR-associated protein Csn1 ...  1184   0.0  
+gi|488211039|ref|WP_002282247.1| CRISPR-associated protein [Stre...  1183   0.0  
+gi|640043974|ref|WP_024784288.1| CRISPR-associated protein Csn1 ...  1183   0.0  
+gi|488205842|ref|WP_002277050.1| CRISPR-associated protein [Stre...  1180   0.0  
+gi|495171705|ref|WP_007896501.1| CRISPR-associated protein Csn1 ...  1180   0.0  
+gi|504414070|ref|WP_014601172.1| CRISPR-associated protein Csn1 ...  1178   0.0  
+gi|489836121|ref|WP_003739838.1| CRISPR-associated protein Csn1 ...  1177   0.0  
+gi|488980665|ref|WP_002891502.1| CRISPR-associated protein Csn1 ...  1177   0.0  
+gi|498464655|ref|WP_010770040.1| CRISPR-associated protein cas9/...  1176   0.0  
+gi|585226747|gb|EWM58113.1| CRISPR-associated protein Csn1 [Stre...  1175   0.0  
+gi|500000752|ref|WP_011681470.1| CRISPR-associated protein Csn1 ...  1174   0.0  
+gi|489823922|ref|WP_003727705.1| CRISPR-associated protein Csn1 ...  1174   0.0  
+gi|489827017|ref|WP_003730785.1| CRISPR-associated protein Csn1 ...  1173   0.0  
+gi|499300419|ref|WP_010991369.1| CRISPR-associated protein Csn1 ...  1173   0.0  
+gi|685931623|ref|WP_031665337.1| CRISPR-associated protein Csn1 ...  1173   0.0  
+gi|637016939|ref|WP_024411687.1| CRISPR-associated protein Csn1 ...  1172   0.0  
+gi|489197813|ref|WP_003107102.1| CRISPR-associated protein [Stre...  1171   0.0  
+gi|504540549|ref|WP_014727651.1| CRISPR-associated protein Csn1 ...  1171   0.0  
+gi|564946694|gb|ETE40173.1| CRISPR-associated protein Csn1 [Stre...  1170   0.0  
+gi|639578843|ref|WP_024703962.1| CRISPR-associated protein Csn1 ...  1170   0.0  
+gi|636985794|ref|WP_024406901.1| CRISPR-associated protein Csn1 ...  1170   0.0  
+gi|489869399|ref|WP_003772961.1| CRISPR-associated protein Csn1 ...  1169   0.0  
+gi|489819841|ref|WP_003723650.1| CRISPR-associated protein Csn1 ...  1169   0.0  
+gi|489131715|ref|WP_003041502.1| CRISPR-associated protein Csn1 ...  1169   0.0  
+gi|391738060|sp|G3ECR1.2|CAS9_STRTR RecName: Full=CRISPR-associa...  1168   0.0  
+gi|564947200|gb|ETE40675.1| CRISPR-associated protein Csn1 [Stre...  1168   0.0  
+gi|504421493|ref|WP_014608595.1| CRISPR-associated protein Csn1 ...  1168   0.0  
+gi|636917031|ref|WP_024395100.1| CRISPR-associated protein Csn1 ...  1163   0.0  
+gi|636879462|ref|WP_024385410.1| CRISPR-associated protein Csn1 ...  1163   0.0  
+gi|489170123|ref|WP_003079701.1| CRISPR-associated protein Csn1 ...  1163   0.0  
+gi|636869992|ref|WP_024381493.1| CRISPR-associated protein Csn1 ...  1162   0.0  
+gi|636895891|ref|WP_024390729.1| CRISPR-associated protein Csn1 ...  1162   0.0  
+gi|498524709|ref|WP_010824395.1| CRISPR-associated protein cas9/...  1157   0.0  
+gi|498518329|ref|WP_010818269.1| CRISPR-associated protein cas9/...  1157   0.0  
+gi|488344332|ref|WP_002413717.1| CRISPR-associated protein [Ente...  1156   0.0  
+gi|498482266|ref|WP_010785195.1| CRISPR-associated protein cas9/...  1156   0.0  
+gi|619188175|gb|KAJ63808.1| CRISPR-associated protein, SAG0894 f...  1156   0.0  
+gi|488293628|ref|WP_002364836.1| CRISPR-associated protein [Ente...  1156   0.0  
+gi|573639167|gb|ETU32645.1| CRISPR-associated protein cas9/csn1,...  1156   0.0  
+gi|488337939|ref|WP_002407324.1| CRISPR-associated protein [Ente...  1155   0.0  
+gi|488302103|ref|WP_002373311.1| CRISPR-associated protein [Ente...  1155   0.0  
+gi|498471477|ref|WP_010776234.1| CRISPR-associated protein cas9/...  1155   0.0  
+gi|488325266|ref|WP_002394651.1| CRISPR-associated protein [Ente...  1155   0.0  
+gi|488308330|ref|WP_002378009.1| CRISPR-associated protein [Ente...  1155   0.0  
+gi|573665916|gb|ETU59028.1| CRISPR-associated protein cas9/csn1,...  1154   0.0  
+gi|488291933|ref|WP_002363141.1| CRISPR-associated protein [Ente...  1153   0.0  
+gi|514893742|ref|WP_016622645.1| CRISPR-associated protein, Csn1...  1153   0.0  
+gi|517368577|ref|WP_018543557.1| CRISPR-associated protein Csn1 ...  1152   0.0  
+gi|559007111|ref|WP_023548323.1| CRISPR-associated protein Csn1 ...  1152   0.0  
+gi|489121687|ref|WP_003031511.1| CRISPR-associated protein Csn1 ...  1151   0.0  
+gi|498482035|ref|WP_010784994.1| CRISPR-associated protein cas9/...  1151   0.0  
+gi|498470806|ref|WP_010775580.1| CRISPR-associated protein cas9/...  1150   0.0  
+gi|488241486|ref|WP_002312694.1| CRISPR-associated protein Csn1 ...  1141   0.0  
+gi|685937095|ref|WP_031669209.1| CRISPR-associated protein Csn1 ...  1138   0.0  
+gi|488274231|ref|WP_002345439.1| CRISPR-associated protein cas9/...  1138   0.0  
+gi|488263953|ref|WP_002335161.1| CRISPR-associated protein Csn1 ...  1137   0.0  
+gi|489829274|ref|WP_003733029.1| CRISPR-associated protein Csn1 ...  1137   0.0  
+gi|590403756|gb|EXL23613.1| hypothetical protein X842_1436 [List...  1137   0.0  
+gi|511299122|ref|WP_016355900.1| CRISPR-associated protein Cas9/...  1137   0.0  
+gi|488249508|ref|WP_002320716.1| CRISPR-associated protein Csn1 ...  1137   0.0  
+gi|590396211|gb|EXL16255.1| hypothetical protein X843_0786 [List...  1136   0.0  
+gi|488242807|ref|WP_002314015.1| CRISPR-associated protein Csn1 ...  1134   0.0  
+gi|619740371|gb|AHY15608.1| CRISPR-associated protein Csn1 [Stre...  1133   0.0  
+gi|488239436|ref|WP_002310644.1| CRISPR-associated protein Csn1 ...  1133   0.0  
+gi|619742240|gb|AHY17476.1| CRISPR-associated protein Csn1 [Stre...  1132   0.0  
+gi|488259521|ref|WP_002330729.1| CRISPR-associated protein cas9/...  1131   0.0  
+gi|498431249|ref|WP_010737004.1| CRISPR-associated protein Csn1 ...  1124   0.0  
+gi|649263333|gb|KDR91786.1| CRISPR-associated protein Csn1 [Ente...  1124   0.0  
+gi|512722665|ref|WP_016480710.1| CRISPR-associated protein, Csn1...  1124   0.0  
+gi|495168446|ref|WP_007893243.1| CRISPR-associated protein Csn1 ...  1124   0.0  
+gi|446983479|ref|WP_001060735.1| CRISPR-associated protein Csn1 ...  1123   0.0  
+gi|489150149|ref|WP_003059869.1| CRISPR-associated protein Csn1 ...  1122   0.0  
+gi|662350313|gb|KEQ48882.1| HNH endonuclease family protein [Str...  1122   0.0  
+gi|498411195|ref|WP_010720994.1| CRISPR-associated protein cas9/...  1121   0.0  
+gi|675808091|gb|KFN86436.1| hypothetical protein B279_05335 [Str...  1115   0.0  
+gi|490774321|ref|WP_004636532.1| CRISPR-associated protein Csn1 ...  1115   0.0  
+gi|517183674|ref|WP_018372492.1| hypothetical protein [Streptoco...  1110   0.0  
+gi|488194218|ref|WP_002265426.1| hypothetical protein [Streptoco...  1109   0.0  
+gi|514905847|ref|WP_016631044.1| MULTISPECIES: CRISPR-associated...  1101   0.0  
+gi|498444636|ref|WP_010750235.1| CRISPR-associated protein cas9/...  1100   0.0  
+gi|666377823|gb|KEY47635.1| CRISPR-associated protein Csn1 [Stre...  1098   0.0  
+gi|494394830|ref|WP_007209003.1| CRISPR-associated protein Csn1 ...  1097   0.0  
+gi|558689600|ref|WP_023519017.1| hypothetical protein [Enterococ...  1094   0.0  
+gi|527332907|ref|WP_020917064.1| hypothetical protein [Streptoco...  1090   0.0  
+gi|585224389|gb|EWM55849.1| CRISPR-associated protein Csn1 [Stre...  1076   0.0  
+gi|557388897|gb|ESR09095.1| CRISPR-associated protein Csn1 [Stre...  1062   0.0  
+gi|654500704|ref|WP_027970237.1| CRISPR-associated protein Csn1 ...  1061   0.0  
+gi|631856267|gb|KDA45870.1| CRISPR-associated protein Cas9/Csn1,...  1056   0.0  
+gi|657708676|ref|WP_029507330.1| hypothetical protein [Lactobaci...  1053   0.0  
+gi|640662680|ref|WP_025088082.1| hypothetical protein [Lactobaci...  1038   0.0  
+gi|487046617|gb|EOJ74066.1| CRISPR-associated protein cas9/csn1,...  1009   0.0  
+gi|518146273|ref|WP_019316481.1| CRISPR-associated protein Csn1,...  1007   0.0  
+gi|548554254|ref|WP_022524804.1| hypothetical protein [Streptoco...   991   0.0  
+gi|497566499|ref|WP_009880683.1| COG3513: Uncharacterized protei...   987   0.0  
+gi|685990466|ref|WP_031695879.1| CRISPR-associated protein Csn1,...   982   0.0  
+gi|544887397|ref|WP_021299407.1| CRISPR-associated protein Cas9/...   961   0.0  
+gi|313616973|gb|EFR89594.1| crispr-associated protein, Csn1 fami...   956   0.0  
+gi|490270412|ref|WP_004166700.1| CRISPR-associated protein [Pedi...   956   0.0  
+gi|488920030|ref|WP_002831105.1| CRISPR-associated protein [Pedi...   956   0.0  
+gi|504753359|ref|WP_014940461.1| CRISPR-associated protein [Lact...   955   0.0  
+gi|503493991|ref|WP_013728652.1| CRISPR-associated protein [Lact...   950   0.0  
+gi|640316279|ref|WP_024862574.1| CRISPR-associated protein [Pedi...   945   0.0  
+gi|640657397|ref|WP_025083227.1| CRISPR-associated protein Csn1 ...   945   0.0  
+gi|497695086|ref|WP_010009270.1| CRISPR-associated protein Csn1 ...   938   0.0  
+gi|510890393|ref|WP_016223708.1| CRISPR-associated protein cas9/...   937   0.0  
+gi|446962830|ref|WP_001040086.1| hypothetical protein, partial [...   932   0.0  
+gi|505351806|ref|WP_015538908.1| CRISPR-associated protein, Csn1...   930   0.0  
+gi|334881121|emb|CCB81940.1| putative uncharacterized protein [L...   928   0.0  
+gi|490391895|ref|WP_004270945.1| CRISPR-associated protein Csn1 ...   927   0.0  
+gi|547944271|ref|WP_022345413.1| putative uncharacterized protei...   922   0.0  
+gi|491997296|ref|WP_005713195.1| CRISPR-associated protein [Lact...   920   0.0  
+gi|654308074|ref|WP_027821588.1| CRISPR-associated protein Cas9 ...   920   0.0  
+gi|505192536|ref|WP_015379638.1| Hypothetical protein [Lactobaci...   918   0.0  
+gi|491944955|ref|WP_005684674.1| CRISPR-associated protein [Lact...   918   0.0  
+gi|486587670|gb|EOF29249.1| CRISPR-associated protein cas9/csn1,...   913   0.0  
+gi|489755490|ref|WP_003659473.1| CRISPR-associated protein [Lact...   913   0.0  
+gi|523533359|ref|WP_020751689.1| CRISPR-associated protein [Lact...   913   0.0  
+gi|517188813|ref|WP_018377631.1| hypothetical protein [Streptoco...   913   0.0  
+gi|490601536|ref|WP_004466556.1| CRISPR-associated protein [Lact...   912   0.0  
+gi|489684324|ref|WP_003588546.1| MULTISPECIES: CRISPR-associated...   912   0.0  
+gi|518724026|ref|WP_019884334.1| hypothetical protein [Lactobaci...   912   0.0  
+gi|511701643|ref|WP_016379440.1| hypothetical protein [Lactobaci...   912   0.0  
+gi|489687309|ref|WP_003591519.1| CRISPR-associated SAG0894 famil...   912   0.0  
+gi|518735248|ref|WP_019894961.1| hypothetical protein [Lactobaci...   909   0.0  
+gi|519666170|ref|WP_020282061.1| CRISPR-associated protein, Csn1...   909   0.0  
+gi|511666252|ref|WP_016372827.1| hypothetical protein [Lactobaci...   907   0.0  
+gi|489691590|ref|WP_003595774.1| CRISPR-associated SAG0894 famil...   907   0.0  
+gi|654507345|ref|WP_027976660.1| CRISPR-associated protein Csn1 ...   907   0.0  
+gi|504765121|ref|WP_014952223.1| hypothetical protein [Lactobaci...   906   0.0  
+gi|489700544|ref|WP_003604681.1| CRISPR-associated SAG0894 famil...   905   0.0  
+gi|501468426|ref|WP_012491871.1| MULTISPECIES: CRISPR-associated...   905   0.0  
+gi|503746753|ref|WP_013980829.1| CRISPR-associated protein Csn1 ...   903   0.0  
+gi|497243648|ref|WP_009557865.1| Csn1 family CRISPR-associated p...   902   0.0  
+gi|491804962|ref|WP_005609677.1| hypothetical protein [Ruminococ...   902   0.0  
+gi|489733276|ref|WP_003637375.1| CRISPR-associated protein, Cas9...   902   0.0  
+gi|656123150|emb|CDR83364.1| CRISPR-associated protein [Lactobac...   901   0.0  
+gi|656121167|emb|CDR81704.1| CRISPR-associated protein [Lactobac...   900   0.0  
+gi|518145737|ref|WP_019315945.1| CRISPR-associated protein Csn1,...   900   0.0  
+gi|504382875|ref|WP_014569977.1| CRISPR-associated protein [Lact...   899   0.0  
+gi|544929180|ref|WP_021338270.1| hypothetical protein [Lactobaci...   899   0.0  
+gi|505325499|ref|WP_015512601.1| CRISPR-associated endonuclease,...   898   0.0  
+gi|446974208|ref|WP_001051464.1| CRISPR-associated protein Csn1 ...   897   0.0  
+gi|547772437|ref|WP_022183850.1| cRISPR-associated protein Csn1 ...   894   0.0  
+gi|570252623|gb|ETO40382.1| CRISPR-associated protein, SAG0894 f...   891   0.0  
+gi|503474914|ref|WP_013709575.1| CRISPR-associated protein Csn1 ...   890   0.0  
+gi|639186894|ref|WP_024526164.1| hypothetical protein [Lactobaci...   890   0.0  
+gi|557699916|ref|WP_023440039.1| CRISPR-associated protein [Pedi...   889   0.0  
+gi|496457963|ref|WP_009166808.1| CRISPR-associated protein [Lact...   889   0.0  
+gi|518081566|ref|WP_019251774.1| hypothetical protein [Lactobaci...   888   0.0  
+gi|489777922|ref|WP_003681813.1| CRISPR-associated protein [Lact...   888   0.0  
+gi|489023116|ref|WP_002933589.1| CRISPR-associated protein Csn1 ...   883   0.0  
+gi|668900893|gb|KFC34615.1| CRISPR-associated protein [Lactobaci...   880   0.0  
+gi|488918895|ref|WP_002829970.1| CRISPR-associated protein [Pedi...   879   0.0  
+gi|545596715|ref|WP_021725096.1| CRISPR-associated protein Cas9/...   878   0.0  
+gi|511763079|ref|WP_016396272.1| csn1 family CRISPR-associated p...   877   0.0  
+gi|547466161|ref|WP_022085160.1| cRISPR-associated protein Cas9/...   876   0.0  
+gi|494784522|ref|WP_007519930.1| CRISPR-associated protein csn1 ...   875   0.0  
+gi|548165482|ref|WP_022387671.1| cRISPR-associated protein Csn1 ...   874   0.0  
+gi|654312393|ref|WP_027825498.1| CRISPR-associated protein Csn1 ...   873   0.0  
+gi|547291127|ref|WP_022024042.1| cRISPR-associated endonuclease ...   873   0.0  
+gi|669630524|dbj|GAK48697.1| putative CRISPR-associated protein ...   868   0.0  
+gi|493471049|ref|WP_006426118.1| hypothetical protein [Dorea lon...   866   0.0  
+gi|493545970|ref|WP_006499799.1| CRISPR-associated protein [Lact...   866   0.0  
+gi|546864438|ref|WP_021899183.1| cRISPR-associated protein Csn1 ...   861   0.0  
+gi|527782705|gb|EPV73545.1| CRISPR-associated protein Csn1, part...   860   0.0  
+gi|503848134|ref|WP_014082128.1| CRISPR-associated protein [Lact...   859   0.0  
+gi|515830578|ref|WP_017261331.1| hypothetical protein [Lactobaci...   859   0.0  
+gi|652955557|ref|WP_027208814.1| hypothetical protein [Butyrivib...   856   0.0  
+gi|545613323|ref|WP_021737686.1| CRISPR-associated protein, Csn1...   856   0.0  
+gi|339637353|emb|CCC16263.1| putative uncharacterized protein [L...   855   0.0  
+gi|503017123|ref|WP_013252099.1| CRISPR-associated protein Csn1 ...   855   0.0  
+gi|547281693|ref|WP_022015080.1| cRISPR-associated endonuclease ...   854   0.0  
+gi|504380459|ref|WP_014567561.1| CRISPR-associated protein Csn1 ...   852   0.0  
+gi|547842268|ref|WP_022249818.1| cRISPR-associated protein Csn1 ...   850   0.0  
+gi|508149327|gb|EOT26129.1| CRISPR-associated protein cas9/csn1,...   846   0.0  
+gi|474482590|gb|EMS75795.1| hypothetical protein H318_06676 [Ent...   846   0.0  
+gi|651392254|ref|WP_026504058.1| hypothetical protein [Butyrivib...   844   0.0  
+gi|544722392|ref|WP_021152394.1| CRISPR-associated protein, Csn1...   842   0.0  
+gi|547036177|ref|WP_021911334.1| crispr-associated protein [Euba...   841   0.0  
+gi|547742440|ref|WP_022155891.1| cRISPR-associated protein Csn1 ...   840   0.0  
+gi|493634568|ref|WP_006586411.1| CRISPR-associated protein Csn1 ...   838   0.0  
+gi|551048120|ref|WP_022791454.1| hypothetical protein [Weissella...   838   0.0  
+gi|523687965|ref|WP_020807054.1| CRISPR-associated protein [Lact...   837   0.0  
+gi|306513404|gb|EFM82024.1| CRISPR-associated protein, Csn1 fami...   835   0.0  
+gi|527753610|gb|EPV45184.1| CRISPR-associated protein Csn1, part...   835   0.0  
+gi|489744644|ref|WP_003648675.1| CRISPR-associated protein Csn1 ...   833   0.0  
+gi|672975709|gb|KFI71094.1| CRISPR associated protein [Bifidobac...   832   0.0  
+gi|489781178|ref|WP_003685069.1| CRISPR-associated protein [Lact...   832   0.0  
+gi|518635888|ref|WP_019806095.1| CRISPR-associated protein Csn1,...   829   0.0  
+gi|548204848|ref|WP_022424889.1| cRISPR-associated protein Csn1 ...   828   0.0  
+gi|566236916|gb|ETI98589.1| CRISPR-associated protein, Csn1 fami...   828   0.0  
+gi|547893376|ref|WP_022298151.1| cRISPR-associated endonuclease ...   828   0.0  
+gi|493553119|ref|WP_006506696.1| hypothetical protein, partial [...   828   0.0  
+gi|495746669|ref|WP_008471248.1| CRISPR-associated protein Csn1 ...   826   0.0  
+gi|573491633|gb|ETS92439.1| CRISPR-associated protein Cas9/Csn1,...   825   0.0  
+gi|588475549|dbj|GAF40170.1| CRISPR-associated protein, Csn1 fam...   824   0.0  
+gi|494634637|ref|WP_007392581.1| CRISPR-associated protein, Csn1...   823   0.0  
+gi|489805239|ref|WP_003709113.1| hypothetical protein [Lactobaci...   822   0.0  
+gi|490700095|ref|WP_004563574.1| CRISPR-associated protein [Lact...   821   0.0  
+gi|490832399|ref|WP_004694484.1| CRISPR-associated protein Csn1 ...   821   0.0  
+gi|656052490|ref|WP_029090905.1| hypothetical protein [Brochothr...   818   0.0  
+gi|491523080|ref|WP_005380707.1| CRISPR-associated protein Csn1 ...   816   0.0  
+gi|313626274|gb|EFR95520.1| crispr-associated protein Csn1 [List...   815   0.0  
+gi|503128334|ref|WP_013362995.1| CRISPR-associated protein [Bifi...   814   0.0  
+gi|495877409|ref|WP_008601988.1| CRISPR-associated protein Csn1 ...   813   0.0  
+gi|488764149|ref|WP_002687349.1| CRISPR-associated protein cas9/...   811   0.0  
+gi|488749584|ref|WP_002672887.1| CRISPR-associated protein cas9/...   809   0.0  
+gi|547237267|ref|WP_021973442.1| cRISPR-associated endonuclease ...   809   0.0  
+gi|488753394|ref|WP_002676671.1| CRISPR-associated protein cas9/...   808   0.0  
+gi|488761741|ref|WP_002684945.1| CRISPR-associated protein cas9/...   807   0.0  
+gi|488758052|ref|WP_002681289.1| CRISPR-associated protein cas9/...   806   0.0  
+gi|489666935|ref|WP_003571218.1| CRISPR-associated SAG0894 famil...   806   0.0  
+gi|493633878|ref|WP_006585732.1| CRISPR-associated protein Csn1 ...   806   0.0  
+gi|548219066|ref|WP_022438259.1| cRISPR-associated protein Csn1 ...   802   0.0  
+gi|566224806|gb|ETI89521.1| CRISPR-associated protein, Csn1 fami...   801   0.0  
+gi|488779915|ref|WP_002692322.1| CRISPR-associated protein cas9/...   801   0.0  
+gi|551041059|ref|WP_022784704.1| CRISPR-associated protein Csn1 ...   801   0.0  
+gi|685199419|gb|AIN93522.1| CRISPR-associated protein cas9/csn1,...   801   0.0  
+gi|498384301|ref|WP_010698457.1| CRISPR-associated protein cas9/...   800   0.0  
+gi|510808993|ref|WP_016183746.1| CRISPR-associated protein cas9/...   800   0.0  
+gi|656034227|ref|WP_029073316.1| hypothetical protein [Kandleria...   799   0.0  
+gi|496307041|ref|WP_009016219.1| MULTISPECIES: CRISPR-associated...   798   0.0  
+gi|512626460|ref|WP_016459569.1| CRISPR-associated protein cas9/...   797   0.0  
+gi|651250927|ref|WP_026385754.1| CRISPR-associated protein [Acid...   797   0.0  
+gi|656295101|ref|WP_029236766.1| hypothetical protein [Streptoco...   796   0.0  
+gi|489654804|ref|WP_003559172.1| CRISPR-associated protein [Lact...   796   0.0  
+gi|546349952|ref|WP_021841192.1| cRISPR-associated protein Csn1 ...   794   0.0  
+gi|497704765|ref|WP_010018949.1| possible CRISPR associated prot...   792   0.0  
+gi|656305459|ref|WP_029238069.1| hypothetical protein [Streptoco...   792   0.0  
+gi|654839085|ref|WP_028291740.1| hypothetical protein [Oenococcu...   791   0.0  
+gi|495020429|ref|WP_007746220.1| CRISPR-associated protein [Oeno...   791   0.0  
+gi|494251533|ref|WP_007147952.1| CRISPR-associated protein cas9/...   790   0.0  
+gi|489794282|ref|WP_003698173.1| CRISPR-associated protein [Lact...   789   0.0  
+gi|543391592|gb|ERJ49495.1| CRISPR-associated protein [Lactobaci...   787   0.0  
+gi|640312571|ref|WP_024861694.1| hypothetical protein [Ruminococ...   786   0.0  
+gi|497703282|ref|WP_010017466.1| possible CRISPR associated prot...   785   0.0  
+gi|547470211|ref|WP_022089002.1| cRISPR-associated protein Cas9/...   785   0.0  
+gi|488342751|ref|WP_002412136.1| CRISPR-associated protein, Csn1...   783   0.0  
+gi|671623457|ref|WP_031589969.1| hypothetical protein [Kandleria...   781   0.0  
+gi|496371126|ref|WP_009080116.1| CRISPR-associated protein Csn1 ...   780   0.0  
+gi|497702843|ref|WP_010017027.1| CRISPR-associated protein [Leuc...   780   0.0  
+gi|504028100|ref|WP_014262094.1| CRISPR-associated protein, Csn1...   779   0.0  
+gi|598625461|gb|EYD69881.1| CRISPR-associated Cas5e [Fusobacteri...   779   0.0  
+gi|658777900|ref|WP_029776921.1| CRISPR-associated protein Csn1,...   777   0.0  
+gi|547852512|ref|WP_022259511.1| putative uncharacterized protei...   775   0.0  
+gi|511422395|gb|EPC57499.1| hypothetical protein Lpp123_03279, p...   769   0.0  
+gi|511078633|ref|WP_016319992.1| CRISPR-associated protein cas9/...   769   0.0  
+gi|491510307|ref|WP_005367941.1| CRISPR-associated protein Csn1 ...   764   0.0  
+gi|655070597|ref|WP_028518833.1| hypothetical protein [Ruminococ...   759   0.0  
+gi|548248291|ref|WP_022466124.1| putative uncharacterized protei...   757   0.0  
+gi|489845973|ref|WP_003749665.1| crispr-associated protein Csn1,...   754   0.0  
+gi|490975103|ref|WP_004836889.1| CRISPR-associated protein [Anae...   754   0.0  
+gi|652784761|ref|WP_027090768.1| hypothetical protein [[Clostrid...   753   0.0  
+gi|658539465|ref|WP_029732989.1| CRISPR-associated protein Csn1,...   752   0.0  
+gi|489237113|ref|WP_003145379.1| CRISPR-associated protein Csn1 ...   752   0.0  
+gi|547192943|ref|WP_021934543.1| cRISPR-associated protein Csn1 ...   750   0.0  
+gi|493782301|ref|WP_006730680.1| CRISPR-associated protein [Lact...   745   0.0  
+gi|547269308|ref|WP_022003455.1| csn1 family CRISPR-associated p...   744   0.0  
+gi|545610508|ref|WP_021735134.1| CRISPR-associated protein Cas9/...   741   0.0  
+gi|496117495|ref|WP_008842002.1| csn1 family CRISPR-associated p...   739   0.0  
+gi|488930729|ref|WP_002841804.1| CRISPR-associated protein Cas9 ...   738   0.0  
+gi|498311358|ref|WP_010625514.1| hypothetical protein [Lactobaci...   735   0.0  
+gi|496176552|ref|WP_008901059.1| CRISPR-associated protein [Pept...   730   0.0  
+gi|488926751|ref|WP_002837826.1| CRISPR-associated protein Cas9 ...   729   0.0  
+gi|501247123|ref|WP_012290141.1| CRISPR-associated protein Cas9 ...   727   0.0  
+gi|493573663|ref|WP_006526860.1| CRISPR-associated protein, Csn1...   727   0.0  
+gi|430613247|gb|ELB50264.1| CRISPR-associated protein cas9/csn1,...   726   0.0  
+gi|547887290|ref|WP_022292431.1| crispr-associated protein [Euba...   724   0.0  
+gi|499794784|ref|WP_011475518.1| hypothetical protein [Lactobaci...   722   0.0  
+gi|653185632|ref|WP_027422043.1| hypothetical protein [Lachnobac...   720   0.0  
+gi|545644659|ref|WP_021752441.1| CRISPR-associated protein, Csn1...   719   0.0  
+gi|548310877|ref|WP_022501374.1| cRISPR-associated protein Csn1 ...   719   0.0  
+gi|652856852|ref|WP_027129613.1| CRISPR-associated protein Csn1 ...   717   0.0  
+gi|489918356|ref|WP_003821720.1| CRISPR-associated protein [Bifi...   707   0.0  
+gi|491541465|ref|WP_005399084.1| CRISPR-associated protein Cas9 ...   705   0.0  
+gi|547232243|ref|WP_021968776.1| cRISPR-associated protein Csn1 ...   700   0.0  
+gi|488984596|ref|WP_002895385.1| CRISPR-associated protein Csn1 ...   700   0.0  
+gi|446962828|ref|WP_001040084.1| hypothetical protein, partial [...   699   0.0  
+gi|545661002|ref|WP_021767602.1| CRISPR-associated protein, Csn1...   698   0.0  
+gi|652816549|ref|WP_027106998.1| hypothetical protein [Lactobaci...   696   0.0  
+gi|548083477|ref|WP_022379794.1| cRISPR-associated protein Csn1 ...   692   0.0  
+gi|490769968|ref|WP_004632196.1| CRISPR-associated protein Csn1 ...   691   0.0  
+gi|486484621|gb|EOE28398.1| CRISPR-associated protein cas9/csn1,...   690   0.0  
+gi|653225596|ref|WP_027438114.1| hypothetical protein [Lachnospi...   689   0.0  
+gi|496095765|ref|WP_008820272.1| CRISPR-associated protein Csn1 ...   685   0.0  
+gi|493882050|ref|WP_006828302.1| CRISPR-associated protein, Csn1...   683   0.0  
+gi|658770591|ref|WP_029776275.1| CRISPR-associated protein Csn1,...   682   0.0  
+gi|548251343|ref|WP_022469107.1| cRISPR-associated protein Csn1 ...   680   0.0  
+gi|653097340|ref|WP_027347504.1| CRISPR-associated protein Cas9 ...   680   0.0  
+gi|496074778|ref|WP_008799285.1| CRISPR-associated protein Csn1 ...   680   0.0  
+gi|547450686|ref|WP_022070288.1| cRISPR-associated protein [Fuso...   680   0.0  
+gi|294487409|gb|EFG34771.1| CRISPR-associated protein cas9/csn1,...   679   0.0  
+gi|658495300|ref|WP_029691988.1| CRISPR-associated protein Csn1,...   672   0.0  
+gi|492568239|ref|WP_005888649.1| CRISPR-associated protein Csn1 ...   672   0.0  
+gi|527649951|gb|EPU42254.1| CRISPR-associated protein Csn1 [Stre...   668   0.0  
+gi|547196564|ref|WP_021937887.1| cRISPR-associated protein Cas9/...   665   0.0  
+gi|656295481|ref|WP_029237146.1| hypothetical protein, partial [...   663   0.0  
+gi|517997710|ref|WP_019167918.1| hypothetical protein [Staphyloc...   660   0.0  
+gi|496514228|ref|WP_009222511.1| CRISPR-associated protein, Csn1...   658   0.0  
+gi|313606602|gb|EFR83390.1| crispr-associated protein Csn1 [List...   657   0.0  
+gi|504426157|ref|WP_014613259.1| CRISPR-associated protein, Csn1...   656   0.0  
+gi|548328202|ref|WP_022514049.1| cRISPR-associated endonuclease ...   652   0.0  
+gi|657701005|ref|WP_029499861.1| hypothetical protein [Kurthia h...   645   0.0  
+gi|552759124|ref|WP_023015764.1| hypothetical protein [Staphyloc...   641   e-180
+gi|489237643|ref|WP_003145904.1| CRISPR-associated protein Csn1 ...   641   e-180
+gi|492667141|ref|WP_005916110.1| CRISPR-associated protein Cas9/...   635   e-178
+gi|511438849|gb|EPC71426.1| hypothetical protein Lpp126_15364 [L...   626   e-176
+gi|496723348|ref|WP_009353052.1| CRISPR-associated protein Cas9/...   625   e-175
+gi|657896913|ref|WP_029600029.1| CRISPR-associated protein Csn1,...   619   e-174
+gi|547928804|ref|WP_022330811.1| cRISPR-associated protein cas9/...   607   e-170
+gi|547885935|ref|WP_022291102.1| cRISPR-associated protein Csn1 ...   601   e-168
+gi|547320132|ref|WP_022051453.1| cRISPR-associated protein Csn1 ...   596   e-167
+gi|547478205|ref|WP_022096308.1| cRISPR-associated endonuclease ...   591   e-165
+gi|514518221|gb|EPH83611.1| CRISPR-associated protein, Csn1 fami...   583   e-163
+gi|489090551|ref|WP_003000447.1| CRISPR-associated protein, Csn1...   579   e-162
+gi|654622390|ref|WP_028086831.1| hypothetical protein [Dorea lon...   577   e-161
+gi|585224499|gb|EWM55951.1| CRISPR-associated protein Csn1 [Stre...   576   e-161
+gi|489143906|ref|WP_003053670.1| CRISPR-associated protein, Csn1...   576   e-161
+gi|514518222|gb|EPH83612.1| CRISPR-associated protein, Csn1 fami...   560   e-156
+gi|527651110|gb|EPU43390.1| hypothetical protein SAG0170_06065 [...   550   e-153
+gi|504380954|ref|WP_014568056.1| hypothetical protein [Lactobaci...   549   e-152
+gi|585225952|gb|EWM57345.1| CRISPR-associated protein Csn1, part...   546   e-152
+gi|658495248|ref|WP_029691937.1| CRISPR-associated protein Csn1,...   543   e-151
+gi|577780425|gb|EUJ41136.1| CRISPR-associated protein [Brochothr...   540   e-150
+gi|548193495|ref|WP_022414167.1| cRISPR-associated protein cas9/...   535   e-148
+gi|640594771|ref|WP_025023490.1| hypothetical protein [Lactobaci...   534   e-148
+gi|544716258|ref|WP_021146268.1| CRISPR-associated protein, Csn1...   531   e-147
+gi|577775332|gb|EUJ36155.1| hypothetical protein BTHER_07556 [Br...   526   e-146
+gi|488411225|ref|WP_002480610.1| CRISPR-associated protein cas9/...   526   e-146
+gi|548250038|ref|WP_022467838.1| cRISPR-associated protein Csn1 ...   508   e-140
+gi|492039879|ref|WP_005728738.1| CRISPR-associated protein Cas9 ...   495   e-136
+gi|492041881|ref|WP_005729619.1| CRISPR-associated protein Cas9 ...   494   e-136
+gi|518933987|ref|WP_020089862.1| hypothetical protein [Lactobaci...   493   e-136
+gi|489680604|ref|WP_003584826.1| CRISPR-associated SAG0894 famil...   487   e-134
+gi|493648179|ref|WP_006599765.1| csn1 family CRISPR-associated p...   483   e-133
+gi|665900883|ref|WP_031267752.1| hypothetical protein, partial [...   480   e-132
+gi|491053076|ref|WP_004914726.1| CRISPR-associated protein, SAG0...   479   e-132
+gi|632075397|gb|KDA48951.1| CRISPR-associated protein, SAG0894 f...   479   e-132
+gi|532627335|gb|EQM53304.1| hypothetical protein N692_15555, par...   479   e-131
+gi|493648180|ref|WP_006599766.1| csn1 family CRISPR-associated p...   471   e-129
+gi|489148686|ref|WP_003058416.1| conserved domain protein, parti...   462   e-126
+gi|498374674|ref|WP_010688830.1| CRISPR-associated protein cas9/...   445   e-121
+gi|489025190|ref|WP_002935602.1| CRISPR-associated protein Csn1 ...   444   e-121
+gi|636999945|ref|WP_024409212.1| CRISPR-associated protein Csn1 ...   444   e-121
+gi|446974209|ref|WP_001051465.1| hypothetical protein [Streptoco...   443   e-121
+gi|642984548|ref|WP_025197611.1| hypothetical protein, partial [...   442   e-120
+gi|504449965|ref|WP_014637067.1| CRISPR-associated protein Csn1 ...   440   e-120
+gi|496285869|ref|WP_008997907.1| CRISPR-associated protein Cas9 ...   439   e-119
+gi|595940498|gb|EXY44678.1| HNH endonuclease family protein [Bac...   439   e-119
+gi|596224833|gb|EYA69043.1| HNH endonuclease family protein [Bac...   438   e-119
+gi|496648031|ref|WP_009293010.1| MULTISPECIES: CRISPR-associated...   438   e-119
+
+Sequences not found previously or not previously below threshold:
+
+>gi|554595615|gb|AGZ01981.1| Cas9 endonuclease [synthetic construct]
+          Length = 1417
+
+ Score = 1336 bits (3458), Expect = 0.0,   Method: Composition-based stats.
+ Identities = 1299/1361 (95%), Positives = 1302/1361 (95%), Gaps = 55/1361 (4%)
+
+Query: 1    KYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATR 60
+            KYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATR
+Sbjct: 37   KYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATR 96
+
+Query: 61   LKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIV 120
+            LKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIV
+Sbjct: 97   LKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIV 156
+
+Query: 121  DEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDK 180
+            DEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDK
+Sbjct: 157  DEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDK 216
+
+Query: 181  LFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIA 240
+            LFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIA
+Sbjct: 217  LFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIA 276
+
+Query: 241  LSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLS 300
+            LSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLS
+Sbjct: 277  LSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLS 336
+
+Query: 301  DILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYI 360
+            DILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYI
+Sbjct: 337  DILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYI 396
+
+Query: 361  DGGASQEEFYKFIKPILEKMDT-EELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAIL 419
+            DGGASQEEFYKFIKPILEKMD  EELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAIL
+Sbjct: 397  DGGASQEEFYKFIKPILEKMDGTEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAIL 456
+
+Query: 420  RRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVD 479
+            RRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVD
+Sbjct: 457  RRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVD 516
+
+Query: 480  KGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGE 539
+            KGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGE
+Sbjct: 517  KGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGE 576
+
+Query: 540  QKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKD 599
+            QKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKD
+Sbjct: 577  QKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKD 636
+
+Query: 600  KDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLS 659
+            KDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLS
+Sbjct: 637  KDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLS 696
+
+Query: 660  RKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQK--------SLHEH 711
+            RKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQK        SLHEH
+Sbjct: 697  RKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQKAQVSGQGDSLHEH 756
+
+Query: 712  IANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMARNSR----------ERMKR 761
+            IANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMAR ++          ERMKR
+Sbjct: 757  IANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMARENQTTQKGQKNSRERMKR 816
+
+Query: 762  IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDAIVP 821
+            IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVD IVP
+Sbjct: 817  IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDHIVP 876
+
+Query: 822  QSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKA 881
+            QSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKA
+Sbjct: 877  QSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKA 936
+
+Query: 882  ERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLV 941
+            ERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLV
+Sbjct: 937  ERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLV 996
+
+Query: 942  SDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGDG---------- 991
+            SDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGD           
+Sbjct: 997  SDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGDYKVYDVRKMIA 1056
+
+Query: 992  -------KATAKYFFYSNIMNFFKTEI--------KRPLIETNGETGEIVWDKGRDFATV 1036
+                   KATAKYFFYSNIMNFFKTEI        KRPLIETNGETGEIVWDKGRDFATV
+Sbjct: 1057 KSEQEIGKATAKYFFYSNIMNFFKTEITLANGEIRKRPLIETNGETGEIVWDKGRDFATV 1116
+
+Query: 1037 RKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSV 1096
+            RKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSV
+Sbjct: 1117 RKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSV 1176
+
+Query: 1097 LVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSL 1156
+            LVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSL
+Sbjct: 1177 LVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSL 1236
+
+Query: 1157 FELENGRKRMLASAGELQKGNELALPSKYVNFLYLAS-----------HEQKQLFVEQHK 1205
+            FELENGRKRMLASAGELQKGNELALPSKYVNFLYLAS           +EQKQLFVEQHK
+Sbjct: 1237 FELENGRKRMLASAGELQKGNELALPSKYVNFLYLASHYEKLKGSPEDNEQKQLFVEQHK 1296
+
+Query: 1206 HYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAA 1265
+            HYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAA
+Sbjct: 1297 HYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAA 1356
+
+Query: 1266 FKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQ 1306
+            FKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQ
+Sbjct: 1357 FKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQ 1397
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+gi|554595615|gb|AGZ01981.1| Cas9 endonuclease [synthetic construct]  1226   0.0  
+gi|584579698|pdb|4CMP|A Chain A, Crystal Structure Of S. Pyogene...  1225   0.0  
+gi|669193758|gb|AII16583.1| Cas9 endonuclease [Expression vector...  1224   0.0  
+gi|499604011|ref|WP_011284745.1| CRISPR-associated protein Csn1 ...  1224   0.0  
+gi|499604772|ref|WP_011285506.1| CRISPR-associated protein Csn1 ...  1223   0.0  
+gi|611705338|gb|EZM83080.1| CRISPR-associated protein cas9/csn1,...  1223   0.0  
+gi|499224711|ref|WP_010922251.1| CRISPR-associated protein Csn1 ...  1222   0.0  
+gi|527103923|ref|WP_020905136.1| hypothetical cytosolic protein ...  1222   0.0  
+gi|667485235|pdb|4UN3|B Chain B, Crystal Structure Of Cas9 Bound...  1221   0.0  
+gi|666903857|gb|AIG48810.1| CRISPR-associated protein Csn1 [Stre...  1221   0.0  
+gi|501556167|ref|WP_012560673.1| CRISPR-associated protein Csn1 ...  1220   0.0  
+gi|611570852|gb|EZL49205.1| CRISPR-associated protein cas9/csn1,...  1220   0.0  
+gi|662757307|ref|WP_030126706.1| CRISPR-associated protein Csn1 ...  1220   0.0  
+gi|499366838|ref|WP_011054416.1| CRISPR-associated protein Csn1 ...  1220   0.0  
+gi|662755573|ref|WP_030125963.1| CRISPR-associated protein Csn1 ...  1219   0.0  
+gi|489080018|ref|WP_002989955.1| CRISPR-associated protein Csn1 ...  1219   0.0  
+gi|671499501|ref|WP_031488318.1| CRISPR-associated protein Csn1 ...  1219   0.0  
+gi|667485240|pdb|4UN4|B Chain B, Crystal Structure Of Cas9 Bound...  1218   0.0  
+gi|611668122|gb|EZM45994.1| CRISPR-associated protein cas9/csn1,...  1217   0.0  
+gi|504220439|ref|WP_014407541.1| CRISPR-associated protein Csn1 ...  1216   0.0  
+gi|499846885|ref|WP_011527619.1| CRISPR-associated protein Csn1 ...  1215   0.0  
+gi|588293154|pdb|4OO8|A Chain A, Crystal Structure Of Streptococ...  1214   0.0  
+gi|553746521|ref|WP_023080005.1| CRISPR-associated protein Cas9/...  1211   0.0  
+gi|674296984|gb|AIL11882.1| HNH endonuclease family protein [Str...  1211   0.0  
+gi|560281933|ref|WP_023610282.1| CRISPR-associated protein Cas9/...  1208   0.0  
+gi|655573892|gb|KED03640.1| CRISPR-Associated Protein Csn1 [Stre...  1206   0.0  
+gi|504870547|ref|WP_015057649.1| hypothetical protein [Streptoco...  1192   0.0  
+gi|499847849|ref|WP_011528583.1| CRISPR-associated protein Csn1 ...  1190   0.0  
+gi|504829993|ref|WP_015017095.1| CRISPR-associated protein Csn1 ...  1190   0.0  
+gi|502337426|ref|WP_012767106.1| CRISPR-associated protein Csn1 ...  1187   0.0  
+gi|504425231|ref|WP_014612333.1| CRISPR-associated protein Csn1 ...  1186   0.0  
+gi|501507994|ref|WP_012515931.1| CRISPR-associated protein Csn1 ...  1181   0.0  
+gi|544910977|ref|WP_021320964.1| CRISPR-Associated Protein Csn1 ...  1179   0.0  
+gi|489134034|ref|WP_003043819.1| CRISPR-associated protein Csn1 ...  1178   0.0  
+gi|640030144|ref|WP_024782110.1| CRISPR-associated protein Csn1 ...  1177   0.0  
+gi|488201558|ref|WP_002272766.1| hypothetical protein [Streptoco...  1171   0.0  
+gi|488218433|ref|WP_002289641.1| hypothetical protein [Streptoco...  1171   0.0  
+gi|488204222|ref|WP_002275430.1| hypothetical protein [Streptoco...  1171   0.0  
+gi|488198240|ref|WP_002269448.1| hypothetical protein [Streptoco...  1170   0.0  
+gi|488209022|ref|WP_002280230.1| hypothetical protein [Streptoco...  1170   0.0  
+gi|518142684|ref|WP_019312892.1| CRISPR-associated protein Csn1 ...  1170   0.0  
+gi|488210488|ref|WP_002281696.1| hypothetical protein [Streptoco...  1170   0.0  
+gi|640047960|ref|WP_024784666.1| CRISPR-associated protein Csn1 ...  1170   0.0  
+gi|488206156|ref|WP_002277364.1| hypothetical protein [Streptoco...  1170   0.0  
+gi|640049968|ref|WP_024784894.1| CRISPR-associated protein Csn1 ...  1169   0.0  
+gi|488205240|ref|WP_002276448.1| hypothetical protein [Streptoco...  1169   0.0  
+gi|488200769|ref|WP_002271977.1| hypothetical protein [Streptoco...  1168   0.0  
+gi|502762704|ref|WP_012997688.1| CRISPR-associated protein Csn1 ...  1168   0.0  
+gi|488202033|ref|WP_002273241.1| hypothetical protein [Streptoco...  1168   0.0  
+gi|518145162|ref|WP_019315370.1| CRISPR-associated protein Csn1 ...  1167   0.0  
+gi|488192341|ref|WP_002263549.1| CRISPR-associated protein Csn1 ...  1167   0.0  
+gi|446350758|ref|WP_000428613.1| CRISPR-associated protein Csn1 ...  1167   0.0  
+gi|488211698|ref|WP_002282906.1| hypothetical protein [Streptoco...  1167   0.0  
+gi|488234636|ref|WP_002305844.1| hypothetical protein [Streptoco...  1167   0.0  
+gi|518633569|ref|WP_019803776.1| CRISPR-associated protein Csn1 ...  1167   0.0  
+gi|518143451|ref|WP_019313659.1| CRISPR-associated protein Csn1 ...  1167   0.0  
+gi|488192679|ref|WP_002263887.1| hypothetical protein [Streptoco...  1166   0.0  
+gi|488207817|ref|WP_002279025.1| hypothetical protein [Streptoco...  1165   0.0  
+gi|640040381|ref|WP_024783594.1| CRISPR-associated protein Csn1 ...  1165   0.0  
+gi|488281200|ref|WP_002352408.1| CRISPR-associated protein csn1 ...  1165   0.0  
+gi|488224545|ref|WP_002295753.1| hypothetical protein [Streptoco...  1164   0.0  
+gi|518143885|ref|WP_019314093.1| CRISPR-associated protein Csn1 ...  1164   0.0  
+gi|488235995|ref|WP_002307203.1| hypothetical protein [Streptoco...  1164   0.0  
+gi|488217782|ref|WP_002288990.1| hypothetical protein [Streptoco...  1163   0.0  
+gi|488212638|ref|WP_002283846.1| hypothetical protein [Streptoco...  1162   0.0  
+gi|488216047|ref|WP_002287255.1| hypothetical protein [Streptoco...  1162   0.0  
+gi|504490807|ref|WP_014677909.1| CRISPR-associated protein Csn1 ...  1162   0.0  
+gi|488197835|ref|WP_002269043.1| hypothetical protein [Streptoco...  1161   0.0  
+gi|488225215|ref|WP_002296423.1| hypothetical protein [Streptoco...  1160   0.0  
+gi|497440125|ref|WP_009754323.1| CRISPR-associated protein Csn1 ...  1160   0.0  
+gi|488219219|ref|WP_002290427.1| hypothetical protein [Streptoco...  1159   0.0  
+gi|488214824|ref|WP_002286032.1| hypothetical protein [Streptoco...  1159   0.0  
+gi|488208651|ref|WP_002279859.1| CRISPR-associated protein Csn1 ...  1159   0.0  
+gi|502727190|ref|WP_012962174.1| CRISPR-associated protein Csn1 ...  1157   0.0  
+gi|518635027|ref|WP_019805234.1| CRISPR-associated protein Csn1 ...  1156   0.0  
+gi|497415278|ref|WP_009729476.1| CRISPR-associated protein cas9/...  1155   0.0  
+gi|446350757|ref|WP_000428612.1| CRISPR-associated protein Csn1 ...  1155   0.0  
+gi|488239182|ref|WP_002310390.1| CRISPR-associated protein csn1 ...  1155   0.0  
+gi|488986694|ref|WP_002897477.1| CRISPR-associated protein Csn1 ...  1152   0.0  
+gi|504871421|ref|WP_015058523.1| CRISPR-associated protein Csn1 ...  1149   0.0  
+gi|504100992|ref|WP_014334983.1| CRISPR-associated protein Csn1 ...  1147   0.0  
+gi|446962851|ref|WP_001040107.1| CRISPR-associated protein Csn1 ...  1147   0.0  
+gi|505444861|ref|WP_015631963.1| Hypothetical protein [Streptoco...  1147   0.0  
+gi|516381578|ref|WP_017771611.1| CRISPR-associated protein Csn1 ...  1147   0.0  
+gi|517174652|ref|WP_018363470.1| CRISPR-associated protein Csn1 ...  1147   0.0  
+gi|446962836|ref|WP_001040092.1| CRISPR-associated protein Csn1 ...  1147   0.0  
+gi|446962852|ref|WP_001040108.1| CRISPR-Associated Protein Csn1 ...  1146   0.0  
+gi|488193712|ref|WP_002264920.1| hypothetical protein [Streptoco...  1146   0.0  
+gi|446962854|ref|WP_001040110.1| CRISPR-associated protein Csn1 ...  1145   0.0  
+gi|446962850|ref|WP_001040106.1| CRISPR-Associated Protein Csn1 ...  1145   0.0  
+gi|489189894|ref|WP_003099269.1| CRISPR-associated protein Csn1 ...  1144   0.0  
+gi|516244413|ref|WP_017648376.1| CRISPR-associated protein Csn1 ...  1144   0.0  
+gi|445988958|ref|WP_000066813.1| CRISPR-associated protein Csn1 ...  1144   0.0  
+gi|516243188|ref|WP_017647151.1| CRISPR-associated protein Csn1 ...  1143   0.0  
+gi|640754093|emb|CDO18860.1| CRISPR-associated protein [Streptoc...  1142   0.0  
+gi|490352708|ref|WP_004232481.1| CRISPR-associated protein Csn1 ...  1142   0.0  
+gi|446962853|ref|WP_001040109.1| CRISPR-Associated Protein Csn1 ...  1140   0.0  
+gi|446962840|ref|WP_001040096.1| CRISPR-Associated Protein Csn1 ...  1140   0.0  
+gi|446962842|ref|WP_001040098.1| CRISPR-Associated Protein Csn1 ...  1138   0.0  
+gi|446962838|ref|WP_001040094.1| CRISPR-Associated Protein Csn1 ...  1137   0.0  
+gi|512746582|ref|WP_016502833.1| CRISPR-associated protein, SAG0...  1137   0.0  
+gi|497540342|ref|WP_009854540.1| CRISPR-associated protein Csn1 ...  1137   0.0  
+gi|446962844|ref|WP_001040100.1| CRISPR-Associated Protein Csn1 ...  1136   0.0  
+gi|446962841|ref|WP_001040097.1| CRISPR-associated protein Csn1 ...  1136   0.0  
+gi|446962839|ref|WP_001040095.1| CRISPR-Associated Protein Csn1 ...  1136   0.0  
+gi|446962843|ref|WP_001040099.1| CRISPR-Associated Protein Csn1 ...  1134   0.0  
+gi|446962822|ref|WP_001040078.1| CRISPR-Associated Protein Csn1 ...  1132   0.0  
+gi|516239687|ref|WP_017643650.1| CRISPR-associated protein Csn1 ...  1131   0.0  
+gi|516245564|ref|WP_017649527.1| CRISPR-associated protein Csn1 ...  1131   0.0  
+gi|488214114|ref|WP_002285322.1| hypothetical protein [Streptoco...  1130   0.0  
+gi|446962832|ref|WP_001040088.1| CRISPR-Associated Protein Csn1 ...  1129   0.0  
+gi|446962820|ref|WP_001040076.1| CRISPR-Associated Protein Csn1 ...  1128   0.0  
+gi|446962829|ref|WP_001040085.1| CRISPR-Associated Protein Csn1 ...  1128   0.0  
+gi|489155870|ref|WP_003065552.1| CRISPR-associated protein Csn1 ...  1128   0.0  
+gi|446962831|ref|WP_001040087.1| CRISPR-associated protein Csn1 ...  1128   0.0  
+gi|446962849|ref|WP_001040105.1| CRISPR-Associated Protein Csn1 ...  1128   0.0  
+gi|488233279|ref|WP_002304487.1| hypothetical protein [Streptoco...  1128   0.0  
+gi|446962833|ref|WP_001040089.1| CRISPR-Associated Protein Csn1 ...  1128   0.0  
+gi|446962827|ref|WP_001040083.1| CRISPR-Associated Protein Csn1 ...  1128   0.0  
+gi|516381951|ref|WP_017771984.1| CRISPR-associated protein Csn1 ...  1127   0.0  
+gi|446962825|ref|WP_001040081.1| CRISPR-Associated Protein Csn1 ...  1127   0.0  
+gi|493312191|ref|WP_006269658.1| CRISPR-associated protein Csn1 ...  1127   0.0  
+gi|446962824|ref|WP_001040080.1| CRISPR-Associated Protein Csn1 ...  1127   0.0  
+gi|642984273|ref|WP_025197336.1| CRISPR-associated protein Csn1 ...  1126   0.0  
+gi|489179199|ref|WP_003088697.1| CRISPR-associated protein Csn1 ...  1126   0.0  
+gi|446962846|ref|WP_001040102.1| CRISPR-associated protein Csn1 ...  1126   0.0  
+gi|446962821|ref|WP_001040077.1| CRISPR-Associated Protein Csn1 ...  1126   0.0  
+gi|446962834|ref|WP_001040090.1| CRISPR-Associated Protein Csn1 ...  1126   0.0  
+gi|446962835|ref|WP_001040091.1| CRISPR-Associated Protein Csn1 ...  1126   0.0  
+gi|489120168|ref|WP_003030002.1| CRISPR-associated protein Csn1 ...  1125   0.0  
+gi|446962837|ref|WP_001040093.1| CRISPR-associated protein Csn1 ...  1125   0.0  
+gi|446962848|ref|WP_001040104.1| CRISPR-associated protein Csn1 ...  1125   0.0  
+gi|642984208|ref|WP_025197271.1| CRISPR-associated protein Csn1 ...  1125   0.0  
+gi|446962855|ref|WP_001040111.1| CRISPR-associated protein Csn1 ...  1125   0.0  
+gi|446962845|ref|WP_001040101.1| CRISPR-Associated Protein Csn1 ...  1125   0.0  
+gi|516242425|ref|WP_017646388.1| CRISPR-associated protein Csn1 ...  1125   0.0  
+gi|662340124|gb|KEQ38765.1| HNH endonuclease family protein [Str...  1124   0.0  
+gi|446962847|ref|WP_001040103.1| CRISPR-associated protein Csn1 ...  1123   0.0  
+gi|488237415|ref|WP_002308623.1| hypothetical protein [Streptoco...  1123   0.0  
+gi|516241372|ref|WP_017645335.1| CRISPR-associated protein Csn1 ...  1122   0.0  
+gi|640044636|ref|WP_024784329.1| CRISPR-associated protein Csn1 ...  1122   0.0  
+gi|488227426|ref|WP_002298634.1| hypothetical protein [Streptoco...  1121   0.0  
+gi|516244622|ref|WP_017648585.1| CRISPR-associated protein Csn1 ...  1120   0.0  
+gi|498464655|ref|WP_010770040.1| CRISPR-associated protein cas9/...  1117   0.0  
+gi|654503258|ref|WP_027972728.1| CRISPR-associated protein Csn1 ...  1117   0.0  
+gi|504414070|ref|WP_014601172.1| CRISPR-associated protein Csn1 ...  1114   0.0  
+gi|640059858|ref|WP_024786433.1| CRISPR-associated protein Csn1 ...  1113   0.0  
+gi|488995743|ref|WP_002906454.1| CRISPR-associated protein Csn1 ...  1113   0.0  
+gi|488211039|ref|WP_002282247.1| CRISPR-associated protein [Stre...  1112   0.0  
+gi|446986595|ref|WP_001063851.1| CRISPR-associated protein Csn1 ...  1112   0.0  
+gi|499300419|ref|WP_010991369.1| CRISPR-associated protein Csn1 ...  1112   0.0  
+gi|640043974|ref|WP_024784288.1| CRISPR-associated protein Csn1 ...  1112   0.0  
+gi|489836121|ref|WP_003739838.1| CRISPR-associated protein Csn1 ...  1111   0.0  
+gi|489004472|ref|WP_002915084.1| CRISPR-associated protein Csn1 ...  1111   0.0  
+gi|489827017|ref|WP_003730785.1| CRISPR-associated protein Csn1 ...  1110   0.0  
+gi|489823922|ref|WP_003727705.1| CRISPR-associated protein Csn1 ...  1110   0.0  
+gi|488205842|ref|WP_002277050.1| CRISPR-associated protein [Stre...  1109   0.0  
+gi|504548968|ref|WP_014736070.1| CRISPR-associated protein Csn1 ...  1109   0.0  
+gi|548564942|ref|WP_022526294.1| hypothetical protein [Streptoco...  1109   0.0  
+gi|685931623|ref|WP_031665337.1| CRISPR-associated protein Csn1 ...  1108   0.0  
+gi|489869399|ref|WP_003772961.1| CRISPR-associated protein Csn1 ...  1108   0.0  
+gi|489819841|ref|WP_003723650.1| CRISPR-associated protein Csn1 ...  1105   0.0  
+gi|495171705|ref|WP_007896501.1| CRISPR-associated protein Csn1 ...  1104   0.0  
+gi|488980665|ref|WP_002891502.1| CRISPR-associated protein Csn1 ...  1101   0.0  
+gi|637016939|ref|WP_024411687.1| CRISPR-associated protein Csn1 ...  1096   0.0  
+gi|498524709|ref|WP_010824395.1| CRISPR-associated protein cas9/...  1096   0.0  
+gi|636985794|ref|WP_024406901.1| CRISPR-associated protein Csn1 ...  1095   0.0  
+gi|489131715|ref|WP_003041502.1| CRISPR-associated protein Csn1 ...  1095   0.0  
+gi|488344332|ref|WP_002413717.1| CRISPR-associated protein [Ente...  1095   0.0  
+gi|585226747|gb|EWM58113.1| CRISPR-associated protein Csn1 [Stre...  1095   0.0  
+gi|573639167|gb|ETU32645.1| CRISPR-associated protein cas9/csn1,...  1094   0.0  
+gi|488337939|ref|WP_002407324.1| CRISPR-associated protein [Ente...  1094   0.0  
+gi|498518329|ref|WP_010818269.1| CRISPR-associated protein cas9/...  1093   0.0  
+gi|500000752|ref|WP_011681470.1| CRISPR-associated protein Csn1 ...  1093   0.0  
+gi|619188175|gb|KAJ63808.1| CRISPR-associated protein, SAG0894 f...  1093   0.0  
+gi|488293628|ref|WP_002364836.1| CRISPR-associated protein [Ente...  1093   0.0  
+gi|488302103|ref|WP_002373311.1| CRISPR-associated protein [Ente...  1093   0.0  
+gi|498482266|ref|WP_010785195.1| CRISPR-associated protein cas9/...  1093   0.0  
+gi|488308330|ref|WP_002378009.1| CRISPR-associated protein [Ente...  1092   0.0  
+gi|498471477|ref|WP_010776234.1| CRISPR-associated protein cas9/...  1092   0.0  
+gi|488325266|ref|WP_002394651.1| CRISPR-associated protein [Ente...  1092   0.0  
+gi|504540549|ref|WP_014727651.1| CRISPR-associated protein Csn1 ...  1092   0.0  
+gi|564946694|gb|ETE40173.1| CRISPR-associated protein Csn1 [Stre...  1091   0.0  
+gi|639578843|ref|WP_024703962.1| CRISPR-associated protein Csn1 ...  1091   0.0  
+gi|573665916|gb|ETU59028.1| CRISPR-associated protein cas9/csn1,...  1091   0.0  
+gi|488291933|ref|WP_002363141.1| CRISPR-associated protein [Ente...  1091   0.0  
+gi|489197813|ref|WP_003107102.1| CRISPR-associated protein [Stre...  1091   0.0  
+gi|514893742|ref|WP_016622645.1| CRISPR-associated protein, Csn1...  1091   0.0  
+gi|489170123|ref|WP_003079701.1| CRISPR-associated protein Csn1 ...  1090   0.0  
+gi|391738060|sp|G3ECR1.2|CAS9_STRTR RecName: Full=CRISPR-associa...  1090   0.0  
+gi|504421493|ref|WP_014608595.1| CRISPR-associated protein Csn1 ...  1089   0.0  
+gi|564947200|gb|ETE40675.1| CRISPR-associated protein Csn1 [Stre...  1089   0.0  
+gi|498482035|ref|WP_010784994.1| CRISPR-associated protein cas9/...  1088   0.0  
+gi|636917031|ref|WP_024395100.1| CRISPR-associated protein Csn1 ...  1088   0.0  
+gi|498470806|ref|WP_010775580.1| CRISPR-associated protein cas9/...  1088   0.0  
+gi|559007111|ref|WP_023548323.1| CRISPR-associated protein Csn1 ...  1088   0.0  
+gi|636869992|ref|WP_024381493.1| CRISPR-associated protein Csn1 ...  1087   0.0  
+gi|636879462|ref|WP_024385410.1| CRISPR-associated protein Csn1 ...  1087   0.0  
+gi|636895891|ref|WP_024390729.1| CRISPR-associated protein Csn1 ...  1086   0.0  
+gi|517368577|ref|WP_018543557.1| CRISPR-associated protein Csn1 ...  1074   0.0  
+gi|489121687|ref|WP_003031511.1| CRISPR-associated protein Csn1 ...  1073   0.0  
+gi|685937095|ref|WP_031669209.1| CRISPR-associated protein Csn1 ...  1072   0.0  
+gi|489829274|ref|WP_003733029.1| CRISPR-associated protein Csn1 ...  1071   0.0  
+gi|488241486|ref|WP_002312694.1| CRISPR-associated protein Csn1 ...  1071   0.0  
+gi|590403756|gb|EXL23613.1| hypothetical protein X842_1436 [List...  1071   0.0  
+gi|590396211|gb|EXL16255.1| hypothetical protein X843_0786 [List...  1070   0.0  
+gi|488274231|ref|WP_002345439.1| CRISPR-associated protein cas9/...  1068   0.0  
+gi|488263953|ref|WP_002335161.1| CRISPR-associated protein Csn1 ...  1068   0.0  
+gi|488249508|ref|WP_002320716.1| CRISPR-associated protein Csn1 ...  1066   0.0  
+gi|488242807|ref|WP_002314015.1| CRISPR-associated protein Csn1 ...  1065   0.0  
+gi|488239436|ref|WP_002310644.1| CRISPR-associated protein Csn1 ...  1063   0.0  
+gi|488259521|ref|WP_002330729.1| CRISPR-associated protein cas9/...  1062   0.0  
+gi|511299122|ref|WP_016355900.1| CRISPR-associated protein Cas9/...  1059   0.0  
+gi|512722665|ref|WP_016480710.1| CRISPR-associated protein, Csn1...  1057   0.0  
+gi|498431249|ref|WP_010737004.1| CRISPR-associated protein Csn1 ...  1056   0.0  
+gi|649263333|gb|KDR91786.1| CRISPR-associated protein Csn1 [Ente...  1056   0.0  
+gi|619740371|gb|AHY15608.1| CRISPR-associated protein Csn1 [Stre...  1055   0.0  
+gi|619742240|gb|AHY17476.1| CRISPR-associated protein Csn1 [Stre...  1055   0.0  
+gi|498411195|ref|WP_010720994.1| CRISPR-associated protein cas9/...  1052   0.0  
+gi|446983479|ref|WP_001060735.1| CRISPR-associated protein Csn1 ...  1052   0.0  
+gi|662350313|gb|KEQ48882.1| HNH endonuclease family protein [Str...  1050   0.0  
+gi|495168446|ref|WP_007893243.1| CRISPR-associated protein Csn1 ...  1050   0.0  
+gi|675808091|gb|KFN86436.1| hypothetical protein B279_05335 [Str...  1048   0.0  
+gi|490774321|ref|WP_004636532.1| CRISPR-associated protein Csn1 ...  1048   0.0  
+gi|488194218|ref|WP_002265426.1| hypothetical protein [Streptoco...  1048   0.0  
+gi|514905847|ref|WP_016631044.1| MULTISPECIES: CRISPR-associated...  1042   0.0  
+gi|517183674|ref|WP_018372492.1| hypothetical protein [Streptoco...  1036   0.0  
+gi|489150149|ref|WP_003059869.1| CRISPR-associated protein Csn1 ...  1035   0.0  
+gi|494394830|ref|WP_007209003.1| CRISPR-associated protein Csn1 ...  1035   0.0  
+gi|498444636|ref|WP_010750235.1| CRISPR-associated protein cas9/...  1031   0.0  
+gi|666377823|gb|KEY47635.1| CRISPR-associated protein Csn1 [Stre...  1027   0.0  
+gi|558689600|ref|WP_023519017.1| hypothetical protein [Enterococ...  1026   0.0  
+gi|527332907|ref|WP_020917064.1| hypothetical protein [Streptoco...  1020   0.0  
+gi|585224389|gb|EWM55849.1| CRISPR-associated protein Csn1 [Stre...   996   0.0  
+gi|557388897|gb|ESR09095.1| CRISPR-associated protein Csn1 [Stre...   992   0.0  
+gi|631856267|gb|KDA45870.1| CRISPR-associated protein Cas9/Csn1,...   992   0.0  
+gi|654500704|ref|WP_027970237.1| CRISPR-associated protein Csn1 ...   991   0.0  
+gi|657708676|ref|WP_029507330.1| hypothetical protein [Lactobaci...   987   0.0  
+gi|640662680|ref|WP_025088082.1| hypothetical protein [Lactobaci...   979   0.0  
+gi|487046617|gb|EOJ74066.1| CRISPR-associated protein cas9/csn1,...   959   0.0  
+gi|518146273|ref|WP_019316481.1| CRISPR-associated protein Csn1,...   952   0.0  
+gi|685990466|ref|WP_031695879.1| CRISPR-associated protein Csn1,...   932   0.0  
+gi|548554254|ref|WP_022524804.1| hypothetical protein [Streptoco...   931   0.0  
+gi|490270412|ref|WP_004166700.1| CRISPR-associated protein [Pedi...   921   0.0  
+gi|497566499|ref|WP_009880683.1| COG3513: Uncharacterized protei...   920   0.0  
+gi|488920030|ref|WP_002831105.1| CRISPR-associated protein [Pedi...   919   0.0  
+gi|504753359|ref|WP_014940461.1| CRISPR-associated protein [Lact...   918   0.0  
+gi|313616973|gb|EFR89594.1| crispr-associated protein, Csn1 fami...   915   0.0  
+gi|503493991|ref|WP_013728652.1| CRISPR-associated protein [Lact...   914   0.0  
+gi|640316279|ref|WP_024862574.1| CRISPR-associated protein [Pedi...   909   0.0  
+gi|640657397|ref|WP_025083227.1| CRISPR-associated protein Csn1 ...   908   0.0  
+gi|497695086|ref|WP_010009270.1| CRISPR-associated protein Csn1 ...   904   0.0  
+gi|505351806|ref|WP_015538908.1| CRISPR-associated protein, Csn1...   903   0.0  
+gi|510890393|ref|WP_016223708.1| CRISPR-associated protein cas9/...   898   0.0  
+gi|334881121|emb|CCB81940.1| putative uncharacterized protein [L...   896   0.0  
+gi|544887397|ref|WP_021299407.1| CRISPR-associated protein Cas9/...   895   0.0  
+gi|490391895|ref|WP_004270945.1| CRISPR-associated protein Csn1 ...   892   0.0  
+gi|547944271|ref|WP_022345413.1| putative uncharacterized protei...   888   0.0  
+gi|446962830|ref|WP_001040086.1| hypothetical protein, partial [...   886   0.0  
+gi|491997296|ref|WP_005713195.1| CRISPR-associated protein [Lact...   885   0.0  
+gi|654308074|ref|WP_027821588.1| CRISPR-associated protein Cas9 ...   883   0.0  
+gi|491944955|ref|WP_005684674.1| CRISPR-associated protein [Lact...   883   0.0  
+gi|489687309|ref|WP_003591519.1| CRISPR-associated SAG0894 famil...   882   0.0  
+gi|489684324|ref|WP_003588546.1| MULTISPECIES: CRISPR-associated...   881   0.0  
+gi|518724026|ref|WP_019884334.1| hypothetical protein [Lactobaci...   881   0.0  
+gi|511701643|ref|WP_016379440.1| hypothetical protein [Lactobaci...   881   0.0  
+gi|505192536|ref|WP_015379638.1| Hypothetical protein [Lactobaci...   880   0.0  
+gi|504765121|ref|WP_014952223.1| hypothetical protein [Lactobaci...   880   0.0  
+gi|489755490|ref|WP_003659473.1| CRISPR-associated protein [Lact...   880   0.0  
+gi|489700544|ref|WP_003604681.1| CRISPR-associated SAG0894 famil...   880   0.0  
+gi|501468426|ref|WP_012491871.1| MULTISPECIES: CRISPR-associated...   879   0.0  
+gi|490601536|ref|WP_004466556.1| CRISPR-associated protein [Lact...   879   0.0  
+gi|523533359|ref|WP_020751689.1| CRISPR-associated protein [Lact...   879   0.0  
+gi|518735248|ref|WP_019894961.1| hypothetical protein [Lactobaci...   878   0.0  
+gi|489691590|ref|WP_003595774.1| CRISPR-associated SAG0894 famil...   877   0.0  
+gi|519666170|ref|WP_020282061.1| CRISPR-associated protein, Csn1...   877   0.0  
+gi|503746753|ref|WP_013980829.1| CRISPR-associated protein Csn1 ...   876   0.0  
+gi|511666252|ref|WP_016372827.1| hypothetical protein [Lactobaci...   875   0.0  
+gi|486587670|gb|EOF29249.1| CRISPR-associated protein cas9/csn1,...   871   0.0  
+gi|489733276|ref|WP_003637375.1| CRISPR-associated protein, Cas9...   871   0.0  
+gi|497243648|ref|WP_009557865.1| Csn1 family CRISPR-associated p...   870   0.0  
+gi|504382875|ref|WP_014569977.1| CRISPR-associated protein [Lact...   868   0.0  
+gi|544929180|ref|WP_021338270.1| hypothetical protein [Lactobaci...   868   0.0  
+gi|656123150|emb|CDR83364.1| CRISPR-associated protein [Lactobac...   868   0.0  
+gi|656121167|emb|CDR81704.1| CRISPR-associated protein [Lactobac...   867   0.0  
+gi|639186894|ref|WP_024526164.1| hypothetical protein [Lactobaci...   866   0.0  
+gi|503474914|ref|WP_013709575.1| CRISPR-associated protein Csn1 ...   865   0.0  
+gi|547772437|ref|WP_022183850.1| cRISPR-associated protein Csn1 ...   862   0.0  
+gi|517188813|ref|WP_018377631.1| hypothetical protein [Streptoco...   862   0.0  
+gi|557699916|ref|WP_023440039.1| CRISPR-associated protein [Pedi...   860   0.0  
+gi|654507345|ref|WP_027976660.1| CRISPR-associated protein Csn1 ...   859   0.0  
+gi|570252623|gb|ETO40382.1| CRISPR-associated protein, SAG0894 f...   859   0.0  
+gi|505325499|ref|WP_015512601.1| CRISPR-associated endonuclease,...   858   0.0  
+gi|491804962|ref|WP_005609677.1| hypothetical protein [Ruminococ...   858   0.0  
+gi|496457963|ref|WP_009166808.1| CRISPR-associated protein [Lact...   857   0.0  
+gi|548165482|ref|WP_022387671.1| cRISPR-associated protein Csn1 ...   855   0.0  
+gi|518145737|ref|WP_019315945.1| CRISPR-associated protein Csn1,...   854   0.0  
+gi|668900893|gb|KFC34615.1| CRISPR-associated protein [Lactobaci...   853   0.0  
+gi|545596715|ref|WP_021725096.1| CRISPR-associated protein Cas9/...   851   0.0  
+gi|518081566|ref|WP_019251774.1| hypothetical protein [Lactobaci...   850   0.0  
+gi|446974208|ref|WP_001051464.1| CRISPR-associated protein Csn1 ...   850   0.0  
+gi|489777922|ref|WP_003681813.1| CRISPR-associated protein [Lact...   850   0.0  
+gi|547291127|ref|WP_022024042.1| cRISPR-associated endonuclease ...   845   0.0  
+gi|654312393|ref|WP_027825498.1| CRISPR-associated protein Csn1 ...   845   0.0  
+gi|511763079|ref|WP_016396272.1| csn1 family CRISPR-associated p...   843   0.0  
+gi|547466161|ref|WP_022085160.1| cRISPR-associated protein Cas9/...   837   0.0  
+gi|488918895|ref|WP_002829970.1| CRISPR-associated protein [Pedi...   837   0.0  
+gi|493545970|ref|WP_006499799.1| CRISPR-associated protein [Lact...   834   0.0  
+gi|503017123|ref|WP_013252099.1| CRISPR-associated protein Csn1 ...   833   0.0  
+gi|669630524|dbj|GAK48697.1| putative CRISPR-associated protein ...   833   0.0  
+gi|489023116|ref|WP_002933589.1| CRISPR-associated protein Csn1 ...   831   0.0  
+gi|515830578|ref|WP_017261331.1| hypothetical protein [Lactobaci...   831   0.0  
+gi|546864438|ref|WP_021899183.1| cRISPR-associated protein Csn1 ...   830   0.0  
+gi|494784522|ref|WP_007519930.1| CRISPR-associated protein csn1 ...   823   0.0  
+gi|493471049|ref|WP_006426118.1| hypothetical protein [Dorea lon...   823   0.0  
+gi|504380459|ref|WP_014567561.1| CRISPR-associated protein Csn1 ...   821   0.0  
+gi|503848134|ref|WP_014082128.1| CRISPR-associated protein [Lact...   820   0.0  
+gi|527782705|gb|EPV73545.1| CRISPR-associated protein Csn1, part...   819   0.0  
+gi|547281693|ref|WP_022015080.1| cRISPR-associated endonuclease ...   817   0.0  
+gi|339637353|emb|CCC16263.1| putative uncharacterized protein [L...   816   0.0  
+gi|545613323|ref|WP_021737686.1| CRISPR-associated protein, Csn1...   815   0.0  
+gi|547842268|ref|WP_022249818.1| cRISPR-associated protein Csn1 ...   815   0.0  
+gi|652955557|ref|WP_027208814.1| hypothetical protein [Butyrivib...   814   0.0  
+gi|651392254|ref|WP_026504058.1| hypothetical protein [Butyrivib...   812   0.0  
+gi|547742440|ref|WP_022155891.1| cRISPR-associated protein Csn1 ...   806   0.0  
+gi|493634568|ref|WP_006586411.1| CRISPR-associated protein Csn1 ...   805   0.0  
+gi|523687965|ref|WP_020807054.1| CRISPR-associated protein [Lact...   804   0.0  
+gi|547036177|ref|WP_021911334.1| crispr-associated protein [Euba...   803   0.0  
+gi|551048120|ref|WP_022791454.1| hypothetical protein [Weissella...   802   0.0  
+gi|489744644|ref|WP_003648675.1| CRISPR-associated protein Csn1 ...   802   0.0  
+gi|474482590|gb|EMS75795.1| hypothetical protein H318_06676 [Ent...   800   0.0  
+gi|544722392|ref|WP_021152394.1| CRISPR-associated protein, Csn1...   799   0.0  
+gi|508149327|gb|EOT26129.1| CRISPR-associated protein cas9/csn1,...   799   0.0  
+gi|527753610|gb|EPV45184.1| CRISPR-associated protein Csn1, part...   799   0.0  
+gi|588475549|dbj|GAF40170.1| CRISPR-associated protein, Csn1 fam...   798   0.0  
+gi|672975709|gb|KFI71094.1| CRISPR associated protein [Bifidobac...   798   0.0  
+gi|306513404|gb|EFM82024.1| CRISPR-associated protein, Csn1 fami...   795   0.0  
+gi|489781178|ref|WP_003685069.1| CRISPR-associated protein [Lact...   793   0.0  
+gi|573491633|gb|ETS92439.1| CRISPR-associated protein Cas9/Csn1,...   793   0.0  
+gi|548204848|ref|WP_022424889.1| cRISPR-associated protein Csn1 ...   793   0.0  
+gi|493553119|ref|WP_006506696.1| hypothetical protein, partial [...   792   0.0  
+gi|566236916|gb|ETI98589.1| CRISPR-associated protein, Csn1 fami...   790   0.0  
+gi|495746669|ref|WP_008471248.1| CRISPR-associated protein Csn1 ...   790   0.0  
+gi|489805239|ref|WP_003709113.1| hypothetical protein [Lactobaci...   788   0.0  
+gi|518635888|ref|WP_019806095.1| CRISPR-associated protein Csn1,...   786   0.0  
+gi|491523080|ref|WP_005380707.1| CRISPR-associated protein Csn1 ...   785   0.0  
+gi|503128334|ref|WP_013362995.1| CRISPR-associated protein [Bifi...   784   0.0  
+gi|547893376|ref|WP_022298151.1| cRISPR-associated endonuclease ...   784   0.0  
+gi|313626274|gb|EFR95520.1| crispr-associated protein Csn1 [List...   784   0.0  
+gi|494634637|ref|WP_007392581.1| CRISPR-associated protein, Csn1...   783   0.0  
+gi|490832399|ref|WP_004694484.1| CRISPR-associated protein Csn1 ...   783   0.0  
+gi|490700095|ref|WP_004563574.1| CRISPR-associated protein [Lact...   780   0.0  
+gi|656052490|ref|WP_029090905.1| hypothetical protein [Brochothr...   779   0.0  
+gi|495877409|ref|WP_008601988.1| CRISPR-associated protein Csn1 ...   777   0.0  
+gi|551041059|ref|WP_022784704.1| CRISPR-associated protein Csn1 ...   777   0.0  
+gi|489666935|ref|WP_003571218.1| CRISPR-associated SAG0894 famil...   777   0.0  
+gi|489654804|ref|WP_003559172.1| CRISPR-associated protein [Lact...   773   0.0  
+gi|488764149|ref|WP_002687349.1| CRISPR-associated protein cas9/...   773   0.0  
+gi|488753394|ref|WP_002676671.1| CRISPR-associated protein cas9/...   773   0.0  
+gi|488749584|ref|WP_002672887.1| CRISPR-associated protein cas9/...   773   0.0  
+gi|488758052|ref|WP_002681289.1| CRISPR-associated protein cas9/...   771   0.0  
+gi|493633878|ref|WP_006585732.1| CRISPR-associated protein Csn1 ...   770   0.0  
+gi|488761741|ref|WP_002684945.1| CRISPR-associated protein cas9/...   770   0.0  
+gi|546349952|ref|WP_021841192.1| cRISPR-associated protein Csn1 ...   769   0.0  
+gi|547237267|ref|WP_021973442.1| cRISPR-associated endonuclease ...   768   0.0  
+gi|566224806|gb|ETI89521.1| CRISPR-associated protein, Csn1 fami...   768   0.0  
+gi|488779915|ref|WP_002692322.1| CRISPR-associated protein cas9/...   766   0.0  
+gi|498384301|ref|WP_010698457.1| CRISPR-associated protein cas9/...   765   0.0  
+gi|510808993|ref|WP_016183746.1| CRISPR-associated protein cas9/...   765   0.0  
+gi|548219066|ref|WP_022438259.1| cRISPR-associated protein Csn1 ...   764   0.0  
+gi|496307041|ref|WP_009016219.1| MULTISPECIES: CRISPR-associated...   764   0.0  
+gi|512626460|ref|WP_016459569.1| CRISPR-associated protein cas9/...   763   0.0  
+gi|651250927|ref|WP_026385754.1| CRISPR-associated protein [Acid...   763   0.0  
+gi|654839085|ref|WP_028291740.1| hypothetical protein [Oenococcu...   758   0.0  
+gi|495020429|ref|WP_007746220.1| CRISPR-associated protein [Oeno...   758   0.0  
+gi|488342751|ref|WP_002412136.1| CRISPR-associated protein, Csn1...   757   0.0  
+gi|656034227|ref|WP_029073316.1| hypothetical protein [Kandleria...   757   0.0  
+gi|497703282|ref|WP_010017466.1| possible CRISPR associated prot...   756   0.0  
+gi|685199419|gb|AIN93522.1| CRISPR-associated protein cas9/csn1,...   756   0.0  
+gi|511422395|gb|EPC57499.1| hypothetical protein Lpp123_03279, p...   754   0.0  
+gi|497704765|ref|WP_010018949.1| possible CRISPR associated prot...   751   0.0  
+gi|640312571|ref|WP_024861694.1| hypothetical protein [Ruminococ...   751   0.0  
+gi|547470211|ref|WP_022089002.1| cRISPR-associated protein Cas9/...   749   0.0  
+gi|489794282|ref|WP_003698173.1| CRISPR-associated protein [Lact...   749   0.0  
+gi|543391592|gb|ERJ49495.1| CRISPR-associated protein [Lactobaci...   747   0.0  
+gi|656295101|ref|WP_029236766.1| hypothetical protein [Streptoco...   743   0.0  
+gi|658777900|ref|WP_029776921.1| CRISPR-associated protein Csn1,...   743   0.0  
+gi|494251533|ref|WP_007147952.1| CRISPR-associated protein cas9/...   742   0.0  
+gi|497702843|ref|WP_010017027.1| CRISPR-associated protein [Leuc...   742   0.0  
+gi|671623457|ref|WP_031589969.1| hypothetical protein [Kandleria...   741   0.0  
+gi|496371126|ref|WP_009080116.1| CRISPR-associated protein Csn1 ...   740   0.0  
+gi|504028100|ref|WP_014262094.1| CRISPR-associated protein, Csn1...   740   0.0  
+gi|656305459|ref|WP_029238069.1| hypothetical protein [Streptoco...   739   0.0  
+gi|598625461|gb|EYD69881.1| CRISPR-associated Cas5e [Fusobacteri...   737   0.0  
+gi|489845973|ref|WP_003749665.1| crispr-associated protein Csn1,...   730   0.0  
+gi|655070597|ref|WP_028518833.1| hypothetical protein [Ruminococ...   730   0.0  
+gi|547852512|ref|WP_022259511.1| putative uncharacterized protei...   730   0.0  
+gi|511078633|ref|WP_016319992.1| CRISPR-associated protein cas9/...   729   0.0  
+gi|491510307|ref|WP_005367941.1| CRISPR-associated protein Csn1 ...   727   0.0  
+gi|548248291|ref|WP_022466124.1| putative uncharacterized protei...   727   0.0  
+gi|545610508|ref|WP_021735134.1| CRISPR-associated protein Cas9/...   726   0.0  
+gi|658539465|ref|WP_029732989.1| CRISPR-associated protein Csn1,...   722   0.0  
+gi|490975103|ref|WP_004836889.1| CRISPR-associated protein [Anae...   714   0.0  
+gi|652784761|ref|WP_027090768.1| hypothetical protein [[Clostrid...   712   0.0  
+gi|489237113|ref|WP_003145379.1| CRISPR-associated protein Csn1 ...   712   0.0  
+gi|547269308|ref|WP_022003455.1| csn1 family CRISPR-associated p...   704   0.0  
+gi|496117495|ref|WP_008842002.1| csn1 family CRISPR-associated p...   703   0.0  
+gi|547192943|ref|WP_021934543.1| cRISPR-associated protein Csn1 ...   702   0.0  
+gi|493782301|ref|WP_006730680.1| CRISPR-associated protein [Lact...   701   0.0  
+gi|498311358|ref|WP_010625514.1| hypothetical protein [Lactobaci...   698   0.0  
+gi|430613247|gb|ELB50264.1| CRISPR-associated protein cas9/csn1,...   697   0.0  
+gi|496176552|ref|WP_008901059.1| CRISPR-associated protein [Pept...   694   0.0  
+gi|493573663|ref|WP_006526860.1| CRISPR-associated protein, Csn1...   694   0.0  
+gi|547887290|ref|WP_022292431.1| crispr-associated protein [Euba...   692   0.0  
+gi|489918356|ref|WP_003821720.1| CRISPR-associated protein [Bifi...   690   0.0  
+gi|488930729|ref|WP_002841804.1| CRISPR-associated protein Cas9 ...   689   0.0  
+gi|548310877|ref|WP_022501374.1| cRISPR-associated protein Csn1 ...   686   0.0  
+gi|499794784|ref|WP_011475518.1| hypothetical protein [Lactobaci...   685   0.0  
+gi|653185632|ref|WP_027422043.1| hypothetical protein [Lachnobac...   685   0.0  
+gi|488926751|ref|WP_002837826.1| CRISPR-associated protein Cas9 ...   680   0.0  
+gi|545644659|ref|WP_021752441.1| CRISPR-associated protein, Csn1...   679   0.0  
+gi|501247123|ref|WP_012290141.1| CRISPR-associated protein Cas9 ...   677   0.0  
+gi|548083477|ref|WP_022379794.1| cRISPR-associated protein Csn1 ...   671   0.0  
+gi|488984596|ref|WP_002895385.1| CRISPR-associated protein Csn1 ...   669   0.0  
+gi|652856852|ref|WP_027129613.1| CRISPR-associated protein Csn1 ...   668   0.0  
+gi|491541465|ref|WP_005399084.1| CRISPR-associated protein Cas9 ...   667   0.0  
+gi|486484621|gb|EOE28398.1| CRISPR-associated protein cas9/csn1,...   666   0.0  
+gi|547232243|ref|WP_021968776.1| cRISPR-associated protein Csn1 ...   661   0.0  
+gi|652816549|ref|WP_027106998.1| hypothetical protein [Lactobaci...   660   0.0  
+gi|446962828|ref|WP_001040084.1| hypothetical protein, partial [...   655   0.0  
+gi|545661002|ref|WP_021767602.1| CRISPR-associated protein, Csn1...   655   0.0  
+gi|653225596|ref|WP_027438114.1| hypothetical protein [Lachnospi...   654   0.0  
+gi|658770591|ref|WP_029776275.1| CRISPR-associated protein Csn1,...   654   0.0  
+gi|547196564|ref|WP_021937887.1| cRISPR-associated protein Cas9/...   653   0.0  
+gi|490769968|ref|WP_004632196.1| CRISPR-associated protein Csn1 ...   653   0.0  
+gi|493882050|ref|WP_006828302.1| CRISPR-associated protein, Csn1...   649   0.0  
+gi|653097340|ref|WP_027347504.1| CRISPR-associated protein Cas9 ...   638   e-180
+gi|548251343|ref|WP_022469107.1| cRISPR-associated protein Csn1 ...   638   e-180
+gi|658495300|ref|WP_029691988.1| CRISPR-associated protein Csn1,...   638   e-180
+gi|527649951|gb|EPU42254.1| CRISPR-associated protein Csn1 [Stre...   635   e-178
+gi|548328202|ref|WP_022514049.1| cRISPR-associated endonuclease ...   635   e-178
+gi|656295481|ref|WP_029237146.1| hypothetical protein, partial [...   631   e-177
+gi|496095765|ref|WP_008820272.1| CRISPR-associated protein Csn1 ...   630   e-177
+gi|313606602|gb|EFR83390.1| crispr-associated protein Csn1 [List...   629   e-177
+gi|517997710|ref|WP_019167918.1| hypothetical protein [Staphyloc...   628   e-176
+gi|496514228|ref|WP_009222511.1| CRISPR-associated protein, Csn1...   627   e-176
+gi|496074778|ref|WP_008799285.1| CRISPR-associated protein Csn1 ...   627   e-176
+gi|294487409|gb|EFG34771.1| CRISPR-associated protein cas9/csn1,...   626   e-176
+gi|492667141|ref|WP_005916110.1| CRISPR-associated protein Cas9/...   626   e-176
+gi|504426157|ref|WP_014613259.1| CRISPR-associated protein, Csn1...   625   e-175
+gi|547450686|ref|WP_022070288.1| cRISPR-associated protein [Fuso...   623   e-175
+gi|511438849|gb|EPC71426.1| hypothetical protein Lpp126_15364 [L...   622   e-175
+gi|489237643|ref|WP_003145904.1| CRISPR-associated protein Csn1 ...   619   e-174
+gi|552759124|ref|WP_023015764.1| hypothetical protein [Staphyloc...   619   e-174
+gi|657701005|ref|WP_029499861.1| hypothetical protein [Kurthia h...   618   e-173
+gi|496723348|ref|WP_009353052.1| CRISPR-associated protein Cas9/...   618   e-173
+gi|492568239|ref|WP_005888649.1| CRISPR-associated protein Csn1 ...   613   e-172
+gi|547928804|ref|WP_022330811.1| cRISPR-associated protein cas9/...   576   e-161
+gi|547885935|ref|WP_022291102.1| cRISPR-associated protein Csn1 ...   568   e-158
+gi|547320132|ref|WP_022051453.1| cRISPR-associated protein Csn1 ...   563   e-157
+gi|657896913|ref|WP_029600029.1| CRISPR-associated protein Csn1,...   563   e-157
+gi|489090551|ref|WP_003000447.1| CRISPR-associated protein, Csn1...   552   e-154
+gi|547478205|ref|WP_022096308.1| cRISPR-associated endonuclease ...   546   e-152
+gi|514518221|gb|EPH83611.1| CRISPR-associated protein, Csn1 fami...   546   e-152
+gi|654622390|ref|WP_028086831.1| hypothetical protein [Dorea lon...   545   e-151
+gi|585224499|gb|EWM55951.1| CRISPR-associated protein Csn1 [Stre...   544   e-151
+gi|489143906|ref|WP_003053670.1| CRISPR-associated protein, Csn1...   536   e-149
+gi|514518222|gb|EPH83612.1| CRISPR-associated protein, Csn1 fami...   535   e-148
+gi|496285869|ref|WP_008997907.1| CRISPR-associated protein Cas9 ...   531   e-147
+gi|504380954|ref|WP_014568056.1| hypothetical protein [Lactobaci...   529   e-147
+gi|546361113|ref|WP_021848072.1| putative uncharacterized protei...   528   e-146
+gi|655528224|ref|WP_028906301.1| CRISPR-associated protein Cas9 ...   525   e-145
+gi|595969214|gb|EXY63846.1| HNH endonuclease family protein [Bac...   523   e-145
+gi|492255239|ref|WP_005791619.1| CRISPR-associated protein Cas9 ...   523   e-145
+gi|496648031|ref|WP_009293010.1| MULTISPECIES: CRISPR-associated...   522   e-144
+gi|596224833|gb|EYA69043.1| HNH endonuclease family protein [Bac...   522   e-144
+gi|596143364|gb|EXZ98561.1| HNH endonuclease family protein [Bac...   521   e-144
+gi|596115192|gb|EXZ76625.1| HNH endonuclease family protein [Bac...   521   e-144
+gi|596253495|gb|EYA93855.1| HNH endonuclease family protein [Bac...   521   e-144
+gi|596219296|gb|EYA64386.1| HNH endonuclease family protein [Bac...   521   e-144
+gi|490498392|ref|WP_004364541.1| CRISPR-associated protein cas9/...   521   e-144
+gi|595940498|gb|EXY44678.1| HNH endonuclease family protein [Bac...   521   e-144
+gi|596028883|gb|EXZ08193.1| HNH endonuclease family protein [Bac...   521   e-144
+gi|596022711|gb|EXZ03670.1| HNH endonuclease family protein, par...   519   e-143
+gi|577775332|gb|EUJ36155.1| hypothetical protein BTHER_07556 [Br...   518   e-143
+gi|595946834|gb|EXY48922.1| HNH endonuclease family protein, par...   518   e-143
+gi|504521832|ref|WP_014708934.1| CRISPR-associated protein Cas9 ...   518   e-143
+gi|496045722|ref|WP_008770229.1| CRISPR-associated protein Cas9 ...   517   e-143
+gi|544716258|ref|WP_021146268.1| CRISPR-associated protein, Csn1...   516   e-143
+gi|595894502|gb|EXY16118.1| HNH endonuclease family protein [Bac...   515   e-142
+gi|495422049|ref|WP_008146746.1| CRISPR-associated protein Cas9 ...   514   e-142
+gi|488411225|ref|WP_002480610.1| CRISPR-associated protein cas9/...   514   e-142
+gi|577780425|gb|EUJ41136.1| CRISPR-associated protein [Brochothr...   513   e-142
+gi|527651110|gb|EPU43390.1| hypothetical protein SAG0170_06065 [...   510   e-141
+gi|548193495|ref|WP_022414167.1| cRISPR-associated protein cas9/...   509   e-141
+gi|492469538|ref|WP_005855543.1| MULTISPECIES: CRISPR-associated...   509   e-141
+gi|496056406|ref|WP_008780913.1| CRISPR-associated protein Cas9 ...   508   e-140
+gi|550259504|ref|WP_022599516.1| CRISPR-associated protein Cas9 ...   508   e-140
+gi|548167542|ref|WP_022389528.1| putative uncharacterized protei...   506   e-139
+gi|497005675|ref|WP_009434997.1| CRISPR-associated protein Cas9 ...   504   e-139
+
+Sequences not found previously or not previously below threshold:
+
+>gi|554595615|gb|AGZ01981.1| Cas9 endonuclease [synthetic construct]
+          Length = 1417
+
+ Score = 1226 bits (3171), Expect = 0.0,   Method: Composition-based stats.
+ Identities = 1298/1361 (95%), Positives = 1301/1361 (95%), Gaps = 55/1361 (4%)
+
+Query: 1    KYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATR 60
+            KYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATR
+Sbjct: 37   KYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATR 96
+
+Query: 61   LKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIV 120
+            LKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIV
+Sbjct: 97   LKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIV 156
+
+Query: 121  DEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDK 180
+            DEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDK
+Sbjct: 157  DEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDK 216
+
+Query: 181  LFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIA 240
+            LFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIA
+Sbjct: 217  LFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIA 276
+
+Query: 241  LSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLS 300
+            LSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLS
+Sbjct: 277  LSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLS 336
+
+Query: 301  DILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYI 360
+            DILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYI
+Sbjct: 337  DILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYI 396
+
+Query: 361  DGGASQEEFYKFIKPILEKMDT-EELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAIL 419
+            DGGASQEEFYKFIKPILEKMD  EELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAIL
+Sbjct: 397  DGGASQEEFYKFIKPILEKMDGTEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAIL 456
+
+Query: 420  RRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVD 479
+            RRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVD
+Sbjct: 457  RRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVD 516
+
+Query: 480  KGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGE 539
+            KGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGE
+Sbjct: 517  KGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGE 576
+
+Query: 540  QKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKD 599
+            QKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKD
+Sbjct: 577  QKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKD 636
+
+Query: 600  KDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLS 659
+            KDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLS
+Sbjct: 637  KDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLS 696
+
+Query: 660  RKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQK--------SLHEH 711
+            RKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQK        SLHEH
+Sbjct: 697  RKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQKAQVSGQGDSLHEH 756
+
+Query: 712  IANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMARNSR----------ERMKR 761
+            IANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMAR ++          ERMKR
+Sbjct: 757  IANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMARENQTTQKGQKNSRERMKR 816
+
+Query: 762  IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDAIVP 821
+            IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVD IVP
+Sbjct: 817  IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDHIVP 876
+
+Query: 822  QSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKA 881
+            QSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKA
+Sbjct: 877  QSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKA 936
+
+Query: 882  ERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLV 941
+            ERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLV
+Sbjct: 937  ERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLV 996
+
+Query: 942  SDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGDG---------- 991
+            SDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGD           
+Sbjct: 997  SDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGDYKVYDVRKMIA 1056
+
+Query: 992  -------KATAKYFFYSNIMNFFKTEI--------KRPLIETNGETGEIVWDKGRDFATV 1036
+                   KATAKYFFYSNIMNFFKTEI        KRPLIETNGETGEIVWDKGRDFATV
+Sbjct: 1057 KSEQEIGKATAKYFFYSNIMNFFKTEITLANGEIRKRPLIETNGETGEIVWDKGRDFATV 1116
+
+Query: 1037 RKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSV 1096
+            RKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSV
+Sbjct: 1117 RKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSV 1176
+
+Query: 1097 LVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSL 1156
+            LVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSL
+Sbjct: 1177 LVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSL 1236
+
+Query: 1157 FELENGRKRMLASAGELQKGNELALPSKYVNFLYLA-----------SHEQKQLFVEQHK 1205
+            FELENGRKRMLASAGELQKGNELALPSKYVNFLYLA            +EQKQLFVEQHK
+Sbjct: 1237 FELENGRKRMLASAGELQKGNELALPSKYVNFLYLASHYEKLKGSPEDNEQKQLFVEQHK 1296
+
+Query: 1206 HYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAA 1265
+            HYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAA
+Sbjct: 1297 HYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAA 1356
+
+Query: 1266 FKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQ 1306
+            FKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQ
+Sbjct: 1357 FKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQ 1397
+
+
+  Database: nr
+    Posted date:  Oct 3, 2014  3:54 AM
+  Number of letters in database: 776,002,400
+  Number of sequences in database:  2,275,728
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.01
+    Posted date:  Oct 3, 2014  3:57 AM
+  Number of letters in database: 999,999,557
+  Number of sequences in database:  2,984,159
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.02
+    Posted date:  Oct 3, 2014  4:00 AM
+  Number of letters in database: 999,999,560
+  Number of sequences in database:  2,865,901
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.03
+    Posted date:  Oct 3, 2014  4:03 AM
+  Number of letters in database: 999,999,687
+  Number of sequences in database:  2,881,653
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.04
+    Posted date:  Oct 3, 2014  4:06 AM
+  Number of letters in database: 999,999,927
+  Number of sequences in database:  2,971,244
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.05
+    Posted date:  Oct 3, 2014  4:09 AM
+  Number of letters in database: 999,999,892
+  Number of sequences in database:  2,869,355
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.06
+    Posted date:  Oct 3, 2014  4:12 AM
+  Number of letters in database: 999,999,486
+  Number of sequences in database:  2,797,554
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.07
+    Posted date:  Oct 3, 2014  4:14 AM
+  Number of letters in database: 999,999,825
+  Number of sequences in database:  2,630,712
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.08
+    Posted date:  Oct 3, 2014  4:16 AM
+  Number of letters in database: 999,999,995
+  Number of sequences in database:  2,918,106
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.09
+    Posted date:  Oct 3, 2014  4:19 AM
+  Number of letters in database: 999,998,492
+  Number of sequences in database:  2,509,171
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.10
+    Posted date:  Oct 3, 2014  4:21 AM
+  Number of letters in database: 999,999,565
+  Number of sequences in database:  2,544,101
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.11
+    Posted date:  Oct 3, 2014  4:24 AM
+  Number of letters in database: 999,999,682
+  Number of sequences in database:  2,519,841
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.12
+    Posted date:  Oct 3, 2014  4:28 AM
+  Number of letters in database: 728,905,134
+  Number of sequences in database:  1,966,872
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.13
+    Posted date:  Oct 3, 2014  4:31 AM
+  Number of letters in database: 999,999,850
+  Number of sequences in database:  2,887,380
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.14
+    Posted date:  Oct 3, 2014  4:33 AM
+  Number of letters in database: 999,999,972
+  Number of sequences in database:  2,748,563
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.15
+    Posted date:  Oct 3, 2014  4:35 AM
+  Number of letters in database: 999,999,837
+  Number of sequences in database:  3,057,656
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.16
+    Posted date:  Oct 3, 2014  4:37 AM
+  Number of letters in database: 999,999,641
+  Number of sequences in database:  2,826,767
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.17
+    Posted date:  Oct 3, 2014  4:39 AM
+  Number of letters in database: 999,999,858
+  Number of sequences in database:  2,618,356
+  
+  Database: /netapp/home/klabqb3backrub/tools/sparks-x/blast-NR/nr.18
+    Posted date:  Oct 3, 2014  4:40 AM
+  Number of letters in database: 400,849,806
+  Number of sequences in database:  1,013,782
+  
+Lambda     K      H
+   0.312    0.139    0.370 
+
+Lambda     K      H
+   0.267   0.0425    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 160,927,463,460
+Number of Sequences: 49886901
+Number of extensions: 6942544066
+Number of successful extensions: 38344322
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 19422
+Number of HSP's successfully gapped in prelim test: 364490
+Number of HSP's that attempted gapping in prelim test: 34495250
+Number of HSP's gapped (non-prelim): 2517948
+length of query: 1306
+length of database: 17,905,752,166
+effective HSP length: 161
+effective length of query: 1145
+effective length of database: 18,463,895,697
+effective search space: 21141160573065
+effective search space used: 21141160573065
+T: 11
+A: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.3 bits)
+S2: 95 (41.2 bits)

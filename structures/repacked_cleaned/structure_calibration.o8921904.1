@@ -1,0 +1,111 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+start_date:
+Tue Oct  7 17:00:49 PDT 2014
+ih9
+1
+4UN3
+
+core.init: Rosetta version 42837ac6a7cf6c6481447b67378d26cae8e6b62a 2014-07-30 07:03:16 -0700 from git@github.com:RosettaCommons/main.git
+core.init: command: /netapp/home/rpac/Rosetta_57138/main/source/bin/calibrate_pdb_via_sidechain_optimization.linuxgccrelease -database /netapp/home/rpac/Rosetta_57138/main/database/ -s /netapp/home/rpac/crispr_cas/data/4UN3.pdb.gz -extra_res_fa /netapp/home/rpac/Rosetta_57138/main/database/chemical/residue_type_sets/fa_standard/residue_types/water/HOH.params -in:file:fullatom -overwrite -nstruct 1 -out:pdb_gz -out:path /netapp/home/rpac/crispr_cas/data/repacked_cleaned// -out:prefix 4UN3 -ignore_zero_occupancy false -constant_seed -ex1 -ex2 -extrachi_cutoff 0 -flip_HNQ -no_optH false -preserve_header
+core.init: Constant seed mode, seed=1111111 seed_offset=0 real_seed=1111111
+core.init.random: RandomGenerator:init: Normal mode, seed=1111111 RG_type=mt19937
+core.chemical.ResidueTypeSet: Finished initializing fa_standard residue type set.  Created 738 residue types
+core.io.pdb.file_data_fixup: Flipping atom xyz for  H5' and H5'' for residue   A
+core.io.pdb.file_data_fixup: Flipping atom xyz for  H5' and H5'' for residue   A
+core.io.pdb.file_data_fixup: Number of flip-atom fixups exceeds output limit. Rerun with -show_all_fixes to show everything.
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 856
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 856
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 856
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 856
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OXT on residue GLN:CtermProteinFull 1387
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  P   on residue CYT:LowerDNA 1388
+core.conformation.Conformation: [ WARNING ] Building missing atom ( P  ) at root of residue tree, using stubs:  O5'  C5'  C4'
+This probably means that a torsion angle is being taken from the ideal residue and
+should be further optimized...
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OP2 on residue CYT:LowerDNA 1388
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OP1 on residue CYT:LowerDNA 1388
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  P   on residue ADE:LowerDNA 1416
+core.conformation.Conformation: [ WARNING ] Building missing atom ( P  ) at root of residue tree, using stubs:  O5'  C5'  C4'
+This probably means that a torsion angle is being taken from the ideal residue and
+should be further optimized...
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OP2 on residue ADE:LowerDNA 1416
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OP1 on residue ADE:LowerDNA 1416
+core.io.pdb.file_data: Virtualizing missing phosphate that was built in at seqpos 1388
+core.io.pdb.file_data: Virtualizing missing phosphate that was built in at seqpos 1416
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_missing_sidechains: packing residue number 856 because of missing atom number 6 atom name  CG 
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2013
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBPoly1D.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBFadeIntervals.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBEval.csv
+basic.io.database: Database file opened: scoring/score_functions/rama/Rama_smooth_dyn.dat_ss_6.4
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_n
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_pp
+core.pack.dunbrack: Dunbrack 2010 library took 0.09 seconds to load from binary
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 235 rotamers at 1 positions.
+core.pack.pack_rotamers: IG: 1728 bytes
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2013
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 3995 rotamers at 1426 positions.
+core.pack.pack_rotamers: IG: 4914992 bytes
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:   92 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  119 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  124 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  177 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  191 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  207 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  253 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  256 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position:  268 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  318 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  333 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position:  359 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  471 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position:  479 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  489 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  574 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  578 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  633 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  665 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  767 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  769 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  775 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position:  786 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  823 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  858 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position:  864 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position:  992 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position: 1005 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position: 1039 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position: 1135 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position: 1331 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position: 1334 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position: 1373 GLN GLN
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2013
+core.pack.task: Packer task: initialize from command line() 
+pilot_apps.calibrate_pdb_via_sidechain_optimization: 
+pilot_apps.calibrate_pdb_via_sidechain_optimization: repacking pose...
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 120352 rotamers at 1426 positions.
+core.pack.pack_rotamers: IG: 499936728 bytes
+pilot_apps.calibrate_pdb_via_sidechain_optimization: 
+pilot_apps.calibrate_pdb_via_sidechain_optimization: performing one round of rotamer trials...
+pilot_apps.calibrate_pdb_via_sidechain_optimization: 
+pilot_apps.calibrate_pdb_via_sidechain_optimization: minimizing pose...
+pilot_apps.calibrate_pdb_via_sidechain_optimization: 
+pilot_apps.calibrate_pdb_via_sidechain_optimization: total_energy_before_calibration: 2213.67
+pilot_apps.calibrate_pdb_via_sidechain_optimization: total_energy_after_calibration: -1303.52
+zipping outfile...
+
+1
+end_date:
+Tue Oct  7 17:08:17 PDT 2014

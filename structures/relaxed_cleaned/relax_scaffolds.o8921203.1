@@ -1,0 +1,415 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+start_date:
+Mon Oct  6 23:22:55 PDT 2014
+ih2
+1
+4UN3.pdb.gz
+
+core.init: Rosetta version 42837ac6a7cf6c6481447b67378d26cae8e6b62a 2014-07-30 07:03:16 -0700 from git@github.com:RosettaCommons/main.git
+core.init: command: /netapp/home/rpac/Rosetta_57138/main/source/bin/relax.linuxgccrelease -database /netapp/home/rpac/Rosetta_57138/main/database/ -s /netapp/home/rpac/crispr_cas/data/4UN3.pdb.gz -out:pdb_gz -out:path /netapp/home/rpac/crispr_cas/data/relaxed_cleaned/ -out:prefix 4UN3.pdb.gz -ignore_zero_occupancy false -constant_seed -relax:constrain_relax_to_start_coords -relax:coord_constrain_sidechains -relax:ramp_constraints false -ex1 -ex2 -extrachi_cutoff 0 -use_input_sc -flip_HNQ -no_optH false -preserve_header -relax:min_type lbfgs_armijo_nonmonotone
+core.init: Constant seed mode, seed=1111111 seed_offset=0 real_seed=1111111
+core.init.random: RandomGenerator:init: Normal mode, seed=1111111 RG_type=mt19937
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2013
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBPoly1D.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBFadeIntervals.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBEval.csv
+basic.io.database: Database file opened: scoring/score_functions/rama/Rama_smooth_dyn.dat_ss_6.4
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_n
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_pp
+protocols.relax.FastRelax: ================== Using default script ==================
+protocols.jd2.PDBJobInputter: Instantiate PDBJobInputter
+protocols.jd2.PDBJobInputter: PDBJobInputter::fill_jobs
+protocols.jd2.PDBJobInputter: pushed /netapp/home/rpac/crispr_cas/data/4UN3.pdb.gz nstruct index 1
+protocols.evaluation.ChiWellRmsdEvaluatorCreator: Evaluation Creator active ... 
+protocols.jd2.PDBJobInputter: PDBJobInputter::pose_from_job
+protocols.jd2.PDBJobInputter: filling pose from PDB /netapp/home/rpac/crispr_cas/data/4UN3.pdb.gz
+core.chemical.ResidueTypeSet: Finished initializing fa_standard residue type set.  Created 737 residue types
+core.io.pdb.file_data_fixup: Flipping atom xyz for  H5' and H5'' for residue   A
+core.io.pdb.file_data_fixup: Flipping atom xyz for  H5' and H5'' for residue   A
+core.io.pdb.file_data_fixup: Number of flip-atom fixups exceeds output limit. Rerun with -show_all_fixes to show everything.
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 856
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 856
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 856
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 856
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OXT on residue GLN:CtermProteinFull 1387
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  P   on residue CYT:LowerDNA 1388
+core.conformation.Conformation: [ WARNING ] Building missing atom ( P  ) at root of residue tree, using stubs:  O5'  C5'  C4'
+This probably means that a torsion angle is being taken from the ideal residue and
+should be further optimized...
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OP2 on residue CYT:LowerDNA 1388
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OP1 on residue CYT:LowerDNA 1388
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  P   on residue ADE:LowerDNA 1416
+core.conformation.Conformation: [ WARNING ] Building missing atom ( P  ) at root of residue tree, using stubs:  O5'  C5'  C4'
+This probably means that a torsion angle is being taken from the ideal residue and
+should be further optimized...
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OP2 on residue ADE:LowerDNA 1416
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OP1 on residue ADE:LowerDNA 1416
+core.io.pdb.file_data: Virtualizing missing phosphate that was built in at seqpos 1388
+core.io.pdb.file_data: Virtualizing missing phosphate that was built in at seqpos 1416
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_missing_sidechains: packing residue number 856 because of missing atom number 6 atom name  CG 
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2013
+core.pack.dunbrack: Dunbrack 2010 library took 0.1 seconds to load from binary
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 236 rotamers at 1 positions.
+core.pack.pack_rotamers: IG: 1732 bytes
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2013
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 3995 rotamers at 1426 positions.
+core.pack.pack_rotamers: IG: 4914992 bytes
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:   92 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  119 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  124 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  177 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  191 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  207 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  253 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  256 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position:  268 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  318 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  333 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position:  359 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  471 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position:  479 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  489 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  574 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  578 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  633 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  665 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  767 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  769 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  775 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position:  786 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  823 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position:  858 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position:  864 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position:  992 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position: 1005 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position: 1039 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position: 1135 GLN GLN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position: 1331 ASN ASN
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  2 position: 1334 HIS HIS
+core.io.pdb.file_data: [ OPT-H WARNING ] heavyatom chi angle change: chidev=   180.000 chino=  3 position: 1373 GLN GLN
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax: turning off DNA bb and chi move
+protocols.relax.FastRelax: CMD: repeat  2213.67  0  0  0.44
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 149655 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 912137628 bytes
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -335.921  0.0817994  0.0817994  0.0088
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 130419 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 619589524 bytes
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -199.247  0.0672065  0.0672065  0.11
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 125788 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 558523748 bytes
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -32.2389  0.0840275  0.0840275  0.242
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 122263 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 516893676 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 2.7853e-09 Deriv= 7289.06 Finite Diff= 7314.47
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  189.857  0.0878012  0.0878012  0.44
+protocols.relax.FastRelax: MRP: 0  189.857  189.857  0.0878012  0.0878012  
+protocols.relax.FastRelax: CMD: accept_to_best  189.857  0.0878012  0.0878012  0.44
+protocols.relax.FastRelax: CMD: endrepeat  189.857  0.0878012  0.0878012  0.44
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 149396 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 907118980 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 3.12183e-09 Deriv= 80690.9 Finite Diff= 81010.2
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -737.905  0.0805745  0.0805745  0.0088
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 130707 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 621320112 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 3.33854e-09 Deriv= 1782.2 Finite Diff= 1004.73
+core.optimization.LineMinimizer: Inaccurate G! step= 2.67422e-09 Deriv= 3200.5 Finite Diff= 3236.46
+core.optimization.LineMinimizer: Inaccurate G! step= 4.77036e-09 Deriv= 7866.02 Finite Diff= 7877.46
+core.optimization.LineMinimizer: Inaccurate G! step= 2.9557e-09 Deriv= 8142.25 Finite Diff= 8216.2
+core.optimization.LineMinimizer: Inaccurate G! step= 4.26045e-09 Deriv= 684.098 Finite Diff= 691.064
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -527.178  0.0799527  0.0799527  0.11
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 126043 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 561542076 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 3.45666e-09 Deriv= 3753.86 Finite Diff= 3786.71
+core.optimization.LineMinimizer: Inaccurate G! step= 2.62792e-09 Deriv= 1916.25 Finite Diff= 1920.08
+core.optimization.LineMinimizer: Inaccurate G! step= 3.75236e-09 Deriv= 106.41 Finite Diff= 121.531
+core.optimization.LineMinimizer: Inaccurate G! step= 2.95608e-09 Deriv= 992.693 Finite Diff= 992.963
+core.optimization.LineMinimizer: Inaccurate G! step= 7.04786e-09 Deriv= 8694.23 Finite Diff= 8717.28
+core.optimization.LineMinimizer: Inaccurate G! step= 2.97053e-09 Deriv= 37550.9 Finite Diff= 37700.8
+core.optimization.LineMinimizer: Inaccurate G! step= 9.20466e-09 Deriv= 885.539 Finite Diff= 890.8
+core.optimization.LineMinimizer: Inaccurate G! step= 7.03708e-09 Deriv= 2053.22 Finite Diff= 2056.1
+core.optimization.LineMinimizer: Inaccurate G! step= 3.44754e-09 Deriv= 6256.45 Finite Diff= 6280
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -288.107  0.08355  0.08355  0.242
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 122425 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 517742568 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 3.5591e-09 Deriv= 2997.86 Finite Diff= 3043.67
+core.optimization.LineMinimizer: Inaccurate G! step= 4.6342e-09 Deriv= 663.097 Finite Diff= 667.868
+core.optimization.LineMinimizer: Inaccurate G! step= 5.19795e-09 Deriv= 3388.8 Finite Diff= 3428.71
+core.optimization.LineMinimizer: Inaccurate G! step= 6.49401e-09 Deriv= 21402.9 Finite Diff= 21472.5
+core.optimization.LineMinimizer: Inaccurate G! step= 3.42754e-09 Deriv= 29032.6 Finite Diff= 29124.4
+core.optimization.LineMinimizer: Inaccurate G! step= 4.22014e-09 Deriv= 2475.05 Finite Diff= 2502.43
+core.optimization.LineMinimizer: Inaccurate G! step= 4.90787e-09 Deriv= 1080.71 Finite Diff= 1082.29
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  33.8376  0.0887607  0.0887607  0.44
+protocols.relax.FastRelax: MRP: 1  33.8376  33.8376  0.0887607  0.0887607  
+protocols.relax.FastRelax: CMD: accept_to_best  33.8376  0.0887607  0.0887607  0.44
+protocols.relax.FastRelax: CMD: endrepeat  33.8376  0.0887607  0.0887607  0.44
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 149131 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 901555908 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 9.19068e-09 Deriv= 21530.8 Finite Diff= 21680.3
+core.optimization.LineMinimizer: Inaccurate G! step= 9.84813e-09 Deriv= 962.976 Finite Diff= 1008.75
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -822.688  0.0848007  0.0848007  0.0088
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 130823 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 620581648 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 6.66143e-09 Deriv= 12107.9 Finite Diff= 12119.4
+core.optimization.LineMinimizer: Inaccurate G! step= 8.58074e-09 Deriv= 12027.9 Finite Diff= 12237.3
+core.optimization.LineMinimizer: Inaccurate G! step= 3.03435e-09 Deriv= 5198.4 Finite Diff= 5200.79
+core.optimization.LineMinimizer: Inaccurate G! step= 3.67717e-09 Deriv= 42187.2 Finite Diff= 42241.6
+core.optimization.LineMinimizer: Inaccurate G! step= 4.32386e-09 Deriv= 26244.9 Finite Diff= 26418.3
+core.optimization.LineMinimizer: Inaccurate G! step= 5.58517e-09 Deriv= 2460.19 Finite Diff= 2466.97
+core.optimization.LineMinimizer: Inaccurate G! step= 7.92907e-09 Deriv= 1775.03 Finite Diff= 1779.92
+core.optimization.LineMinimizer: Inaccurate G! step= 3.25469e-09 Deriv= 1632.19 Finite Diff= 1727.27
+core.optimization.LineMinimizer: Inaccurate G! step= 4.19318e-09 Deriv= 6108.24 Finite Diff= 6161.62
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -606.141  0.0846202  0.0846202  0.11
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 126032 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 562435048 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 2.70182e-09 Deriv= 2651.68 Finite Diff= 2655.96
+core.optimization.LineMinimizer: Inaccurate G! step= 7.83737e-09 Deriv= 270.463 Finite Diff= 270.896
+core.optimization.LineMinimizer: Inaccurate G! step= 7.95801e-09 Deriv= 5748.19 Finite Diff= 5812.93
+core.optimization.LineMinimizer: Inaccurate G! step= 2.50286e-09 Deriv= 1958.6 Finite Diff= 1961.98
+core.optimization.LineMinimizer: Inaccurate G! step= 3.06532e-09 Deriv= 302.39 Finite Diff= 304.669
+core.optimization.LineMinimizer: Inaccurate G! step= 6.43815e-09 Deriv= 76.1364 Finite Diff= 76.2492
+core.optimization.LineMinimizer: Inaccurate G! step= 4.3284e-09 Deriv= 108.837 Finite Diff= 108.993
+core.optimization.LineMinimizer: Inaccurate G! step= 9.65378e-09 Deriv= 3098.21 Finite Diff= 3167.24
+core.optimization.LineMinimizer: Inaccurate G! step= 6.89369e-09 Deriv= 3943.32 Finite Diff= 4034.96
+core.optimization.LineMinimizer: Inaccurate G! step= 6.57121e-09 Deriv= 104.228 Finite Diff= 104.884
+core.optimization.LineMinimizer: Inaccurate G! step= 6.43629e-09 Deriv= 377.666 Finite Diff= 393.733
+core.optimization.LineMinimizer: Inaccurate G! step= 4.84701e-09 Deriv= 2118.14 Finite Diff= 2139.28
+core.optimization.LineMinimizer: Inaccurate G! step= 2.6026e-09 Deriv= 5369.56 Finite Diff= 5625.55
+core.optimization.LineMinimizer: Inaccurate G! step= 7.62254e-09 Deriv= 7481.41 Finite Diff= 7634.79
+core.optimization.LineMinimizer: Inaccurate G! step= 6.33999e-09 Deriv= 5813.74 Finite Diff= 5818.77
+core.optimization.LineMinimizer: Inaccurate G! step= 2.67335e-09 Deriv= 256.986 Finite Diff= 256.825
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -337.213  0.0862749  0.0862749  0.242
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 122411 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 518570476 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 7.6004e-09 Deriv= 24991.3 Finite Diff= 25094.9
+core.optimization.LineMinimizer: Inaccurate G! step= 3.65374e-09 Deriv= 30565.6 Finite Diff= 30667.1
+core.optimization.LineMinimizer: Inaccurate G! step= 6.51629e-09 Deriv= 2857.19 Finite Diff= 2158.41
+core.optimization.LineMinimizer: Inaccurate G! step= 6.0373e-09 Deriv= 826.695 Finite Diff= 831.274
+core.optimization.LineMinimizer: Inaccurate G! step= 3.10817e-09 Deriv= 14012.7 Finite Diff= 14049.1
+core.optimization.LineMinimizer: Inaccurate G! step= 5.48886e-09 Deriv= 2061.83 Finite Diff= 2067.57
+core.optimization.LineMinimizer: Inaccurate G! step= 3.86591e-09 Deriv= 3856.79 Finite Diff= 3880.09
+core.optimization.LineMinimizer: Inaccurate G! step= 6.44613e-09 Deriv= 14212.6 Finite Diff= 14250.6
+core.optimization.LineMinimizer: Inaccurate G! step= 5.73168e-09 Deriv= 4196.57 Finite Diff= 4261.09
+core.optimization.LineMinimizer: Inaccurate G! step= 3.06919e-09 Deriv= 10442 Finite Diff= 10490.7
+core.optimization.LineMinimizer: Inaccurate G! step= 4.27249e-09 Deriv= 1303.51 Finite Diff= 1304.17
+core.optimization.LineMinimizer: Inaccurate G! step= 3.36677e-09 Deriv= 861.466 Finite Diff= 864.348
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  14.6524  0.0890828  0.0890828  0.44
+protocols.relax.FastRelax: MRP: 2  14.6524  14.6524  0.0890828  0.0890828  
+protocols.relax.FastRelax: CMD: accept_to_best  14.6524  0.0890828  0.0890828  0.44
+protocols.relax.FastRelax: CMD: endrepeat  14.6524  0.0890828  0.0890828  0.44
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 149054 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 898354280 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 4.64858e-09 Deriv= 154903 Finite Diff= 155399
+core.optimization.LineMinimizer: Inaccurate G! step= 2.78902e-09 Deriv= 109210 Finite Diff= 109433
+core.optimization.LineMinimizer: Inaccurate G! step= 2.89134e-09 Deriv= 468.54 Finite Diff= 471.108
+core.optimization.LineMinimizer: Inaccurate G! step= 4.77661e-09 Deriv= 7600.22 Finite Diff= 7644.02
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -859.184  0.0859477  0.0859477  0.0088
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 130542 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 618773924 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 7.30118e-09 Deriv= 6730.45 Finite Diff= 6735.96
+core.optimization.LineMinimizer: Inaccurate G! step= 5.13356e-09 Deriv= 3570.45 Finite Diff= 3584.32
+core.optimization.LineMinimizer: Inaccurate G! step= 9.16472e-09 Deriv= 5814.57 Finite Diff= 5825.58
+core.optimization.LineMinimizer: Inaccurate G! step= 5.92095e-09 Deriv= 15610.9 Finite Diff= 15819.7
+core.optimization.LineMinimizer: Inaccurate G! step= 5.48319e-09 Deriv= 430.32 Finite Diff= 65.6065
+core.optimization.LineMinimizer: Inaccurate G! step= 6.84201e-09 Deriv= 6362.04 Finite Diff= 6391.38
+core.optimization.LineMinimizer: Inaccurate G! step= 5.98242e-09 Deriv= 917.111 Finite Diff= 922.157
+core.optimization.LineMinimizer: Inaccurate G! step= 8.43205e-09 Deriv= 2547.68 Finite Diff= 2556.77
+core.optimization.LineMinimizer: Inaccurate G! step= 8.37558e-09 Deriv= 957.085 Finite Diff= 961.87
+core.optimization.LineMinimizer: Inaccurate G! step= 2.782e-09 Deriv= 4666.43 Finite Diff= 4707.43
+core.optimization.LineMinimizer: Inaccurate G! step= 6.48451e-09 Deriv= 26.5164 Finite Diff= 27.7962
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -619.173  0.0858548  0.0858548  0.11
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 126068 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 561952964 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 3.33078e-09 Deriv= 1791.08 Finite Diff= 650.939
+core.optimization.LineMinimizer: Inaccurate G! step= 5.06015e-09 Deriv= 5237.68 Finite Diff= 5271.51
+core.optimization.LineMinimizer: Inaccurate G! step= 4.89986e-09 Deriv= 14694.2 Finite Diff= 14760.1
+core.optimization.LineMinimizer: Inaccurate G! step= 6.32729e-09 Deriv= 1209.59 Finite Diff= 1281.82
+core.optimization.LineMinimizer: Inaccurate G! step= 8.56692e-09 Deriv= 20598.5 Finite Diff= 21067
+core.optimization.LineMinimizer: Inaccurate G! step= 7.45153e-09 Deriv= 1943.17 Finite Diff= 1950.69
+core.optimization.LineMinimizer: Inaccurate G! step= 3.92738e-09 Deriv= 134.978 Finite Diff= 135.444
+core.optimization.LineMinimizer: Inaccurate G! step= 2.65483e-09 Deriv= 1669.82 Finite Diff= 1675.32
+core.optimization.LineMinimizer: Inaccurate G! step= 8.00348e-09 Deriv= 409.132 Finite Diff= 410.006
+core.optimization.LineMinimizer: Inaccurate G! step= 7.68663e-09 Deriv= 60.6952 Finite Diff= 62.1339
+core.optimization.LineMinimizer: Inaccurate G! step= 3.50385e-09 Deriv= 35.9061 Finite Diff= 37.6051
+core.optimization.LineMinimizer: Inaccurate G! step= 9.40628e-09 Deriv= 1708.1 Finite Diff= 1732.29
+core.optimization.LineMinimizer: Inaccurate G! step= 2.5865e-09 Deriv= 183.333 Finite Diff= 183.903
+core.optimization.LineMinimizer: Inaccurate G! step= 6.51089e-09 Deriv= 126.888 Finite Diff= 127.066
+core.optimization.LineMinimizer: Inaccurate G! step= 9.67058e-09 Deriv= 266.166 Finite Diff= 268.512
+core.optimization.LineMinimizer: Inaccurate G! step= 4.51913e-09 Deriv= 314.098 Finite Diff= 315.612
+core.optimization.LineMinimizer: Inaccurate G! step= 2.52005e-09 Deriv= 1383.59 Finite Diff= 1383.46
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -342.92  0.0868479  0.0868479  0.242
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 122343 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 518523956 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 3.72753e-09 Deriv= 31692.6 Finite Diff= 31815.1
+core.optimization.LineMinimizer: Inaccurate G! step= 8.06033e-09 Deriv= 1270.19 Finite Diff= 1395
+core.optimization.LineMinimizer: Inaccurate G! step= 2.54624e-09 Deriv= 1680.83 Finite Diff= 1684.93
+core.optimization.LineMinimizer: Inaccurate G! step= 4.33611e-09 Deriv= 1403.44 Finite Diff= 1405.25
+core.optimization.LineMinimizer: Inaccurate G! step= 5.85634e-09 Deriv= 1032.37 Finite Diff= 1043.08
+core.optimization.LineMinimizer: Inaccurate G! step= 4.46764e-09 Deriv= 1439.84 Finite Diff= 1441.36
+core.optimization.LineMinimizer: Inaccurate G! step= 4.20419e-09 Deriv= 1343.38 Finite Diff= 1344.27
+core.optimization.LineMinimizer: Inaccurate G! step= 6.76893e-09 Deriv= 542.007 Finite Diff= 570.683
+core.optimization.LineMinimizer: Inaccurate G! step= 3.16403e-09 Deriv= 1734.61 Finite Diff= 1774.76
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  12.2838  0.0905335  0.0905335  0.44
+protocols.relax.FastRelax: MRP: 3  12.2838  12.2838  0.0905335  0.0905335  
+protocols.relax.FastRelax: CMD: accept_to_best  12.2838  0.0905335  0.0905335  0.44
+protocols.relax.FastRelax: CMD: endrepeat  12.2838  0.0905335  0.0905335  0.44
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 148953 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 897628288 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 4.82471e-09 Deriv= 21131.1 Finite Diff= 21210.3
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -868.252  0.0867845  0.0867845  0.0088
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 130498 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 618192540 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 3.54948e-09 Deriv= 622.362 Finite Diff= 624.559
+core.optimization.LineMinimizer: Inaccurate G! step= 2.55173e-09 Deriv= 4006.48 Finite Diff= 4012.01
+core.optimization.LineMinimizer: Inaccurate G! step= 4.51408e-09 Deriv= 7977.75 Finite Diff= 8025.78
+core.optimization.LineMinimizer: Inaccurate G! step= 2.58369e-09 Deriv= 823.471 Finite Diff= 830.508
+core.optimization.LineMinimizer: Inaccurate G! step= 8.87097e-09 Deriv= 1785.12 Finite Diff= 1796.92
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -622.823  0.0857835  0.0857835  0.11
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 126019 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 562113036 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 2.83952e-09 Deriv= 1547.43 Finite Diff= 1548.8
+core.optimization.LineMinimizer: Inaccurate G! step= 8.24417e-09 Deriv= 260.714 Finite Diff= 267.096
+core.optimization.LineMinimizer: Inaccurate G! step= 6.65917e-09 Deriv= 5240.9 Finite Diff= 5261.17
+core.optimization.LineMinimizer: Inaccurate G! step= 6.73671e-09 Deriv= 4055.29 Finite Diff= 4076.8
+core.optimization.LineMinimizer: Inaccurate G! step= 5.28987e-09 Deriv= 1538.76 Finite Diff= 1541.2
+core.optimization.LineMinimizer: Inaccurate G! step= 3.12655e-09 Deriv= 9667.29 Finite Diff= 9703.18
+core.optimization.LineMinimizer: Inaccurate G! step= 5.7972e-09 Deriv= 574.33 Finite Diff= 582.223
+core.optimization.LineMinimizer: Inaccurate G! step= 8.27367e-09 Deriv= 1162.31 Finite Diff= 1167.91
+core.optimization.LineMinimizer: Inaccurate G! step= 7.98853e-09 Deriv= 430.336 Finite Diff= 432.954
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  -348.926  0.0871565  0.0871565  0.242
+core.pack.task: Packer task: initialize from command line() 
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.pack_rotamers: built 122411 rotamers at 1388 positions.
+core.pack.pack_rotamers: IG: 518432324 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 9.03838e-09 Deriv= 3530.27 Finite Diff= 3689.44
+core.optimization.LineMinimizer: Inaccurate G! step= 3.8324e-09 Deriv= 1304.51 Finite Diff= 1329.85
+core.optimization.LineMinimizer: Inaccurate G! step= 2.63279e-09 Deriv= 364.724 Finite Diff= 367.378
+core.optimization.LineMinimizer: Inaccurate G! step= 4.01065e-09 Deriv= 2925.64 Finite Diff= 2927.09
+core.optimization.LineMinimizer: Inaccurate G! step= 5.27951e-09 Deriv= 1229.14 Finite Diff= 1232.65
+core.optimization.LineMinimizer: Inaccurate G! step= 6.66716e-09 Deriv= 499.758 Finite Diff= 501.918
+core.optimization.LineMinimizer: Inaccurate G! step= 4.38061e-09 Deriv= 5269.88 Finite Diff= 5287.27
+core.optimization.LineMinimizer: Inaccurate G! step= 5.9071e-09 Deriv= 1933.8 Finite Diff= 2027.97
+core.optimization.LineMinimizer: Inaccurate G! step= 3.9841e-09 Deriv= 12331.8 Finite Diff= 12408.8
+core.optimization.LineMinimizer: Inaccurate G! step= 6.72471e-09 Deriv= 80672.7 Finite Diff= 80819.8
+core.optimization.LineMinimizer: Inaccurate G! step= 9.89821e-09 Deriv= 16174.3 Finite Diff= 16260.8
+core.optimization.Minimizer: WARNING: LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+protocols.relax.FastRelax: CMD: ramp_repack_min  3.1959  0.0904936  0.0904936  0.44
+protocols.relax.FastRelax: MRP: 4  3.1959  3.1959  0.0904936  0.0904936  
+protocols.relax.FastRelax: CMD: accept_to_best  3.1959  0.0904936  0.0904936  0.44
+protocols.relax.FastRelax: CMD: endrepeat  3.1959  0.0904936  0.0904936  0.44
+protocols::checkpoint: Deleting checkpoints of FastRelax
+protocols.jd2.JobDistributor: 4UN3.pdb.gz4UN3_0001 reported success in 28966 seconds
+protocols.jd2.JobDistributor: no more batches to process... 
+protocols.jd2.JobDistributor: 1 jobs considered, 1 jobs attempted in 28967 seconds
+protocols::checkpoint: Deleting checkpoints of FastRelax
+
+renaming outfile...
+
+1
+end_date:
+Tue Oct  7 07:25:43 PDT 2014
