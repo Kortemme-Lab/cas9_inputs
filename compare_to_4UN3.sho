@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 model_path=$1
-model_sele=$(basename ${model_path%.pdb.gz})
+model_sele=$(basename ${model_path%.pdb*})
 model_name="design_${model_sele}"
 wt_path="$(dirname "$(readlink -f "$0")")/structures/4un3.pdb"
-wt_sele=$(basename ${wt_path%.pdb})
+wt_sele=$(basename ${wt_path%.pdb*})
 
 echo $model_path
 echo $model_sele
@@ -14,11 +14,11 @@ echo $wt_sele
 pymol -qx $wt_path $model_path                                              \
     -d "color green, $model_sele"                                           \
     -d "color cyan, $wt_sele"                                               \
-    -d "select qq, $model_sele and resi 1356+1358 and not name n+c+o"		\
-    -d "select loop, $model_sele and resi 1339-1369"		                \
-    -d "select wt_loop, $wt_sele and resi 1339-1369"		                \
-    -d "select dna_aa, $model_sele and resi 1393+1394+1420+1421"		    \
-    -d "select view, byres not resi 804-805+866-867+1139-1141+1149-1151+1215-1216 within 15 of loop"		\
+    -d "select qq, $model_sele and resi 1395+1397 and not name n+c+o"		\
+    -d "select loop, $model_sele and resi 1378-1408"		                \
+    -d "select wt_loop, $wt_sele and resi 1378-1408"		                \
+    -d "select dna_aa, $model_sele and resi 0087+0088+0114+0115"		    \
+    -d "select view, byres not resi 843-844+905-906+1178-1180+1188-1190+1254-1255 within 15 of loop"		\
     -d "remove resn hoh; remove resn mg"		                            \
     -d "select none"		                                                \
     -d "zoom view"		                                                    \
@@ -38,4 +38,5 @@ pymol -qx $wt_path $model_path                                              \
     -d "set_name $wt_sele, wildtype" 		                                \
     -d "set_name $model_sele, $model_name" 		                            \
     -d "alias ww, wt_vs_mut wildtype, $model_name"                          \
+    > /dev/null
 
