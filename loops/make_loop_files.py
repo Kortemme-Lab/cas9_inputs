@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-starts = [1379, 1388, 1394]
-ends = [1403, 1409]
+starts = 1378, 1387, 1393
+ends = 1402, 1408
 
 for start in starts:
     for end in ends:
