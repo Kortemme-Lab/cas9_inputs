@@ -1,0 +1,17 @@
+-s /netapp/home/chelsell/kortemme_lab/pull_into_place/cas9_inputs/structures/new_relaxed/4un3_QQ_AA_CC.pdb
+-score:weights /netapp/home/chelsell/rosetta/main/database/scoring/weights/talaris2013_DNA.wts
+-database /netapp/home/chelsell/rosetta/main/database/
+-constrain_relax_to_start_coords
+-relax:script /netapp/home/chelsell/rosetta/main/source/src/apps/public/relax_w_allatom_cst/always_constrained_relax_script
+-constraints:cst_fa_file 4un3_QQ_AA_CC_sc.cst
+-ex1
+-ex2
+-use_input_sc
+-flip_HNQ
+-no_optH false
+-score::hbond_params correct_params
+-lj_hbond_hdis 1.75
+-lj_hbond_OH_donor_dis 2.6
+-linmem_ig 10
+-nblist_autoupdate true
+-overwrite
