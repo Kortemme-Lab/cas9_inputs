@@ -38,7 +38,7 @@ def renumber_pdb(input_path):
     resi_map = {}
 
     for input_line in input_lines:
-        if not input_line.startswith('ATOM'):
+        if not input_line.startswith('ATOM') and not input_line.startswith('HETATM'):
             continue
 
         # Update the atom and residue counters.
