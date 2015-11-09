@@ -1,1 +1,1 @@
-~/Documents/rosetta/main/source/bin/relax.linuxgccrelease @relax_options.CH
+~/rosetta/main/source/bin/relax.linuxgccrelease @relax_options.CH

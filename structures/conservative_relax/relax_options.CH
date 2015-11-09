@@ -1,9 +1,9 @@
--s /netapp/home/chelsell/kortemme_lab/pull_into_place/cas9_inputs/structures/new_relaxed/4un3_QQ_AA_CC.pdb
+-s /netapp/home/chelsell/kortemme_lab/pull_into_place/cas9_inputs/structures/conservative_relax/4UN3.pdb
 -score:weights /netapp/home/chelsell/rosetta/main/database/scoring/weights/talaris2013_DNA.wts
 -database /netapp/home/chelsell/rosetta/main/database/
 -constrain_relax_to_start_coords
 -relax:script /netapp/home/chelsell/rosetta/main/source/src/apps/public/relax_w_allatom_cst/always_constrained_relax_script
--constraints:cst_fa_file 4un3_QQ_AA_CC_sc.cst
+-constraints:cst_fa_file 4UN3_sc.cst
 -ex1
 -ex2
 -use_input_sc
