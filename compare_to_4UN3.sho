@@ -18,7 +18,8 @@ pymol -qx $wt_path $model_path                                              \
     -d "select loop, $model_sele and resi 1378-1408"		                \
     -d "select wt_loop, $wt_sele and resi 1378-1408"		                \
     -d "select dna_aa, $model_sele and resi 0087+0088+0114+0115"		    \
-    -d "select view, byres not resi 843-844+905-906+1178-1180+1188-1190+1254-1255 within 15 of loop"		\
+    -d "select view, byres not resi 12-14+68-70+129-133+843-844+905-906+1105-1107+1117-1118+1178-1182+1188-1190+1254-1255 within 15 of loop"		\
+    -d "select view, view and not ($model_sele and resi 1321-1322)"         \
     -d "remove resn hoh; remove resn mg"		                            \
     -d "select none"		                                                \
     -d "zoom view"		                                                    \
@@ -29,8 +30,6 @@ pymol -qx $wt_path $model_path                                              \
     -d "cartoon loop, loop"		                                            \
     -d "hide cartoon, dna_aa and name N1"		                            \
     -d "hide everything, $wt_sele and not chain b"		                    \
-    -d "dist hbonds, loop_bb, loop_bb, mode=2"		                        \
-    -d "hide labels, hbonds"		                                        \
     -d "util.cnc"		                                                    \
     -d "set cartoon_rect_length, 0.9"		                                \
     -d "set cartoon_oval_length, 0.9"		                                \
