@@ -1,0 +1,23 @@
+<ROSETTASCRIPTS>
+
+  <INCLUDES>
+    <XML file="%%shared_defs%%"/>
+  </INCLUDES>
+
+  <MOVERS>
+    <LoopModeler name="modeler"
+      config="kic_with_frags"
+      scorefxn_fa="scorefxn"
+      loops_file="%%loop_file%%"
+      fast="%%fast%%">
+        <Build skip="yes"/>
+        <Centroid sfxn_cycles="3" temp_cycles="200"/>
+        <Fullatom sfxn_cycles="3" temp_cycles="200"/>
+    </LoopModeler>
+  </MOVERS>
+
+  <PROTOCOLS>
+    <Add mover_name=modeler/>
+  </PROTOCOLS>
+
+</ROSETTASCRIPTS>
